@@ -68,3 +68,12 @@ Columns:
   - 1 = open [n=358]
   - 2 = service alert [n=16]
 - geometry: point or polygon
+
+## Data Profiling - [Street Furniture - Public Washroom](https://open.toronto.ca/dataset/street-furniture-public-washroom/)
+
+This dataset only includes four features, so it would be easier to address any needed edits manually:
+
+- SE of Lakeshore Blvd and Net Dr - [exists in OSM](https://www.openstreetmap.org/way/703258474)
+- SE corner of Fleet St and Strachan Ave - does not exist in OSM 
+- NW corner of Rees St and Queen's Quay W - [exists in OSM](https://www.openstreetmap.org/node/2617630911)
+- SE corner of Lakeshore Blvd and Northern Dancer Blvd - [exists in OSM](https://www.openstreetmap.org/way/1017243072)
