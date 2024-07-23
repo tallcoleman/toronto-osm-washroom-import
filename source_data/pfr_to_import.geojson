@@ -1,0 +1,6750 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "36503"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.35703861,
+          43.71862545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, entrance access ramp, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29729"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.41634327000001,
+          43.6823371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13677"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30690823,
+          43.71078337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "30891"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.45540924,
+          43.78046956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29453"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4213229,
+          43.78126056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, automatic door opener, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29511"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.45722165,
+          43.64441385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29375"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.50093668,
+          43.73662343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13061"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.51534372,
+          43.59352445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "36442"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.48051239,
+          43.61953924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "toilets:wheelchair": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13591"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.54142374,
+          43.58573804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29392"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.16261168,
+          43.76026536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, automatic door opener, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29598"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.13477359999999,
+          43.77672534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "45442"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.16492968,
+          43.77715782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29265"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.1468689,
+          43.79217932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "32745"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.35300257,
+          43.72140939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29384"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.33740437,
+          43.70942662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1981"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.36275387,
+          43.72292259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "32862"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.50632687,
+          43.62643476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29622"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5778917,
+          43.75219004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "32882"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.28472318,
+          43.67032614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29280"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.36093863,
+          43.78447053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "28895"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39223623,
+          43.67618904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29567"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.44180549,
+          43.65312321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "5787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.43275401,
+          43.75411961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29745"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40805249,
+          43.7662024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13052"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.28032139,
+          43.74763938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "32743"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34069398,
+          43.65338408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29732"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.55755201,
+          43.66083807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "5470"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.51845586,
+          43.69808299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "5465"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.51884924,
+          43.68717127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "5472"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.56829043,
+          43.68281327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "6324"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.56694687000001,
+          43.64236689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "5555"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.56187381,
+          43.66067088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, entrance access ramp, accessible stall",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29652"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.45590091,
+          43.6377201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "6091"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.408071,
+          43.64197334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "6107"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.59535516,
+          43.74862983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "6157"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.50763635,
+          43.59530645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "6126"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.54544036,
+          43.68184235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "6201"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.49567684,
+          43.63892377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "6206"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5086496,
+          43.6165097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "5491"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.50788938,
+          43.65834712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "5511"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.24855754,
+          43.74362732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "5665"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.23090854,
+          43.72888664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "5697"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.59487728,
+          43.75542938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "5720"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.59144597999999,
+          43.72122791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "5730"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5471375,
+          43.70325233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "5745"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.58170627,
+          43.66272106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "5932"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.28064328,
+          43.68359199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "5976"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.48791123,
+          43.61304005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "5984"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40441871,
+          43.65098867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29656"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29838937,
+          43.69664426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, entrance access ramp, automatic door opener, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "37106"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39947899,
+          43.69716654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "57282"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.44306484,
+          43.64804605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, automatic door opener, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29521"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.25865299,
+          43.70223947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29616"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.37905467,
+          43.68336807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29661"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.25523249,
+          43.75759412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "36482"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.42070512,
+          43.66482409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "28886"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.42236977,
+          43.66514161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "36974"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.35232496,
+          43.65347379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "6105"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.49762667,
+          43.67482715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "male": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "34992"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.58515831,
+          43.6534078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29440"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38947051999999,
+          43.62445169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29751"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34754475,
+          43.67558828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29416"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30043489,
+          43.70069836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "78226"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.47745152,
+          43.73416818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "09:00-17:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13637"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.36005484,
+          43.66735115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "36492"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.43601882,
+          43.76017753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29442"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39111537,
+          43.61913351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29685"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.37630671,
+          43.62027855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "36489"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40549905,
+          43.70826165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, entrance access ramp, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "37108"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34429281,
+          43.6368796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1000000059"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.414749,
+          43.64660568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29749"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3464167,
+          43.67471828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "101976"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.32248376,
+          43.65169242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29695"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.37587345,
+          43.61780812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29407"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.49285713,
+          43.65282102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance access ramp, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29277"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.46254137000001,
+          43.66223126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29509"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.466897,
+          43.64510606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "35368"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.46591328,
+          43.64957948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "5635"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.46578969,
+          43.64951381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29478"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.46699992,
+          43.64366457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29502"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.46137056,
+          43.64174996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:wheelchair": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29309"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.31571136,
+          43.78329448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:wheelchair": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29547"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30441085,
+          43.81010927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29361"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.33471405,
+          43.69189094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29606"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39496524,
+          43.67620586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, automatic door opener, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "79343"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39134764,
+          43.65255726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance access ramp, automatic door opener, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29441"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38888351,
+          43.61212077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, automatic door opener, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29415"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.42039563,
+          43.65272186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "97106"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38759769,
+          43.68691519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29347"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.26019879,
+          43.72657291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13476"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.35936175,
+          43.73410649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "93642"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38705153,
+          43.71718225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13493"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.46222308,
+          43.77923851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:wheelchair": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29411"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.49704898,
+          43.68731374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29401"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.50384395,
+          43.68561877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:wheelchair": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13482"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.49478825,
+          43.68420772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13481"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.50571924,
+          43.68595398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "06:30-23:30",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "58062"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.37538416,
+          43.64027034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29307"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.23490537,
+          43.70614828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29634"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.21006559,
+          43.78794079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29628"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.21296882,
+          43.74729181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29578"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.19396006,
+          43.77906343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29698"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3725951,
+          43.61669106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29708"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.36529069,
+          43.62074108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29689"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.37907425,
+          43.62231261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "37104"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30791821,
+          43.66274627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "75662"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.54980698,
+          43.72988958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "36324"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29995589,
+          43.66927847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "32922"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.31972975,
+          43.66464356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29379"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.43219567,
+          43.65705289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1846"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34983026,
+          43.70245262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "66883"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.48774024,
+          43.61301625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "32744"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30189753,
+          43.6664395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "5459"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30471172,
+          43.66496518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "31265"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30887446,
+          43.65872285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "46142"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34166941,
+          43.64128791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "75804"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.19150754,
+          43.74779142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29755"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40586813,
+          43.72734116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance access ramp, automatic door opener, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29459"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.46627947,
+          43.65271761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "changing_table:adult": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, automatic door opener, accessible stall, child change table, adult change table",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "74844"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.61579573,
+          43.73151662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29383"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.26689423,
+          43.71281604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "41662"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.28808876,
+          43.77259489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "5445"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30654676,
+          43.75309076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2081"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.27101245,
+          43.74229861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance access ramp, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29566"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.41074681,
+          43.71529366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1840"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.42066596,
+          43.70454982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29583"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.22435637,
+          43.81359515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, entrance access ramp, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29385"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.42796994,
+          43.75215251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29617"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.25627063,
+          43.69683674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29600"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.28394728,
+          43.69721943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, automatic door opener, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "46102"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.45704405999999,
+          43.63780962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, automatic door opener, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "46103"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.45572655,
+          43.63787029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29589"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.49686636,
+          43.74763687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29740"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29718319,
+          43.73367211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29276"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29453191,
+          43.72964076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29410"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.32999889,
+          43.68024586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29753"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3456155,
+          43.67289284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29581"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3398727,
+          43.65656653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:wheelchair": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13599"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.23084525,
+          43.80375024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:wheelchair": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29536"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2679759,
+          43.80330444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29570"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.54305009,
+          43.5876958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29590"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30277581,
+          43.68205163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, entrance access ramp, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29724"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39187778,
+          43.72882539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29359"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.50546279999999,
+          43.75813643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:wheelchair": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29746"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.31696457000001,
+          43.76983933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29553"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39902069,
+          43.72079089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29644"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40931248,
+          43.64276864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29405"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5814883,
+          43.72796429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "female": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "34993"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.58536071,
+          43.65379367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "101974"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.58701686,
+          43.64894737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance access ramp, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "30923"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3822504,
+          43.69358544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29286"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.41804098,
+          43.66036425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance access ramp, automatic door opener, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29561"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.46403823,
+          43.65900803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29527"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.50130041,
+          43.65855864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29524"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.42408744,
+          43.67658129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29462"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.46007316,
+          43.64065803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.58513567,
+          43.65337048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29365"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40839876,
+          43.748852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29421"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.32868027,
+          43.66944053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29631"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.50013258,
+          43.68352759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29332"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.43774264000001,
+          43.74605651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29660"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.25506083,
+          43.75907419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "32883"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29819958,
+          43.66653551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "5404"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.32568732,
+          43.67732839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "28901"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.36452571,
+          43.64455126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "28897"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.35945084,
+          43.65866908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "28887"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.33606541,
+          43.69209505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "6171"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.35701774,
+          43.67251825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "5675"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.32971394,
+          43.6694859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "14068"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40950824,
+          43.72128737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "28890"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38600396,
+          43.7014217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "12"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.25781595,
+          43.77342197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "60142"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.23745466,
+          43.73446713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13499"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.45218224,
+          43.67556711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13688"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.43721163,
+          43.70748851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "32622"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38394221,
+          43.65219533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "41663"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.31221235000001,
+          43.664857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29374"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4325708,
+          43.66558593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "34605"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.35380865,
+          43.63125968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "79226"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40921897,
+          43.67160318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13602"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.27186228,
+          43.83006636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "14102"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3892846,
+          43.62743736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "103143"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.37203598,
+          43.76769409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29542"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.51476269,
+          43.67159902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29443"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3758139,
+          43.64008423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29356"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29279086,
+          43.69411639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "6191"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.54460023,
+          43.71246639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1847"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.42510701,
+          43.72708517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "6094"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.31606631,
+          43.69851074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13388"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.42196319,
+          43.6649184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1610"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.54712907,
+          43.60169472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "500"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.52681305,
+          43.60629033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "347"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.44546332,
+          43.77604296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "28899"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.37921192,
+          43.6832752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29354"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38818857,
+          43.70028667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29358"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.28881695,
+          43.69551105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13045"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.305011,
+          43.80670329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13055"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.58449924,
+          43.75219778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29716"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.41368713,
+          43.64953473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "09:00-17:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13639"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.36162569,
+          43.66715773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "36323"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29730372,
+          43.66657292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "79459"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.36642253,
+          43.68437785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2935"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.54559982,
+          43.72706999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29655"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29934705,
+          43.7864092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "45062"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.48203456,
+          43.68787291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2109"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.12515474,
+          43.79211318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2108"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.57192209,
+          43.72571478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1095"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.37455603,
+          43.66770086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1569"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.28036179,
+          43.71474757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.43931464,
+          43.66733689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1075"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.31555292,
+          43.72329627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13073"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.36729827,
+          43.70558055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2106"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5624017,
+          43.73538993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.47710077999999,
+          43.64397994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "14344"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30254849,
+          43.78666961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2105"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30156696,
+          43.78760383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2103"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.36494802,
+          43.64975912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13064"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.35131781,
+          43.79402428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13063"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30169190999999,
+          43.69207331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "925"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.21659701,
+          43.74017216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1943"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.32263008,
+          43.66588791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2099"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.49256274000001,
+          43.72918866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "45463"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3616924,
+          43.65827453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "829"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.14028096,
+          43.7796659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2097"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.33683115,
+          43.78699369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "45042"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34360719,
+          43.77256661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "14322"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.36110183,
+          43.66122887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13058"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.50835158000001,
+          43.61508563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2095"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.35140957,
+          43.78176087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2092"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30180005,
+          43.71765951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1439"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2835342,
+          43.69499418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1892"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.51333552,
+          43.74777903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "771"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.50008702,
+          43.74549503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1886"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40459453,
+          43.7060603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "6294"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.50137137,
+          43.60111321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "14343"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40866347,
+          43.77450894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1874"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2741555,
+          43.82975101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1873"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.51961765,
+          43.64837909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1866"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.33958367,
+          43.66790402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13049"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.43325752,
+          43.64064359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1867"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.43307824,
+          43.6474097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13047"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2163846,
+          43.80856675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2085"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29978864,
+          43.68717237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "312"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.44209140999999,
+          43.71804993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13866"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30505635,
+          43.81261148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13041"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.51653528,
+          43.59509908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "17168"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.46158262,
+          43.65767336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1820"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.45145008,
+          43.67532073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1818"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.37034393,
+          43.65542313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1817"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34531349999999,
+          43.66044758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2082"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34279749999999,
+          43.70307225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2079"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.17725498,
+          43.7688364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1768"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39083667,
+          43.65108826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1764"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.52194716,
+          43.60121549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "14342"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.49023791,
+          43.751903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2076"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.42218742,
+          43.79093143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13027"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.56645395,
+          43.74738189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2074"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.45586765,
+          43.70877837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1745"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.32638151,
+          43.71356733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2070"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.50379685,
+          43.71661991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1740"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.31492361,
+          43.67670825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2068"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.51924362,
+          43.639532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13487"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.44798688,
+          43.69129945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1737"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5844329,
+          43.65023006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1732"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.58866901,
+          43.73475482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1729"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29934845,
+          43.76069713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2065"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.42641853,
+          43.77692593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1725"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.51666843,
+          43.6706706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1723"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5107944,
+          43.67751487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "317"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34925606,
+          43.69176623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1720"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.321287,
+          43.6862871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13023"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.43397883,
+          43.75459522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2064"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.51874362,
+          43.76541995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1715"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.41466797,
+          43.76718869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "281"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.26169957,
+          43.73262903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13020"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.51582707,
+          43.74243835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "273"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.33179472,
+          43.71787577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2061"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.21081046,
+          43.77742831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2060"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.37127356,
+          43.80010145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2057"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5115751,
+          43.72396232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1675"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.23702885,
+          43.77453377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2055"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.22739548,
+          43.75562391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2054"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.53896172,
+          43.73383934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "63202"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39473721,
+          43.63970497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1662"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.23430212,
+          43.79409823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2053"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.32276038,
+          43.74591832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2052"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.42031024,
+          43.66239046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "105"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.26376105,
+          43.76820609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29641"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40914677,
+          43.68326759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2051"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.26218068,
+          43.69548544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "71"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29877839,
+          43.67398328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "63"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.43215788,
+          43.72070076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13008"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.36951105,
+          43.74283989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "46"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.42184844,
+          43.73938607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1621"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.44699591,
+          43.78113838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2045"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.46564176,
+          43.73254064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13006"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.58094897,
+          43.7392878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1608"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.27597812,
+          43.78816029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.28882633,
+          43.68283754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance access ramp, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2091"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.43186017,
+          43.75256345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "09:00-19:30",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1701"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40490539,
+          43.63438282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29312"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.44929547000001,
+          43.63702114
+        ]
+      }
+    }
+  ]
+}

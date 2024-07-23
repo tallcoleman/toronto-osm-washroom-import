@@ -29,7 +29,7 @@ Columns:
 - asset_id: Parks, Forestry and Recreation Unique Identifier of the [washroom facility]
 - location: Name of the [park or community centre]
 - alternative_name: Is comprised of the name of the [park or community centre] and a descriptor of the location
-- type: Ex: Washroom [n=344], Portable Toilet [n=74]
+- type: Ex: Washroom Building [n=344], Portable Toilet [n=74]
 - accessible: Provides a list of accessible features, if available. Examples:
   - Entrance at Grade [n=89]
   - Accessible Stall [n=79]
@@ -68,6 +68,27 @@ Columns:
   - 1 = open [n=358]
   - 2 = service alert [n=16]
 - geometry: point or polygon
+
+Filtering decisions:
+- **type:** exclude portable toilets, per ["Don't map... temporary features"](https://wiki.openstreetmap.org/wiki/Good_practice#Don't_map_temporary_events_and_temporary_features)
+- **Status:** only include status 1 (open). Status 2 could be considered for import, but would require manual review to determine whether the washroom is functioning with minor issues (e.g. sink out of order) or if it should be considered effectively closed.
+
+Will have to decide when reviewing:
+- "building": "toilets" if drawn
+- "indoor" especially for toilets within community centres
+
+Can only determine via survey:
+- seasonal hours
+- gender_segregated
+
+Not including:
+- name
+- address information
+
+**TODO - is conflation menu confusing for source vs target? Would be rationale for pre-coflating (plus reduces manual work)**
+
+**TODO - assert that status=1 facilities have no Comments value**
+
 
 ## Data Profiling - [Street Furniture - Public Washroom](https://open.toronto.ca/dataset/street-furniture-public-washroom/)
 
