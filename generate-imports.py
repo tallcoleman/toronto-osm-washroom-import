@@ -17,6 +17,7 @@ from resources.torontoopendata import request_tod_gdf
 
 def generate_imports():
     os.makedirs("source_data", exist_ok=True)
+    os.makedirs("to_import", exist_ok=True)
 
     current_washrooms = get_current_washrooms()
     current_washrooms_gdf = get_current_washrooms_gdf(current_washrooms)
@@ -211,7 +212,7 @@ def get_pfr_washrooms_osm(gdf):
         .drop(original_cols, axis=1)
         .explode(index_parts=False)  # convert MultiPoint to Point
     )
-    with open("source_data/pfr_to_import.geojson", "w") as f:
+    with open("to_import/pfr_to_import.geojson", "w") as f:
         f.write(
             gdf_normalized.to_json(
                 na="drop",
