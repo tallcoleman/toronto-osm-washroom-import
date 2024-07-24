@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-07-23T12:15:16Z",
-    "timestamp_areas_base": "2024-07-23T06:43:50Z",
+    "timestamp_osm_base": "2024-07-24T03:02:42Z",
+    "timestamp_areas_base": "2024-07-23T22:50:12Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1839,13 +1839,14 @@
       "id": 3731188593,
       "lat": 43.6702871,
       "lon": -79.2848242,
-      "timestamp": "2015-09-06T01:55:49Z",
-      "version": 1,
-      "changeset": 33824356,
-      "user": "jamaps",
-      "uid": 2550748,
+      "timestamp": "2024-07-24T02:13:53Z",
+      "version": 2,
+      "changeset": 154328924,
+      "user": "hunf_man",
+      "uid": 16883404,
       "tags": {
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "check_date": "2024-07-23"
       }
     },
     {
@@ -3182,15 +3183,16 @@
       "id": 9330346738,
       "lat": 43.6716082,
       "lon": -79.4092853,
-      "timestamp": "2021-12-11T18:04:32Z",
-      "version": 1,
-      "changeset": 114826341,
-      "user": "Shrinks99",
-      "uid": 1964104,
+      "timestamp": "2024-07-23T22:54:01Z",
+      "version": 2,
+      "changeset": 154326757,
+      "user": "bphennessy",
+      "uid": 232133,
       "tags": {
         "access": "yes",
         "amenity": "toilets",
-        "toilets:disposal": "flush"
+        "toilets:disposal": "flush",
+        "wheelchair": "yes"
       }
     },
     {
@@ -3788,13 +3790,14 @@
       "id": 9954983297,
       "lat": 43.6665413,
       "lon": -79.2974493,
-      "timestamp": "2022-08-15T14:19:38Z",
-      "version": 1,
-      "changeset": 124930917,
-      "user": "JessAk71",
-      "uid": 381909,
+      "timestamp": "2024-07-24T02:35:03Z",
+      "version": 2,
+      "changeset": 154329120,
+      "user": "hunf_man",
+      "uid": 16883404,
       "tags": {
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "wheelchair": "yes"
       }
     },
     {

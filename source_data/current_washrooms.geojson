@@ -2290,9 +2290,10 @@
         "amenity": "toilets",
         "_type": "node",
         "_id": 3731188593,
-        "_version": 1,
-        "_timestamp": "2015-09-06T01:55:49+00:00",
-        "_url_nwr": "https://www.openstreetmap.org/node/3731188593"
+        "_version": 2,
+        "_timestamp": "2024-07-24T02:13:53+00:00",
+        "_url_nwr": "https://www.openstreetmap.org/node/3731188593",
+        "check_date": "2024-07-23"
       },
       "geometry": {
         "type": "Point",
@@ -3973,9 +3974,10 @@
         "amenity": "toilets",
         "_type": "node",
         "_id": 9330346738,
-        "_version": 1,
-        "_timestamp": "2021-12-11T18:04:32+00:00",
+        "_version": 2,
+        "_timestamp": "2024-07-23T22:54:01+00:00",
         "_url_nwr": "https://www.openstreetmap.org/node/9330346738",
+        "wheelchair": "yes",
         "access": "yes",
         "toilets:disposal": "flush"
       },
@@ -4723,9 +4725,10 @@
         "amenity": "toilets",
         "_type": "node",
         "_id": 9954983297,
-        "_version": 1,
-        "_timestamp": "2022-08-15T14:19:38+00:00",
-        "_url_nwr": "https://www.openstreetmap.org/node/9954983297"
+        "_version": 2,
+        "_timestamp": "2024-07-24T02:35:03+00:00",
+        "_url_nwr": "https://www.openstreetmap.org/node/9954983297",
+        "wheelchair": "yes"
       },
       "geometry": {
         "type": "Point",

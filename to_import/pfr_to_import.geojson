@@ -15,6 +15,105 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Entrance is located on the outside of the Softball Complex.",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29392"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.16261168,
+          43.76026536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, automatic door opener, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway between parking lot and the playground.",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29598"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.13477359999999,
+          43.77672534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway west of the parking lot.",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "45442"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.16492968,
+          43.77715782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway west of the splash pad.",
+        "note": "Please survey to determine: gender_segregated=yes/no",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29265"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.1468689,
+          43.79217932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the park pathway across from Picnic Site #1.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "36503"
       },
@@ -35,33 +134,9 @@
         "unisex": "yes",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
-        "wheelchair": "yes",
-        "toilets:wheelchair": "yes",
-        "wheelchair:description": "Accessible features: entrance at grade, entrance access ramp, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
-        "note": "Please survey to determine: gender_segregated=yes/no",
-        "ref:open.toronto.ca:washroom-facilities:asset_id": "29729"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.41634327000001,
-          43.6823371
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "amenity": "toilets",
-        "access": "yes",
-        "fee": "no",
-        "unisex": "yes",
-        "toilets:disposal": "flush",
-        "toilets:handwashing": "yes",
-        "operator": "City of Toronto",
-        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Entrance is located on the outside of the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13677"
       },
@@ -84,6 +159,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at the entrance of the park from Hidden Trail.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "30891"
       },
@@ -106,6 +182,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway between the tennis courts, baseball diamond and playground.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29453"
       },
@@ -132,6 +209,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, automatic door opener, accessible stall, child change table",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located near the Parkside Drive entrance.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29511"
       },
@@ -153,28 +231,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
-        "opening_hours": "May-Oct 09:00-22:00",
-        "note": "Please survey to determine: gender_segregated=yes/no",
-        "ref:open.toronto.ca:washroom-facilities:asset_id": "29375"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.50093668,
-          43.73662343
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "amenity": "toilets",
-        "access": "yes",
-        "fee": "no",
-        "unisex": "yes",
-        "toilets:disposal": "flush",
-        "toilets:handwashing": "yes",
-        "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13061"
       },
@@ -201,6 +258,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the west side of the parking lot.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "36442"
       },
@@ -225,6 +283,7 @@
         "toilets:wheelchair": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at the south end of the park close to the beach and creek mouth.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13591"
       },
@@ -245,102 +304,9 @@
         "unisex": "yes",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
-        "wheelchair": "yes",
-        "toilets:wheelchair": "yes",
-        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
-        "note": "Please survey to determine: gender_segregated=yes/no",
-        "ref:open.toronto.ca:washroom-facilities:asset_id": "29392"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.16261168,
-          43.76026536
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "amenity": "toilets",
-        "access": "yes",
-        "fee": "no",
-        "unisex": "yes",
-        "toilets:disposal": "flush",
-        "toilets:handwashing": "yes",
-        "wheelchair": "yes",
-        "toilets:wheelchair": "yes",
-        "wheelchair:description": "Accessible features: entrance at grade, automatic door opener, accessible stall",
-        "operator": "City of Toronto",
-        "opening_hours": "May-Oct 09:00-22:00",
-        "note": "Please survey to determine: gender_segregated=yes/no",
-        "ref:open.toronto.ca:washroom-facilities:asset_id": "29598"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.13477359999999,
-          43.77672534
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "amenity": "toilets",
-        "access": "yes",
-        "fee": "no",
-        "unisex": "yes",
-        "toilets:disposal": "flush",
-        "toilets:handwashing": "yes",
-        "operator": "City of Toronto",
-        "opening_hours": "May-Oct 09:00-22:00",
-        "note": "Please survey to determine: gender_segregated=yes/no",
-        "ref:open.toronto.ca:washroom-facilities:asset_id": "45442"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.16492968,
-          43.77715782
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "amenity": "toilets",
-        "access": "yes",
-        "fee": "no",
-        "unisex": "yes",
-        "toilets:disposal": "flush",
-        "toilets:handwashing": "yes",
-        "operator": "City of Toronto",
-        "opening_hours": "May-Oct 09:00-22:00",
-        "note": "Please survey to determine: gender_segregated=yes/no",
-        "ref:open.toronto.ca:washroom-facilities:asset_id": "29265"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.1468689,
-          43.79217932
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "amenity": "toilets",
-        "access": "yes",
-        "fee": "no",
-        "unisex": "yes",
-        "toilets:disposal": "flush",
-        "toilets:handwashing": "yes",
-        "operator": "City of Toronto",
-        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the washroom building along main park road 0.5 km from Leslie Street.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "32745"
       },
@@ -366,6 +332,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway between the north parking lot and archery range.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29384"
       },
@@ -388,6 +355,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the washroom building.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1981"
       },
@@ -410,6 +378,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Entrance is located on the outside of the outdoor ice rink building.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "32862"
       },
@@ -435,6 +404,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on a pathway between Rowntree Mill Road and the second parking lot.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29622"
       },
@@ -457,6 +427,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at the east end of the boardwalk.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "32882"
       },
@@ -483,6 +454,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the north side of the tennis courts next to the parking lot.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29280"
       },
@@ -505,6 +477,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at the west end of the outdoor ice rink.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "28895"
       },
@@ -527,6 +500,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the fieldhouse.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29567"
       },
@@ -549,6 +523,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the amphitheatre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "5787"
       },
@@ -571,6 +546,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the east side of the tennis courts. ",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29745"
       },
@@ -592,6 +568,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13052"
       },
@@ -614,6 +591,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located between the baseball diamonds, next to Lake Shore Boulevard.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "32743"
       },
@@ -637,6 +615,7 @@
         "changing_table": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway south of the parking lot, near the playground.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29732"
       },
@@ -658,6 +637,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located at the south end of the parking lot.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "5470"
       },
@@ -679,6 +659,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located on the pathway south of the tennis courts.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "5465"
       },
@@ -700,6 +681,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located at the north end of the pool near Redgrave Drive.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "5472"
       },
@@ -721,6 +703,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located on the west side of the pool, north fo the parking lot.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "6324"
       },
@@ -742,6 +725,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located on the west side of the pool on the pathway from Sedgebrook Crescent.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "5555"
       },
@@ -766,6 +750,7 @@
         "toilets:wheelchair": "yes",
         "wheelchair:description": "Accessible features: entrance at grade, entrance access ramp, accessible stall",
         "operator": "City of Toronto",
+        "description": "Located in the outdoor pool building.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29652"
       },
@@ -787,6 +772,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the outdoor pool building at the east side of the park.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "6091"
       },
@@ -808,6 +794,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located on the east side of the outdoor pool near Mount Olive Drive.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "6107"
       },
@@ -830,6 +817,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the west side of the outdoor pool near Eleventh Street.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "6157"
       },
@@ -851,6 +839,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located at the south end of the outdoor pool.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "6126"
       },
@@ -872,6 +861,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the outdoor pool and rink building.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "6201"
       },
@@ -893,6 +883,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located on the east side of the outdoor pool.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "6206"
       },
@@ -914,6 +905,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located at the west end of the outdoor pool.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "5491"
       },
@@ -935,6 +927,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located on the south side of the outdoor pool.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "5511"
       },
@@ -956,6 +949,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located on the pathway at the north end of the outdoor pool.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "5665"
       },
@@ -977,6 +971,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located west of the outdoor pool next to the parking lot.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "5697"
       },
@@ -998,6 +993,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located at the west end of the pool, between the playground and the parking lot.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "5720"
       },
@@ -1019,6 +1015,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located at the east end of the pool.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "5730"
       },
@@ -1040,6 +1037,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located at the north end of the outdoor pool near the playground.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "5745"
       },
@@ -1061,6 +1059,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the pool building south of the outdoor pool.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "5932"
       },
@@ -1082,6 +1081,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the outdoor pool changing rooms.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "5976"
       },
@@ -1104,6 +1104,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Entrance is located on the outside of the outdoor pool building on the southwest side.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "5984"
       },
@@ -1129,6 +1130,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway east of the parking lot.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29656"
       },
@@ -1154,6 +1156,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, entrance access ramp, automatic door opener, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the north side of the tennis courts near the playground.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "37106"
       },
@@ -1180,6 +1183,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located south of the baseball diamond and Wabash Avenue.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "57282"
       },
@@ -1205,6 +1209,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, automatic door opener, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway between the baseball diamond and the wading pool.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29521"
       },
@@ -1227,6 +1232,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway between the tennis courts and the splash pad.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29616"
       },
@@ -1249,6 +1255,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the south washroom building of the park. ",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29661"
       },
@@ -1271,6 +1278,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located north of the wading pool.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "36482"
       },
@@ -1292,6 +1300,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Sid Smith rink building located south of the ice rink",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "28886"
       },
@@ -1314,6 +1323,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the pavillion between the splash pad and the playground.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "36974"
       },
@@ -1335,6 +1345,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located at the east end of the park between the parking lot and the outdoor pool.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "6105"
       },
@@ -1357,6 +1368,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the west side of Centennial Park Stadium at the south end.",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "34992"
       },
       "geometry": {
@@ -1381,6 +1393,7 @@
         "toilets:wheelchair": "yes",
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
         "operator": "City of Toronto",
+        "description": "Located on the pathway east of the picnic areas, south of the Hanlan's Point ferry docks.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29440"
       },
@@ -1403,6 +1416,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the fieldhouse north of the firepit.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29751"
       },
@@ -1425,6 +1439,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at the south end of the park next to the splash pad.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29416"
       },
@@ -1447,6 +1462,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located next to the splash pad and playground.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "78226"
       },
@@ -1469,6 +1485,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "09:00-17:00",
+        "description": "Entrance is located on the outside of the Meeting House through the archway tunnel.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13637"
       },
@@ -1494,6 +1511,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway 350 metres south of the parking lot.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "36492"
       },
@@ -1519,6 +1537,7 @@
         "toilets:wheelchair": "yes",
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
         "operator": "City of Toronto",
+        "description": "Located on the pathway south of the tennis courts.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29442"
       },
@@ -1544,6 +1563,7 @@
         "toilets:wheelchair": "yes",
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
         "operator": "City of Toronto",
+        "description": "Located on the south side of the pathway between the Centre Island ferry docks and Centreville. Near the east side of picnic area 13.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29685"
       },
@@ -1564,34 +1584,13 @@
         "unisex": "yes",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
-        "operator": "City of Toronto",
-        "opening_hours": "May-Oct 09:00-22:00",
-        "note": "Please survey to determine: gender_segregated=yes/no",
-        "ref:open.toronto.ca:washroom-facilities:asset_id": "36489"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.40549905,
-          43.70826165
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "amenity": "toilets",
-        "access": "yes",
-        "fee": "no",
-        "unisex": "yes",
-        "toilets:disposal": "flush",
-        "toilets:handwashing": "yes",
         "changing_table": "yes",
         "wheelchair": "yes",
         "toilets:wheelchair": "yes",
         "wheelchair:description": "Accessible features: entrance at grade, entrance access ramp, accessible stall, child change table",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located between the parking lot and the beach.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "37108"
       },
@@ -1614,6 +1613,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Entrance is located on the outside of the Community Center next to the playground.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1000000059"
       },
@@ -1635,6 +1635,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the rink building north of the ice rink.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29749"
       },
@@ -1657,6 +1658,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the entrance of the pavilion.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "101976"
       },
@@ -1678,6 +1680,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located east of the maze.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29695"
       },
@@ -1700,6 +1703,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located 250 metres northwest of the Catherine Street entrance next to the trail.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29407"
       },
@@ -1725,6 +1729,7 @@
         "wheelchair:description": "Accessible features: entrance access ramp, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located north of the bowling greens.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29277"
       },
@@ -1747,6 +1752,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway from the last West Road parking lot.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29509"
       },
@@ -1769,6 +1775,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Entrance is located on the outside of the outdoor pool and ice rink building, east of the baseball diamond.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "35368"
       },
@@ -1793,6 +1800,7 @@
         "toilets:wheelchair": "yes",
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "operator": "City of Toronto",
+        "description": "Located in the outdoor pool and ice rink building.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "5635"
       },
@@ -1818,6 +1826,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway north of Maple Leaf Garden.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29478"
       },
@@ -1840,6 +1849,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located east of the Children's Garden.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29502"
       },
@@ -1863,6 +1873,7 @@
         "toilets:wheelchair": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway between the playground and the baseball diamond.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29309"
       },
@@ -1886,6 +1897,7 @@
         "toilets:wheelchair": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway from the parking lot to the cricket pitch at the north end of the park.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29547"
       },
@@ -1911,6 +1923,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway between the parking lot and the splash pad.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29361"
       },
@@ -1936,6 +1949,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway south of the western most tennis courts.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29606"
       },
@@ -1961,6 +1975,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, automatic door opener, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at the south-end of the park on Grange Road, opposite University Settlement.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "79343"
       },
@@ -1986,6 +2001,7 @@
         "toilets:wheelchair": "yes",
         "wheelchair:description": "Accessible features: entrance access ramp, automatic door opener, accessible stall, child change table",
         "operator": "City of Toronto",
+        "description": "Located on the pathway near the water's edge at Gibraltar Point.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29441"
       },
@@ -2011,6 +2027,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, automatic door opener, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at the top of the hill on the pathway next to the bocce courts.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29415"
       },
@@ -2033,6 +2050,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located near the corner of Rosehill and Avoca Avenues.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "97106"
       },
@@ -2055,6 +2073,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the grassy area behind the baseball diamond besdie Corvette Avenue.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29347"
       },
@@ -2077,6 +2096,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at the back of the outdoor caf\u00c3\u00a9 building.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13476"
       },
@@ -2099,6 +2119,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the east side of the splash pad. ",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "93642"
       },
@@ -2121,6 +2142,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the sports pavilion east of main parking lot.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13493"
       },
@@ -2144,6 +2166,7 @@
         "toilets:wheelchair": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway south of the parking lot between the cricket pitches.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29411"
       },
@@ -2169,6 +2192,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the sports pavillion west of the sports fields.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29401"
       },
@@ -2192,6 +2216,7 @@
         "toilets:wheelchair": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the sports pavillion south of the parking lot between the sports fields and the tennis courts.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13482"
       },
@@ -2217,6 +2242,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the service building.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13481"
       },
@@ -2242,6 +2268,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "06:30-23:30",
+        "description": "Located in the main building on the west side of the Ferry Terminal entrance, accessed after ferry ticket purchase.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "58062"
       },
@@ -2264,6 +2291,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the west side of the park, next to the boat launch.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29307"
       },
@@ -2289,6 +2317,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located south of the tennis courts, next to the parking lot.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29634"
       },
@@ -2311,6 +2340,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at the east end of the parking lot next to the baseball diamond.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29628"
       },
@@ -2333,6 +2363,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located west of the parking lot, east of the playground.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29578"
       },
@@ -2357,6 +2388,7 @@
         "toilets:wheelchair": "yes",
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "operator": "City of Toronto",
+        "description": "Located in the building on the west side of the entrance to the pier.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29698"
       },
@@ -2381,6 +2413,7 @@
         "toilets:wheelchair": "yes",
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "operator": "City of Toronto",
+        "description": "Located at the south west corner of Chippawa and Cibola Avenues.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29708"
       },
@@ -2406,6 +2439,7 @@
         "toilets:wheelchair": "yes",
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
         "operator": "City of Toronto",
+        "description": "Located at the west side of the ferry dock plaza.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29689"
       },
@@ -2428,6 +2462,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at the eastern end of the lot south of the boardwalk.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "37104"
       },
@@ -2453,6 +2488,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at the east end of the north parking lot near the park pathway.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "75662"
       },
@@ -2476,6 +2512,7 @@
         "changing_table": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on a pathway between the wading pool and the playground.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "36324"
       },
@@ -2498,6 +2535,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway between the wading pool and the tennis courts.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "32922"
       },
@@ -2523,6 +2561,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the grassy area west of the sports field.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29379"
       },
@@ -2545,6 +2584,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Entrance is located on the outside of the outdoor pool building.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1846"
       },
@@ -2567,6 +2607,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at the east end of the outdoor pool building.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "66883"
       },
@@ -2592,6 +2633,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at the south end of the park next to Kewbeach Avenue.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "32744"
       },
@@ -2615,6 +2657,7 @@
         "changing_table": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Entrance is located on the outside of the outdoor pool building on the south side of the building.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "5459"
       },
@@ -2638,6 +2681,7 @@
         "changing_table": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the boardwalk near the southern most beach volleyball courts.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "31265"
       },
@@ -2664,6 +2708,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the building next to the east sports field.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "46142"
       },
@@ -2686,6 +2731,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at the entrance next to the southeast parking lot in the lower level of the Banquet hall.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "75804"
       },
@@ -2712,6 +2758,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located south of the playground.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29755"
       },
@@ -2738,6 +2785,7 @@
         "wheelchair:description": "Accessible features: entrance access ramp, automatic door opener, accessible stall, child change table",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the Chess House building near Bloor Street West.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29459"
       },
@@ -2765,6 +2813,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, automatic door opener, accessible stall, child change table, adult change table",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway next to the playground.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "74844"
       },
@@ -2787,6 +2836,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway between the playground and the splash pad.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29383"
       },
@@ -2809,6 +2859,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located next to the splash pad.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "41662"
       },
@@ -2831,6 +2882,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Entrance is located on the outside of the outdoor pool building on the east side of the building.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "5445"
       },
@@ -2853,6 +2905,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Entrance is located on the outside of the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2081"
       },
@@ -2879,6 +2932,7 @@
         "wheelchair:description": "Accessible features: entrance access ramp, accessible stall, child change table",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on a pathway at the south end of the tennis courts and next to the bowling greens.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29566"
       },
@@ -2901,6 +2955,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Entrance is located on the outside of the Larry Grossman Forest Hill Memorial Arena.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1840"
       },
@@ -2926,6 +2981,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway between the baseball diamonds, east of the playground.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29583"
       },
@@ -2951,6 +3007,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, entrance access ramp, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located south of the base of the ski hill at the end of a pathway.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29385"
       },
@@ -2974,6 +3031,7 @@
         "changing_table": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway next to the parking lot.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29617"
       },
@@ -2996,6 +3054,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway between parking lot and the playground.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29600"
       },
@@ -3022,6 +3081,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, automatic door opener, accessible stall, child change table",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at the west end of the Sunnyside Pavillion on the Martin Goodman Trail.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "46102"
       },
@@ -3048,6 +3108,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, automatic door opener, accessible stall, child change table",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at the east end of the Sunnyside Pavilion on Martin Goodman Trail.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "46103"
       },
@@ -3073,6 +3134,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway 100 metres north of the parking lot, near Picnic Site #2.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29589"
       },
@@ -3095,6 +3157,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located bewteen the parking lot and the playground",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29740"
       },
@@ -3117,6 +3180,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located next to Ashtonbee Road, between the sports fields and cricket pitch.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29276"
       },
@@ -3142,6 +3206,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway north of the playground.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29410"
       },
@@ -3164,6 +3229,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located south of the sports field. ",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29753"
       },
@@ -3186,6 +3252,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located next to the playground.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29581"
       },
@@ -3209,6 +3276,7 @@
         "toilets:wheelchair": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located inside the Scott Westney House.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13599"
       },
@@ -3232,6 +3300,7 @@
         "toilets:wheelchair": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway between the tennis courts and the baseball diamond.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29536"
       },
@@ -3254,6 +3323,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on a pathway near the spash pad and playground.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29570"
       },
@@ -3276,6 +3346,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway in the southeast corner of the park near Norwood Road.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29590"
       },
@@ -3302,6 +3373,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, entrance access ramp, accessible stall, child change table",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway west of the baseball diamond.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29724"
       },
@@ -3327,6 +3399,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway south of the parking lot.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29359"
       },
@@ -3350,6 +3423,7 @@
         "toilets:wheelchair": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway next to the tennis courts.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29746"
       },
@@ -3375,6 +3449,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway at the north side of the tennis courts.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29553"
       },
@@ -3400,6 +3475,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located near the King Street entrance, next to the playground.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29644"
       },
@@ -3425,6 +3501,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway west of the sports fields, next to the playground.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29405"
       },
@@ -3447,6 +3524,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the west side of Centennial Park Stadium at the north end.",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "34993"
       },
       "geometry": {
@@ -3468,6 +3546,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located east of the parking lot off Elmcrest road, northeast of Picnic Site #1 and the playground.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "101974"
       },
@@ -3494,6 +3573,7 @@
         "wheelchair:description": "Accessible features: entrance access ramp, accessible stall, child change table",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the Moore Park Tennis Club building.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "30923"
       },
@@ -3520,6 +3600,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at the south end of the park next to dog off-leash area and the baseball diamond.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29286"
       },
@@ -3545,6 +3626,7 @@
         "wheelchair:description": "Accessible features: entrance access ramp, automatic door opener, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway in the northwest corner of the park near Oakmount Road.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29561"
       },
@@ -3570,6 +3652,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway next to Picnic Site #2.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29527"
       },
@@ -3592,6 +3675,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the north side of the park next to the dog off-leash area and the community garden.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29524"
       },
@@ -3617,6 +3701,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the coach house building north of Colborne Lodge.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29462"
       },
@@ -3639,6 +3724,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the west side of Centennial Park Stadium at the south end.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13016"
       },
@@ -3661,6 +3747,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at the north entrance of the building.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29365"
       },
@@ -3683,6 +3770,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the fieldhouse east of the skate trail, south of the playground.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29421"
       },
@@ -3705,6 +3793,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the south side of clubhouse building.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29631"
       },
@@ -3727,6 +3816,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located north of the baseball diamond and west of the tennis courts.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29332"
       },
@@ -3749,6 +3839,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the north washroom building of the park.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29660"
       },
@@ -3770,6 +3861,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the fieldhouse along the boardwalk next to the outdoor ice rink.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "32883"
       },
@@ -3791,6 +3883,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the outdoor pool and rink building.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "5404"
       },
@@ -3813,6 +3906,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Entrance is located on the outside of the outdoor ice rink building.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "28901"
       },
@@ -3834,6 +3928,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the rink building west of the outdoor ice rink.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "28897"
       },
@@ -3855,6 +3950,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located at the outdoor ice rink.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "28887"
       },
@@ -3876,6 +3972,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the outdoor pool and rink building.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "6171"
       },
@@ -3897,6 +3994,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the outdoor pool and rink building.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "5675"
       },
@@ -3918,6 +4016,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the rink building east of the outdoor ice rink.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "14068"
       },
@@ -3939,6 +4038,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located on the north side on the outdoor ice rink.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "28890"
       },
@@ -3960,6 +4060,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located at the west end of the outdoor ice rink.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "12"
       },
@@ -3982,6 +4083,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Entrance is located on the outside of the outdoor ice rink building.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "60142"
       },
@@ -4003,6 +4105,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located between the outdoor pool and ice rink.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13499"
       },
@@ -4024,6 +4127,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Entrance is located on the outside of the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13688"
       },
@@ -4045,6 +4149,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the skating pavilion west of the outdoor ice rink.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "32622"
       },
@@ -4068,6 +4173,7 @@
         "changing_table": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the fieldhouse.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "41663"
       },
@@ -4090,6 +4196,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the Dovercourt Boys and Girls Club.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29374"
       },
@@ -4114,6 +4221,7 @@
         "toilets:wheelchair": "yes",
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "operator": "City of Toronto",
+        "description": "Located on Ward's Island east of the baseball diamond in the washroom building.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "34605"
       },
@@ -4136,6 +4244,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the fieldhouse building at the northwest corner of the park.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "79226"
       },
@@ -4159,6 +4268,7 @@
         "changing_table": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located to the west of the parking lot.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13602"
       },
@@ -4184,6 +4294,7 @@
         "toilets:wheelchair": "yes",
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
         "operator": "City of Toronto",
+        "description": "Located on Hanlan's Point south of the ferry dock in the snack/concession stand, washroom building. ",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "14102"
       },
@@ -4206,6 +4317,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located next to the changeroom in the skating pavilion.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "103143"
       },
@@ -4228,6 +4340,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the west side of parking lot.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29542"
       },
@@ -4253,6 +4366,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in fieldhouse southwest of the entrance to the Jack Layton Ferry Terminal.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29443"
       },
@@ -4275,6 +4389,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the west basketball court, north of the baseball diamond.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29356"
       },
@@ -4296,6 +4411,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the pool building on the south end of the outdoor pool.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "6191"
       },
@@ -4317,6 +4433,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the outdoor pool and  rink building.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1847"
       },
@@ -4338,6 +4455,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the outdoor pool building beside Cedarvale Ave.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "6094"
       },
@@ -4359,6 +4477,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the outdoor pool building.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13388"
       },
@@ -4380,6 +4499,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1610"
       },
@@ -4401,6 +4521,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "500"
       },
@@ -4423,6 +4544,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at the main entrance to the stadium.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "347"
       },
@@ -4444,6 +4566,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the rink building west of the outdoor ice rink.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "28899"
       },
@@ -4466,6 +4589,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located along Davisville Avenue southwest of the sports field.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29354"
       },
@@ -4488,6 +4612,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at the north side of the TTC station (Victoria Park), 50 metres east of the main entrance.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29358"
       },
@@ -4509,6 +4634,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the tennis centre building.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13045"
       },
@@ -4530,6 +4656,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13055"
       },
@@ -4556,6 +4683,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway north of the outdoor ice rink.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29716"
       },
@@ -4578,6 +4706,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "09:00-17:00",
+        "description": "Located in the Simpson House, at the farm entrance.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13639"
       },
@@ -4604,6 +4733,7 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on a pathway between the bowling greens and Martin Goodman Trail.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "36323"
       },
@@ -4626,6 +4756,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the western building along the pathway into the park.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "79459"
       },
@@ -4647,6 +4778,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located near the entrance at south side of building/lower level.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2935"
       },
@@ -4669,6 +4801,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at east side of the washroom building.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29655"
       },
@@ -4690,6 +4823,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "45062"
       },
@@ -4711,6 +4845,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2109"
       },
@@ -4732,6 +4867,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2108"
       },
@@ -4753,6 +4889,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1095"
       },
@@ -4774,6 +4911,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1569"
       },
@@ -4795,6 +4933,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre. ",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2013"
       },
@@ -4816,6 +4955,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1075"
       },
@@ -4837,6 +4977,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13073"
       },
@@ -4858,6 +4999,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2106"
       },
@@ -4879,6 +5021,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1016"
       },
@@ -4900,6 +5043,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "14344"
       },
@@ -4921,6 +5065,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2105"
       },
@@ -4942,6 +5087,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2103"
       },
@@ -4963,6 +5109,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13064"
       },
@@ -4984,6 +5131,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13063"
       },
@@ -5005,6 +5153,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "925"
       },
@@ -5026,6 +5175,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1943"
       },
@@ -5047,6 +5197,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2099"
       },
@@ -5068,6 +5219,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "45463"
       },
@@ -5089,6 +5241,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "829"
       },
@@ -5110,6 +5263,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2097"
       },
@@ -5131,6 +5285,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "45042"
       },
@@ -5152,6 +5307,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Aquatic Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "14322"
       },
@@ -5173,6 +5329,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13058"
       },
@@ -5194,6 +5351,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2095"
       },
@@ -5215,6 +5373,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2092"
       },
@@ -5236,6 +5395,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1439"
       },
@@ -5257,6 +5417,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1892"
       },
@@ -5278,6 +5439,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "771"
       },
@@ -5299,6 +5461,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1886"
       },
@@ -5320,6 +5483,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "6294"
       },
@@ -5341,6 +5505,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "14343"
       },
@@ -5362,6 +5527,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1874"
       },
@@ -5383,6 +5549,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1873"
       },
@@ -5404,6 +5571,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1866"
       },
@@ -5425,6 +5593,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13049"
       },
@@ -5446,6 +5615,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1867"
       },
@@ -5467,6 +5637,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13047"
       },
@@ -5488,6 +5659,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2085"
       },
@@ -5509,6 +5681,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "312"
       },
@@ -5530,6 +5703,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13866"
       },
@@ -5551,6 +5725,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13041"
       },
@@ -5572,6 +5747,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "17168"
       },
@@ -5593,6 +5769,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1820"
       },
@@ -5614,6 +5791,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1818"
       },
@@ -5635,6 +5813,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1817"
       },
@@ -5656,6 +5835,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2082"
       },
@@ -5677,6 +5857,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2079"
       },
@@ -5698,6 +5879,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1768"
       },
@@ -5719,6 +5901,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1764"
       },
@@ -5740,6 +5923,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "14342"
       },
@@ -5761,6 +5945,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2076"
       },
@@ -5782,6 +5967,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13027"
       },
@@ -5803,6 +5989,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2074"
       },
@@ -5824,6 +6011,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1745"
       },
@@ -5845,6 +6033,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2070"
       },
@@ -5866,6 +6055,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1740"
       },
@@ -5887,6 +6077,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2068"
       },
@@ -5908,6 +6099,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13487"
       },
@@ -5929,6 +6121,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1737"
       },
@@ -5950,6 +6143,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1732"
       },
@@ -5971,6 +6165,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1729"
       },
@@ -5992,6 +6187,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2065"
       },
@@ -6013,6 +6209,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1725"
       },
@@ -6034,6 +6231,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1723"
       },
@@ -6055,6 +6253,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "317"
       },
@@ -6076,6 +6275,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1720"
       },
@@ -6097,6 +6297,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13023"
       },
@@ -6118,6 +6319,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2064"
       },
@@ -6139,6 +6341,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1715"
       },
@@ -6160,6 +6363,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "281"
       },
@@ -6181,6 +6385,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13020"
       },
@@ -6202,6 +6407,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "273"
       },
@@ -6223,6 +6429,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2061"
       },
@@ -6244,6 +6451,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2060"
       },
@@ -6265,6 +6473,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2057"
       },
@@ -6286,6 +6495,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1675"
       },
@@ -6307,6 +6517,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2055"
       },
@@ -6328,6 +6539,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2054"
       },
@@ -6349,6 +6561,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "63202"
       },
@@ -6370,6 +6583,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1662"
       },
@@ -6391,6 +6605,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2053"
       },
@@ -6412,6 +6627,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2052"
       },
@@ -6433,6 +6649,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "105"
       },
@@ -6455,6 +6672,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the clubhouse/washroom building.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29641"
       },
@@ -6476,6 +6694,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2051"
       },
@@ -6497,6 +6716,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "71"
       },
@@ -6518,6 +6738,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "63"
       },
@@ -6539,6 +6760,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13008"
       },
@@ -6560,6 +6782,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "46"
       },
@@ -6581,6 +6804,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1621"
       },
@@ -6602,6 +6826,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2045"
       },
@@ -6623,6 +6848,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13006"
       },
@@ -6644,6 +6870,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1608"
       },
@@ -6665,6 +6892,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "4"
       },
@@ -6691,6 +6919,7 @@
         "wheelchair:description": "Accessible features: entrance access ramp, accessible stall, child change table",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Entrance is located on the outside of the Ski and Snowboard Centre.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2091"
       },
@@ -6713,6 +6942,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "09:00-19:30",
+        "description": "Located east of the south baseball diamond.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1701"
       },
@@ -6735,6 +6965,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at the east end of the parking lot.",
         "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29312"
       },
