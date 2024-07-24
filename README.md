@@ -87,8 +87,6 @@ Not including:
 
 **TODO - is conflation menu confusing for source vs target? Would be rationale for pre-coflating (plus reduces manual work)**
 
-**TODO - assert that status=1 facilities have no Comments value**
-
 
 ## Data Profiling - [Street Furniture - Public Washroom](https://open.toronto.ca/dataset/street-furniture-public-washroom/)
 
