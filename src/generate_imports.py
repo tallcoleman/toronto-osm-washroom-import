@@ -10,7 +10,7 @@ from resources.openstreetmap import (
     query_overpass,
     feature_from_element,
 )
-from resources.torontoopendata import request_tod_gdf
+from resources.torontoopendata import request_tod_gdf, TODResponse
 
 
 def generate_imports():
@@ -21,7 +21,19 @@ def generate_imports():
     current_washrooms = get_current_washrooms()
     current_washrooms_gdf = get_current_washrooms_gdf(current_washrooms)
     pfr_washrooms = get_pfr_washrooms()
-    pfr_washrooms_osm = get_pfr_washrooms_osm(pfr_washrooms["gdf"])
+    pfr_facilities = get_pfr_facilities()
+    pfr_facility_types = get_pfr_facility_types(pfr_facilities["gdf"])
+
+    pfr_washrooms_type = pd.merge(
+        pfr_washrooms["gdf"],
+        pfr_facility_types.rename(
+            columns={"LOCATIONID": "parent_id", "TYPE": "parent_type"}
+        ),
+        how="left",
+        on="parent_id",
+    )
+
+    pfr_washrooms_osm = get_pfr_washrooms_osm(pfr_washrooms_type)
 
 
 def get_current_washrooms():
@@ -61,12 +73,16 @@ def get_current_washrooms_gdf(current_washrooms):
     return current_washrooms_gdf
 
 
-def get_pfr_washrooms():
+def get_pfr_washrooms() -> TODResponse:
     pfr_washrooms = request_tod_gdf(
         dataset_name="washroom-facilities",
         resource_id="6d848f38-45a3-41e8-9783-804385ec5a16",
     )
-    pfr_washrooms["gdf"] = pfr_washrooms["gdf"].rename(columns={"id": "parent_id"})
+    pfr_washrooms["gdf"] = (
+        pfr_washrooms["gdf"]
+        .rename(columns={"id": "parent_id"})
+        .astype({"parent_id": str})
+    )
 
     # validate city data and throw errors if input assumptions have changed
     def check_accessible(accessible: pd.Series):
@@ -87,7 +103,7 @@ def get_pfr_washrooms():
     schema = pa.DataFrameSchema(
         {
             # REQUIRED COLUMNS
-            "parent_id": pa.Column("int32", required=True),
+            "parent_id": pa.Column(str, required=True),
             "asset_id": pa.Column("int32", unique=True, required=True),
             "type": pa.Column(
                 str,
@@ -155,18 +171,48 @@ def get_pfr_washrooms():
                     "%Y-%m-%dT%H:%M:%S.%f%z"
                 )
             )
-            .to_json(
-                na="drop",
-                drop_id=True,
-                indent=2,
-            )
+            .to_json(na="drop", drop_id=True, indent=2)
         )
     with open("source_data/pfr_washrooms_meta.geojson", "w") as f:
         json.dump(pfr_washrooms["metadata"], f, indent=2)
     return pfr_washrooms
 
 
-def get_pfr_washrooms_osm(gdf):
+def get_pfr_facilities() -> TODResponse:
+    pfr_facilities = request_tod_gdf(
+        dataset_name="parks-and-recreation-facilities",
+        resource_id="f6cdcd50-da7b-4ede-8e60-c3cdba70b559",
+    )
+
+    # validate data
+    schema = pa.DataFrameSchema(
+        {
+            "LOCATIONID": pa.Column(str, required=True, unique=False),
+            "TYPE": pa.Column(
+                str, required=True, checks=pa.Check.isin(["Park", "Community Centre"])
+            ),
+        }
+    )
+    schema.validate(pfr_facilities["gdf"])
+
+    # save validated city data
+    with open("source_data/pfr_facilities.geojson", "w") as f:
+        f.write(pfr_facilities["gdf"].to_json(na="drop", drop_id=True, indent=2))
+    with open("source_data/pfr_facilities_meta.geojson", "w") as f:
+        json.dump(pfr_facilities["metadata"], f, indent=2)
+    return pfr_facilities
+
+
+def get_pfr_facility_types(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
+    return (
+        gdf[["LOCATIONID", "TYPE"]]
+        .sort_values("TYPE", ascending=True)
+        .groupby("LOCATIONID", as_index=False)
+        .agg(lambda x: "|".join(set(x)))
+    )
+
+
+def get_pfr_washrooms_osm(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
     original_cols = gdf.columns.drop("geometry")
 
     # filter city data and confirm that filtered data does not contain Reason or Comments columns
@@ -236,10 +282,15 @@ def get_pfr_washrooms_osm(gdf):
             f"Accessible features: {", ".join([x for x in features if x is not None])}"
         )
 
-    def get_opening_hours(hours):
-        # TODO only apply this if park washroom - need to import facility info
-        if hours == "9 a.m. to 10 p.m.":
+    def get_opening_hours(row):
+        hours = row["hours"]
+        parent_type = row["parent_type"]
+        if hours == "9 a.m. to 10 p.m." and parent_type == "Park":
             return "May-Oct 09:00-22:00"
+        elif hours == "9 a.m. to 10 p.m." and parent_type == "Community Centre":
+            return "09:00-22:00"
+        elif hours == "9 a.m. to 10 p.m." and parent_type == "Community Centre|Park":
+            return pd.NA
         # Riverdale Farm:
         elif hours == "9 a.m. to 5 p.m.":
             return "09:00-17:00"
@@ -256,9 +307,15 @@ def get_pfr_washrooms_osm(gdf):
         prompts = []
         if str(get_unisex(row["AssetName"])) == "yes":
             prompts.append("gender_segregated=yes/no")
-        # TODO add park check here
-        if row["hours"] == "9 a.m. to 10 p.m.":
-            "is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00"
+        if row["hours"] == "9 a.m. to 10 p.m." and row["parent_type"] == "Park":
+            prompts.append(
+                "is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00"
+            )
+        if (
+            row["hours"] == "9 a.m. to 10 p.m."
+            and row["parent_type"] == "Community Centre|Park"
+        ):
+            prompts.append("opening hours")
         prompt_string = "; ".join(prompts)
         if len(prompt_string) > 0:
             return f"Please survey to determine: {prompt_string}"
@@ -301,11 +358,13 @@ def get_pfr_washrooms_osm(gdf):
                 ),
                 "operator": "City of Toronto",
                 "opening_hours": (
-                    gdf_filtered["hours"].astype(str).apply(get_opening_hours)
+                    gdf_filtered[["hours", "parent_type"]]
+                    .astype(str)
+                    .apply(get_opening_hours, axis=1)
                 ),
                 "description": gdf_filtered["location_details"],
                 "note": (
-                    gdf_filtered[["AssetName", "hours"]]
+                    gdf_filtered[["AssetName", "hours", "parent_type"]]
                     .astype(str)
                     .apply(get_note, axis=1)
                 ),

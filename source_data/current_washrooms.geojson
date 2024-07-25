@@ -1603,10 +1603,10 @@
         "amenity": "toilets",
         "_type": "node",
         "_id": 2864633368,
-        "_version": 2,
-        "_timestamp": "2019-09-21T15:18:56+00:00",
+        "_version": 3,
+        "_timestamp": "2024-07-25T00:20:29+00:00",
         "_url_nwr": "https://www.openstreetmap.org/node/2864633368",
-        "opening_hours": "Mo-Su 08:00-20:00"
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr 09:00-20:00"
       },
       "geometry": {
         "type": "Point",
@@ -5427,6 +5427,24 @@
         "coordinates": [
           -79.4928542,
           43.6528664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "_type": "node",
+        "_id": 12072542565,
+        "_version": 1,
+        "_timestamp": "2024-07-25T00:42:22+00:00",
+        "_url_nwr": "https://www.openstreetmap.org/node/12072542565"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4372927,
+          43.7074743
         ]
       }
     },

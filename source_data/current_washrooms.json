@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-07-24T03:02:42Z",
-    "timestamp_areas_base": "2024-07-23T22:50:12Z",
+    "timestamp_osm_base": "2024-07-25T02:47:40Z",
+    "timestamp_areas_base": "2024-07-24T23:49:16Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1280,14 +1280,14 @@
       "id": 2864633368,
       "lat": 43.7341396,
       "lon": -79.3592405,
-      "timestamp": "2019-09-21T15:18:56Z",
-      "version": 2,
-      "changeset": 74752101,
-      "user": "Matthew Darwin",
-      "uid": 5633991,
+      "timestamp": "2024-07-25T00:20:29Z",
+      "version": 3,
+      "changeset": 154371977,
+      "user": "mini_bomba",
+      "uid": 20232664,
       "tags": {
         "amenity": "toilets",
-        "opening_hours": "Mo-Su 08:00-20:00"
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr 09:00-20:00"
       }
     },
     {
@@ -4354,6 +4354,20 @@
         "portable": "no",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12072542565,
+      "lat": 43.7074743,
+      "lon": -79.4372927,
+      "timestamp": "2024-07-25T00:42:22Z",
+      "version": 1,
+      "changeset": 154372229,
+      "user": "skfd",
+      "uid": 205595,
+      "tags": {
+        "amenity": "toilets"
       }
     },
     {

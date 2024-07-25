@@ -87,6 +87,8 @@ Not including:
 
 **TODO - is conflation menu confusing for source vs target? Would be rationale for pre-coflating (plus reduces manual work)**
 
+**Add nearby buildings without washroom tag to OSM query...**
+
 
 ## Data Profiling - [Street Furniture - Public Washroom](https://open.toronto.ca/dataset/street-furniture-public-washroom/)
 
@@ -96,3 +98,16 @@ This dataset only includes four features, so it would be easier to address any n
 - SE corner of Fleet St and Strachan Ave - does not exist in OSM 
 - NW corner of Rees St and Queen's Quay W - [exists in OSM](https://www.openstreetmap.org/node/2617630911)
 - SE corner of Lakeshore Blvd and Northern Dancer Blvd - [exists in OSM](https://www.openstreetmap.org/way/1017243072)
+
+
+## Data Profiling - Parks and Recreation Facilities
+
+Duplicate entries for the same LOCATIONID:
+- 10 ("ETIENNE BRULE PARK", "13 CROSBY AVE") - only geographies are unique
+- 508 ("WESTON LIONS PARK", "2125 LAWRENCE AVE W") - one entry for the park (TYPE=Park) and one for the recreation arena (TYPE=Community Centre)
+- 798 ("CENTENNIAL PARK - ETOBICOKE", "256 CENTENNIAL PARK RD") - one entry for the park (type=Park) and one for the Snow Centre (TYPE=Community Centre) at "206 CENTENNIAL PARK RD"
+- 858 ("PARK LAWN PARK", "330 PARK LAWN RD") - one entry for the park (type=Park) and one for the bubble rink (type=Community Centre)
+- 883 ("PORT UNION COMMUNITY RECREATION CENTRE PARK", "5450 LAWRENCE AVE E") - one entry for the park (type=Park) and one for the community centre (type=Community Centre)
+- 1043 ("BENNER PARK", "25 BENNER AVE") - only geographies are unique
+- 1865 ("WARDEN HILLTOP COMMUNITY CENTRE PARK", "25 MENDELSSOHN ST") - one entry for the park (type=Park) and one for the community centre (type=Community Centre)
+- 3494 ("TED REEVE COMMUNITY ARENA", "175 MAIN ST") - one entry for the arena (type=Community Centre) and one for the outdoor rink (type=Community Centre)
