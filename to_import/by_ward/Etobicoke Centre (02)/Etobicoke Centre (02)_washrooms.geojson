@@ -141,7 +141,6 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "description": "Located on the west side of Centennial Park Stadium at the south end.",
-        "note": "Please survey to determine: opening hours",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "34992"
       },
       "geometry": {
@@ -163,7 +162,6 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "description": "Located on the west side of Centennial Park Stadium at the north end.",
-        "note": "Please survey to determine: opening hours",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "34993"
       },
       "geometry": {
@@ -185,7 +183,6 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "description": "Located east of the parking lot off Elmcrest road, northeast of Picnic Site #1 and the playground.",
-        "note": "Please survey to determine: opening hours",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "101974"
       },
       "geometry": {
@@ -207,7 +204,6 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "description": "Located on the west side of Centennial Park Stadium at the south end.",
-        "note": "Please survey to determine: opening hours",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13016"
       },
       "geometry": {

@@ -12,6 +12,8 @@ from resources.openstreetmap import (
 )
 from resources.torontoopendata import request_tod_gdf, TODResponse
 
+PROPOSAL_WIKI_LINK = "TODO"
+
 
 def generate_imports():
     # generate output directories if needed
@@ -62,6 +64,16 @@ def generate_imports():
             f"to_import/by_ward/{ward_full}/{ward_full}_toilets_query.txt", "w"
         ) as f:
             f.write(get_washrooms_query(ward_gdf["ward_bbox"].iloc[0]))
+        with open(
+            f"to_import/by_ward/{ward_full}/{ward_full}_changeset_tags.txt", "w"
+        ) as f:
+            f.write(
+                get_changeset_tags(
+                    subset_name=ward_full,
+                    source_date=pfr_washrooms["metadata"]["last_modified"][0:10],
+                    wiki_link=PROPOSAL_WIKI_LINK,
+                )
+            )
 
     # generate summary statistics
     changesets = pd.DataFrame(
@@ -470,6 +482,23 @@ area["official_name"="City of Toronto"]->.toArea;
 );
 (._;>;); 
 out meta;"""
+
+
+def get_changeset_tags(
+    subset_name: str,
+    source_date: str,
+    wiki_link: str,
+) -> str:
+    tags = {
+        "comment": f"Toronto Public Washroom Import, subset {subset_name}",
+        "import": "yes",
+        "source": "City of Toronto",
+        "source:url": "https://open.toronto.ca/dataset/washroom-facilities/",
+        "source:date": source_date,
+        "import:page": wiki_link,
+        "source:license": "Open Government License - Toronto",
+    }
+    return "\n".join([k + "\t" + v for k, v in tags.items()])
 
 
 if __name__ == "__main__":
