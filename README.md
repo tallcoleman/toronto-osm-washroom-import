@@ -71,25 +71,22 @@ Columns:
 
 Filtering decisions:
 - **type:** exclude portable toilets, per ["Don't map... temporary features"](https://wiki.openstreetmap.org/wiki/Good_practice#Don't_map_temporary_events_and_temporary_features)
-- **Status:** only include status 1 (open). Status 2 could be considered for import, but would require manual review to determine whether the washroom is functioning with minor issues (e.g. sink out of order) or if it should be considered effectively closed.
+- **Status:** only include status 1 (open). Status 2 (service alert) could be considered for import, but would require manual review to determine whether the washroom is functioning with minor issues (e.g. sink out of order) or if it should be considered effectively closed.
 
 Will have to decide when reviewing:
-- "building": "toilets" if drawn
-- "indoor" especially for toilets within community centres
+- whether to apply tags to a "building"="toilets" if it exists or as a node within a larger building
 
 Can only determine via survey:
 - seasonal hours
 - gender_segregated
-- doors
-- whether building has other uses?
+- entrance nodes (and the accompanying male=yes/no, female=yes/no, etc.)
+- "indoor" (whether the entrance doors are on the exterior or exterior)
 
-Not including:
+Not including from source data:
 - name
 - address information
 
-**TODO - is conflation menu confusing for source vs target? Would be rationale for pre-coflating (plus reduces manual work)**
-
-**Add nearby buildings without washroom tag to OSM query...**
+**TODO - conflation menu is not as clear as it should be for source vs target tag sources. Would be rationale for pre-coflating (plus reduces manual work)**
 
 
 ## Data Profiling - [Street Furniture - Public Washroom](https://open.toronto.ca/dataset/street-furniture-public-washroom/)

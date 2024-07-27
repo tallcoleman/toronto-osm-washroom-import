@@ -1,4 +1,4 @@
-<!-- preview locally using `pandoc -s -o import_plan_preview.html draft_import_plan.wiki`-->
+<!-- preview locally using `pandoc -s -o documentation/import_plan_preview.html documentation/draft_import_plan.wiki --metadata title="Preview"`-->
 
 '''Toronto Public Washroom Import''' is an [[import]] of the Park Washroom Facilities dataset from the [https://open.toronto.ca/dataset/washroom-facilities/ City of Toronto Open Data Portal] which is of type GeoJSON covering Toronto in [[Canada]]).  The import is currently as of July 25, 2024 at the planning stage.
 
@@ -157,6 +157,8 @@ Information to include:
 * Step by step instructions
 * Changeset size policy
 * Revert plans
+
+[[File:assets/Screenshot_configure_conflation_settings.png|500px|alt=Screenshot of JOSM conflation plugin configuration menu|]]
 
 ===Conflation===
 
