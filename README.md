@@ -80,6 +80,8 @@ Will have to decide when reviewing:
 Can only determine via survey:
 - seasonal hours
 - gender_segregated
+- doors
+- whether building has other uses?
 
 Not including:
 - name

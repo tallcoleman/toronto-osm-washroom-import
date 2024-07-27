@@ -1,0 +1,172 @@
+<!-- preview locally using `pandoc -s -o import_plan_preview.html draft_import_plan.wiki`-->
+
+'''Toronto Public Washroom Import''' is an [[import]] of the Park Washroom Facilities dataset from the [https://open.toronto.ca/dataset/washroom-facilities/ City of Toronto Open Data Portal] which is of type GeoJSON covering Toronto in [[Canada]]).  The import is currently as of July 25, 2024 at the planning stage.
+
+==Goals==
+
+The goal of this project is to import the locations and details of public washrooms in Toronto, Ontario, Canada using open data provided by the City of Toronto. 
+
+The City has two open datasets with the locations of public washrooms:
+
+[https://open.toronto.ca/dataset/washroom-facilities/ Park Washroom Facilities] includes the location and key details of 418 City-run public washrooms in parks and community centres. This dataset will be imported in this project.
+
+Expect 300 points to be imported after filtering for quality and status...
+
+'''TODO - add number of points to be imported after filtering for quality and status and number expected to be net new vs conflated; also add changeset size'''
+
+[https://open.toronto.ca/dataset/street-furniture-public-washroom/ Street Furniture - Public Washroom] includes the locations of four public washrooms installed and maintained by Astral Media as part of their street furniture contract with the City. This dataset only includes four features, three of which are already in OpenStreetMap. This dataset will be manually reviewed to add the one missing washroom location.
+
+The source code and import files for this project can be found at our GitHub repository here: https://github.com/tallcoleman/toronto-osm-washroom-import
+
+
+
+== Schedule==
+
+List the general timeframe of your project.
+
+==Import Data==
+
+===Background===
+
+Source dataset: https://open.toronto.ca/dataset/washroom-facilities/
+
+'''Data source site:''' https://open.toronto.ca/dataset/washroom-facilities/ <br>
+'''Data license:''' [https://open.toronto.ca/open-data-license/ Open Government License - Toronto]<br>
+'''Type of license (if applicable):''' N/A - custom Open Government License<br>
+'''Link to permission (if required):''' See [[Toronto#City_of_Toronto_Open_Data]]<br> 
+'''OSM attribution (if required):''' http://wiki.openstreetmap.org/wiki/Contributors#Toronto <br>
+'''ODbL Compliance verified:''' yes <br>
+
+===OSM Data Files===
+The import files for this project can be found at our GitHub repository here: https://github.com/tallcoleman/toronto-osm-washroom-import
+
+
+===Import Type===
+
+So far, this is only planned as a one-time import, however we will save a copy of the source dataset in the GitHub repository as of the import date(s) so that it can be used to determine future changes and updates made by the City.
+
+The data will be imported into OSM using JOSM.
+
+
+Identify if this is a one-time or recurring import and whether you'll be doing it with automated scripts, etc.
+
+Identify what method will be used for entering the imported data into the OSM database - e.g. API, JOSM, MapRoulette, etc.
+
+==Data Preparation==
+
+===Data Reduction & Simplification===
+
+The source data will be converted into OpenStreetMap tags and any extraneous data in the City Dataset will not be imported. Data will be conflated with existing OpenStreetMap data to maintain edit history, as well as surveyed tags and geometry. 
+
+The source dataset represents all washroom locations as points; during the import process, washroom building geometry may be added as needed using aerial imagery as a guide.
+
+
+===Tagging Plans===
+
+Describe your plan for mapping source attributes to OSM tags.
+
+===Changeset Tags===
+
+Fill in the values your changesets will use.
+{| class="wikitable"
+!Key              || !Value
+|-
+|comment          || Toronto Public Washroom Import, subset NAME OF SUBSET
+|-
+|created_by       || JOSM/VERSION (created automatically by JOSM)
+|-
+|import           || yes
+|-
+|source           || City of Toronto
+|-
+|source:url       || https://open.toronto.ca/dataset/washroom-facilities/
+|-
+|source:date      || YYYY-MM-DD (generated automatically by script)
+|-
+|import:page      || '''TODO link to this wiki page'''
+|-
+|source:license   || Open Government License - Toronto
+|}
+
+===Data Transformation===
+
+Describe the transformations you'll need to conduct, the tools you're using, and any specific configurations or code that will be used in the transformation.
+
+===Data Transformation Results===
+
+Post a link to your OSM XML files.
+
+==Data Merge Workflow==
+
+Precursor: check for '''building=toilets''' that don't have '''amenity=toilets'''
+
+<pre>building=toilets & -amenity=toilets</pre>
+
+# Run '''generate_imports.py''' to update the import data
+
+In JOSM:
+
+# Import the '''WARD_washrooms.geojson''' file
+# Download existing toilets data from OSM
+## Download data using '''WARD_toilets_query''' in "Download from Overpass API" - make sure to "Download as a new layer"
+## rename layer to "existing_toilets"
+
+Conflation Tool:
+# Configure
+# Select '''WARD_washrooms.geojson''' in layers and select all datapoints (ctrl/command + A)
+# Reference -> Freeze
+# Select '''existing_toilets''' layer and search for datapoints with '''amenity=toilets''' (ctrl/command + F)
+# Subject -> Freeze
+# Make sure "Replace Geometry" is unchecked
+# Advanced tab
+# Centroid distance, under 50m
+
+Tip: navigate using zoom to option with right click. Keep "existing_toilets" activated
+
+# Reference only
+## Download data for the view area to check if there's an existing building
+## check '''amenity=toilets inview'''
+## Conflate in and edit
+## if point, move according to how existing features are offset, or to a logical space within the building (check the description, and when in doubt, place in the center of the building)
+## make sure to conflate them in
+### drawing - ensure offset is consistent with surrounding objects
+### draw building
+### copy tags over
+### add building=toilets (if appropriate) - description field may help here
+
+
+
+
+
+
+
+
+===Team Approach===
+
+Describe if you'll be doing this solo or as a team.
+
+===References===
+
+List all factors that will be evaluated in the import.
+
+===Workflow===
+
+Detail the steps you'll take during the actual import.
+
+Information to include:
+* Step by step instructions
+* Changeset size policy
+* Revert plans
+
+===Conflation===
+
+Identify your approach to conflation here.
+
+==QA==
+
+Add your QA plan here.
+
+==See also==
+
+The post to the community forum was sent on YYYY-MM-DD and can be found [https://community.openstreetmap.org/ here] <!-- Provide a link to your post here. -->
+[[Category:Import]]
