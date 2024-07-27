@@ -13,7 +13,7 @@
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
         "description": "Located in the fieldhouse.",
-        "note": "Please survey to determine: gender_segregated=yes/no; is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00",
+        "note": "Please survey to determine: is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29567"
       },
       "geometry": {
@@ -39,7 +39,7 @@
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
         "description": "Located in the grassy area west of the sports field.",
-        "note": "Please survey to determine: gender_segregated=yes/no; is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00",
+        "note": "Please survey to determine: is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29379"
       },
       "geometry": {
@@ -61,7 +61,6 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "description": "Located between the outdoor pool and ice rink.",
-        "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13499"
       },
       "geometry": {
@@ -84,7 +83,7 @@
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
         "description": "Located in the Dovercourt Boys and Girls Club.",
-        "note": "Please survey to determine: gender_segregated=yes/no; is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00",
+        "note": "Please survey to determine: is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29374"
       },
       "geometry": {
@@ -105,8 +104,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
-        "description": "Located in the Community Centre. ",
-        "note": "Please survey to determine: gender_segregated=yes/no",
+        "description": "Located in the Community Centre.",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2013"
       },
       "geometry": {
@@ -128,7 +126,6 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "description": "Located in the Community Centre.",
-        "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1867"
       },
       "geometry": {
@@ -150,7 +147,6 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "description": "Located in the Community Centre.",
-        "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1820"
       },
       "geometry": {

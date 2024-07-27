@@ -16,7 +16,7 @@
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
         "description": "Located on the pathway between the north parking lot and archery range.",
-        "note": "Please survey to determine: gender_segregated=yes/no; is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00",
+        "note": "Please survey to determine: is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29384"
       },
       "geometry": {
@@ -38,7 +38,6 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "description": "Located in the Community Centre.",
-        "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1075"
       },
       "geometry": {
@@ -60,7 +59,6 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "description": "Located in the Community Centre.",
-        "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1745"
       },
       "geometry": {
@@ -82,7 +80,6 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "description": "Located in the Community Centre.",
-        "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "273"
       },
       "geometry": {
@@ -104,7 +101,6 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "description": "Located in the Community Centre.",
-        "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2053"
       },
       "geometry": {

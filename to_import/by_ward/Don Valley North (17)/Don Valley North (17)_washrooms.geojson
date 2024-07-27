@@ -16,7 +16,6 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
         "operator": "City of Toronto",
         "description": "Located on the north side of the tennis courts next to the parking lot.",
-        "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29280"
       },
       "geometry": {
@@ -39,7 +38,7 @@
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
         "description": "Located next to the changeroom in the skating pavilion.",
-        "note": "Please survey to determine: gender_segregated=yes/no; is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00",
+        "note": "Please survey to determine: is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "103143"
       },
       "geometry": {
@@ -61,7 +60,6 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "description": "Located in the Community Centre.",
-        "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13064"
       },
       "geometry": {
@@ -83,7 +81,6 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "description": "Located in the Community Centre.",
-        "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2097"
       },
       "geometry": {
@@ -105,7 +102,6 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "description": "Located in the Community Centre.",
-        "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "45042"
       },
       "geometry": {
@@ -127,7 +123,6 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "description": "Located in the Community Centre.",
-        "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2095"
       },
       "geometry": {
@@ -149,7 +144,6 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "description": "Located in the Community Centre.",
-        "note": "Please survey to determine: gender_segregated=yes/no",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "2060"
       },
       "geometry": {

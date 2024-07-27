@@ -59,10 +59,6 @@ def generate_imports():
                 )
             )
         with open(
-            f"to_import/by_ward/{ward_full}/{ward_full}_buildings_query.txt", "w"
-        ) as f:
-            f.write(get_building_query(ward_gdf["ward_bbox"].iloc[0]))
-        with open(
             f"to_import/by_ward/{ward_full}/{ward_full}_toilets_query.txt", "w"
         ) as f:
             f.write(get_washrooms_query(ward_gdf["ward_bbox"].iloc[0]))
@@ -356,8 +352,6 @@ def get_pfr_washrooms_osm(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
 
     def get_note(row):
         prompts = []
-        if str(get_unisex(row["AssetName"])) == "yes":
-            prompts.append("gender_segregated=yes/no")
         if row["hours"] == "9 a.m. to 10 p.m." and row["parent_type"] == "Park":
             prompts.append(
                 "is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00"
@@ -413,7 +407,7 @@ def get_pfr_washrooms_osm(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
                     .astype(str)
                     .apply(get_opening_hours, axis=1)
                 ),
-                "description": gdf_filtered["location_details"],
+                "description": gdf_filtered["location_details"].str.strip(),
                 "note": (
                     gdf_filtered[["AssetName", "hours", "parent_type"]]
                     .astype(str)
@@ -465,22 +459,6 @@ def get_wards_gdf() -> gpd.GeoDataFrame:
         )
     )
     return wards_formatted
-
-
-def get_building_query(bbox: str) -> str:
-    return f"""[out:xml][timeout:30][bbox:{bbox}];
-area["official_name"="City of Toronto"]->.toArea;
-(
-    nwr["amenity"="toilets"](area.toArea);
-    nwr["building"="toilets"](area.toArea);
-)->.toWashrooms;
-(
-    way(around.toWashrooms:50)["building"];
-    -
-    way.toWashrooms;
-)->.nearbyBuildings;
-(.nearbyBuildings;>;);
-out meta;"""
 
 
 def get_washrooms_query(bbox: str) -> str:
