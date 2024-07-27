@@ -67,6 +67,25 @@ def generate_imports():
         ) as f:
             f.write(get_washrooms_query(ward_gdf["ward_bbox"].iloc[0]))
 
+    # generate summary statistics
+    changesets = pd.DataFrame(
+        {
+            "ward_full": [k for k in pfr_by_ward.keys()],
+            "size": [len(v) for v in pfr_by_ward.values()],
+        }
+    )
+    summary = []
+    summary.append("\n===== SUMMARY =====\n")
+    summary.append(
+        f"{len(pfr_washrooms["gdf"])} data points in original Park Washroom Facilities dataset"
+    )
+    summary.append(f"{len(pfr_washrooms_osm)} data points in normalized import dataset")
+    summary.append(
+        f"{len(changesets)} changesets generated, largest has {changesets["size"].max()} points, and smallest has {changesets["size"].min()} points"
+    )
+    summary.append(changesets.to_string(index=False))
+    print("\n".join(summary))
+
 
 def get_current_washrooms():
     washroom_query = """

@@ -5452,6 +5452,25 @@
       "type": "Feature",
       "properties": {
         "amenity": "toilets",
+        "_type": "node",
+        "_id": 12077053158,
+        "_version": 1,
+        "_timestamp": "2024-07-27T15:19:33+00:00",
+        "_url_nwr": "https://www.openstreetmap.org/node/12077053158",
+        "portable": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3889776,
+          43.7729416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
         "_type": "way",
         "_id": 4300640,
         "_version": 7,
