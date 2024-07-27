@@ -10,7 +10,7 @@ This project uses poetry to manage python packages and the virtual environment. 
 Run scripts:
 
 ```bash
-$ poetry run python generate-imports.py
+$ poetry run python src/generate_imports.py
 ```
 
 Format code:

@@ -18,12 +18,16 @@ def generate_imports():
     os.makedirs("source_data", exist_ok=True)
     os.makedirs("to_import", exist_ok=True)
 
+    # get amenity=toilets currently in openstreetmap
     current_washrooms = get_current_washrooms()
     current_washrooms_gdf = get_current_washrooms_gdf(current_washrooms)
+
+    # get city open data
     pfr_washrooms = get_pfr_washrooms()
     pfr_facilities = get_pfr_facilities()
     pfr_facility_types = get_pfr_facility_types(pfr_facilities["gdf"])
 
+    # merge facility info into city washrooms dataset
     pfr_washrooms_type = pd.merge(
         pfr_washrooms["gdf"],
         pfr_facility_types.rename(
@@ -33,7 +37,35 @@ def generate_imports():
         on="parent_id",
     )
 
+    # normalize city washroom data into osm tags and organize by ward
     pfr_washrooms_osm = get_pfr_washrooms_osm(pfr_washrooms_type)
+    wards = get_wards_gdf()
+    pfr_washrooms_wards = pfr_washrooms_osm.sjoin(wards, how="left").drop(
+        ["index_right", "ward_code", "ward_name"], axis=1
+    )
+    pfr_by_ward = {k: v for k, v in pfr_washrooms_wards.groupby("ward_full")}
+
+    # save files to use in JOSM import
+    for ward_full, ward_gdf in pfr_by_ward.items():
+        os.makedirs(f"to_import/by_ward/{ward_full}/", exist_ok=True)
+        with open(
+            f"to_import/by_ward/{ward_full}/{ward_full}_washrooms.geojson", "w"
+        ) as f:
+            f.write(
+                ward_gdf.drop(["ward_full", "ward_bbox"], axis=1).to_json(
+                    na="drop",
+                    drop_id=True,
+                    indent=2,
+                )
+            )
+        with open(
+            f"to_import/by_ward/{ward_full}/{ward_full}_buildings_query.txt", "w"
+        ) as f:
+            f.write(get_building_query(ward_gdf["ward_bbox"].iloc[0]))
+        with open(
+            f"to_import/by_ward/{ward_full}/{ward_full}_toilets_query.txt", "w"
+        ) as f:
+            f.write(get_washrooms_query(ward_gdf["ward_bbox"].iloc[0]))
 
 
 def get_current_washrooms():
@@ -385,6 +417,62 @@ def get_pfr_washrooms_osm(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
             )
         )
     return gdf_normalized
+
+
+def get_wards_gdf() -> gpd.GeoDataFrame:
+    wards = request_tod_gdf(
+        dataset_name="city-wards",
+        resource_id="737b29e0-8329-4260-b6af-21555ab24f28",
+    )
+    wards_formatted = (
+        wards["gdf"][["AREA_SHORT_CODE", "AREA_NAME", "geometry"]]
+        .assign(
+            ward_full=[
+                f"{x.AREA_NAME} ({x.AREA_SHORT_CODE})"
+                for x in wards["gdf"].itertuples()
+            ]
+        )
+        .assign(
+            ward_bbox=[
+                f"{x.miny},{x.minx},{x.maxy},{x.maxx}"
+                for x in wards["gdf"].bounds.itertuples()
+            ]
+        )
+        .rename(
+            columns={
+                "AREA_SHORT_CODE": "ward_code",
+                "AREA_NAME": "ward_name",
+            }
+        )
+    )
+    return wards_formatted
+
+
+def get_building_query(bbox: str) -> str:
+    return f"""[out:xml][timeout:30][bbox:{bbox}];
+area["official_name"="City of Toronto"]->.toArea;
+(
+    nwr["amenity"="toilets"](area.toArea);
+    nwr["building"="toilets"](area.toArea);
+)->.toWashrooms;
+(
+    way(around.toWashrooms:50)["building"];
+    -
+    way.toWashrooms;
+)->.nearbyBuildings;
+(.nearbyBuildings;>;);
+out meta;"""
+
+
+def get_washrooms_query(bbox: str) -> str:
+    return f"""[out:xml][timeout:30][bbox:{bbox}];
+area["official_name"="City of Toronto"]->.toArea;
+(
+  nwr["amenity"="toilets"](area.toArea);
+  nwr["building"="toilets"](area.toArea);
+);
+(._;>;); 
+out meta;"""
 
 
 if __name__ == "__main__":

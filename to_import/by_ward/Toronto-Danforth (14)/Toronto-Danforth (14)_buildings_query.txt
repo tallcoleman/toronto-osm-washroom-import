@@ -1,0 +1,13 @@
+[out:xml][timeout:30][bbox:43.6127319637984,-79.3663684190196,43.7033709024658,-79.3131352772325];
+area["official_name"="City of Toronto"]->.toArea;
+(
+    nwr["amenity"="toilets"](area.toArea);
+    nwr["building"="toilets"](area.toArea);
+)->.toWashrooms;
+(
+    way(around.toWashrooms:50)["building"];
+    -
+    way.toWashrooms;
+)->.nearbyBuildings;
+(.nearbyBuildings;>;);
+out meta;
