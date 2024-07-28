@@ -6429,10 +6429,11 @@
     {
       "type": "Feature",
       "properties": {
+        "amenity": "toilets",
         "_type": "way",
         "_id": 129716805,
-        "_version": 3,
-        "_timestamp": "2023-07-22T16:13:49+00:00",
+        "_version": 4,
+        "_timestamp": "2024-07-28T00:56:59+00:00",
         "_url_nwr": "https://www.openstreetmap.org/way/129716805",
         "addr:city": "Toronto",
         "building": "toilets"
@@ -8117,10 +8118,11 @@
     {
       "type": "Feature",
       "properties": {
+        "amenity": "toilets",
         "_type": "way",
         "_id": 638090174,
-        "_version": 2,
-        "_timestamp": "2021-08-11T00:27:05+00:00",
+        "_version": 3,
+        "_timestamp": "2024-07-28T00:56:59+00:00",
         "_url_nwr": "https://www.openstreetmap.org/way/638090174",
         "building": "toilets"
       },
@@ -8321,8 +8323,8 @@
       "properties": {
         "_type": "way",
         "_id": 659549539,
-        "_version": 2,
-        "_timestamp": "2021-05-14T20:36:26+00:00",
+        "_version": 3,
+        "_timestamp": "2024-07-28T00:56:59+00:00",
         "_url_nwr": "https://www.openstreetmap.org/way/659549539",
         "addr:city": "Toronto",
         "building": "toilets"
@@ -8655,10 +8657,11 @@
     {
       "type": "Feature",
       "properties": {
+        "amenity": "toilets",
         "_type": "way",
         "_id": 682025605,
-        "_version": 3,
-        "_timestamp": "2021-06-30T23:45:35+00:00",
+        "_version": 4,
+        "_timestamp": "2024-07-28T00:56:59+00:00",
         "_url_nwr": "https://www.openstreetmap.org/way/682025605",
         "note": "Toilets, but in April 2019 locked off on the King Street side. Not sure if they're open in the summer, or facing the playground",
         "building": "toilets"

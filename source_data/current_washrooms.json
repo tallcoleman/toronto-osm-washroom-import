@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-07-28T00:34:56Z",
-    "timestamp_areas_base": "2024-07-27T21:02:02Z",
+    "timestamp_osm_base": "2024-07-28T13:35:30Z",
+    "timestamp_areas_base": "2024-07-28T11:52:21Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -5557,11 +5557,11 @@
     {
       "type": "way",
       "id": 129716805,
-      "timestamp": "2023-07-22T16:13:49Z",
-      "version": 3,
-      "changeset": 138861432,
-      "user": "Uninvitedguest",
-      "uid": 19951893,
+      "timestamp": "2024-07-28T00:56:59Z",
+      "version": 4,
+      "changeset": 154503418,
+      "user": "tallcoleman",
+      "uid": 20580903,
       "bounds": {
         "minlat": 43.702098,
         "minlon": -79.258753,
@@ -5619,6 +5619,7 @@
       ],
       "tags": {
         "addr:city": "Toronto",
+        "amenity": "toilets",
         "building": "toilets"
       }
     },
@@ -7626,11 +7627,11 @@
     {
       "type": "way",
       "id": 638090174,
-      "timestamp": "2021-08-11T00:27:05Z",
-      "version": 2,
-      "changeset": 109487741,
-      "user": "Eschatologist",
-      "uid": 4344669,
+      "timestamp": "2024-07-28T00:56:59Z",
+      "version": 3,
+      "changeset": 154503418,
+      "user": "tallcoleman",
+      "uid": 20580903,
       "bounds": {
         "minlat": 43.7770777,
         "minlon": -79.2017125,
@@ -7672,6 +7673,7 @@
         }
       ],
       "tags": {
+        "amenity": "toilets",
         "building": "toilets"
       }
     },
@@ -7875,11 +7877,11 @@
     {
       "type": "way",
       "id": 659549539,
-      "timestamp": "2021-05-14T20:36:26Z",
-      "version": 2,
-      "changeset": 104707246,
-      "user": "Hi\u00e0n",
-      "uid": 7174968,
+      "timestamp": "2024-07-28T00:56:59Z",
+      "version": 3,
+      "changeset": 154503418,
+      "user": "tallcoleman",
+      "uid": 20580903,
       "bounds": {
         "minlat": 43.8299,
         "minlon": -79.272144,
@@ -8289,11 +8291,11 @@
     {
       "type": "way",
       "id": 682025605,
-      "timestamp": "2021-06-30T23:45:35Z",
-      "version": 3,
-      "changeset": 107232057,
-      "user": "_Michael",
-      "uid": 13598108,
+      "timestamp": "2024-07-28T00:56:59Z",
+      "version": 4,
+      "changeset": 154503418,
+      "user": "tallcoleman",
+      "uid": 20580903,
       "bounds": {
         "minlat": 43.6427317,
         "minlon": -79.4093937,
@@ -8365,6 +8367,7 @@
         }
       ],
       "tags": {
+        "amenity": "toilets",
         "building": "toilets",
         "note": "Toilets, but in April 2019 locked off on the King Street side. Not sure if they're open in the summer, or facing the playground"
       }
