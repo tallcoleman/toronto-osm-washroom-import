@@ -166,7 +166,7 @@ Identify your approach to conflation here.
 
 ==QA==
 
-Add your QA plan here.
+The script fixes some known typos and character encoding errors in the City dataset.
 
 ==See also==
 

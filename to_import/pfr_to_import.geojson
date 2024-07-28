@@ -669,7 +669,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
-        "description": "Located on the west side of the pool, north fo the parking lot.",
+        "description": "Located on the west side of the pool, north of the parking lot.",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "6324"
       },
       "geometry": {
@@ -1313,6 +1313,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "description": "Located on the west side of Centennial Park Stadium at the south end.",
+        "note": "Please survey to determine: opening hours",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "34992"
       },
       "geometry": {
@@ -2009,7 +2010,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
-        "description": "Located on the grassy area behind the baseball diamond besdie Corvette Avenue.",
+        "description": "Located on the grassy area behind the baseball diamond beside Corvette Avenue.",
         "note": "Please survey to determine: is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29347"
       },
@@ -2032,7 +2033,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
-        "description": "Located at the back of the outdoor caf\u00c3\u00a9 building.",
+        "description": "Located at the back of the outdoor caf\u00e9 building.",
         "note": "Please survey to determine: is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13476"
       },
@@ -3081,7 +3082,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
-        "description": "Located bewteen the parking lot and the playground",
+        "description": "Located between the parking lot and the playground",
         "note": "Please survey to determine: is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29740"
       },
@@ -3247,7 +3248,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
-        "description": "Located on a pathway near the spash pad and playground.",
+        "description": "Located on a pathway near the splash pad and playground.",
         "note": "Please survey to determine: is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29570"
       },
@@ -3448,6 +3449,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "description": "Located on the west side of Centennial Park Stadium at the north end.",
+        "note": "Please survey to determine: opening hours",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "34993"
       },
       "geometry": {
@@ -3469,6 +3471,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "description": "Located east of the parking lot off Elmcrest road, northeast of Picnic Site #1 and the playground.",
+        "note": "Please survey to determine: opening hours",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "101974"
       },
       "geometry": {
@@ -3645,6 +3648,7 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "description": "Located on the west side of Centennial Park Stadium at the south end.",
+        "note": "Please survey to determine: opening hours",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "13016"
       },
       "geometry": {

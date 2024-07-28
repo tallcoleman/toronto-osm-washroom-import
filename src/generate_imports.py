@@ -11,6 +11,7 @@ from resources.openstreetmap import (
     feature_from_element,
 )
 from resources.torontoopendata import request_tod_gdf, TODResponse
+from resources.toronto_encoding_issues import encoding_fixes, spelling_fixes
 
 PROPOSAL_WIKI_LINK = "TODO"
 
@@ -29,9 +30,15 @@ def generate_imports():
     pfr_facilities = get_pfr_facilities()
     pfr_facility_types = get_pfr_facility_types(pfr_facilities["gdf"])
 
+    pfr_washrooms_corrected = (
+        pfr_washrooms["gdf"]
+        .replace(encoding_fixes, regex=True)
+        .replace(spelling_fixes, regex=True)
+    )
+
     # merge facility info into city washrooms dataset
     pfr_washrooms_type = pd.merge(
-        pfr_washrooms["gdf"],
+        pfr_washrooms_corrected,
         pfr_facility_types.rename(
             columns={"LOCATIONID": "parent_id", "TYPE": "parent_type"}
         ),

@@ -56,7 +56,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
-        "description": "Located on the west side of the pool, north fo the parking lot.",
+        "description": "Located on the west side of the pool, north of the parking lot.",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "6324"
       },
       "geometry": {
