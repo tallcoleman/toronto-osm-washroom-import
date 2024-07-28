@@ -2,19 +2,19 @@
 
 '''Toronto Public Washroom Import''' is an [[import]] of the Park Washroom Facilities dataset from the [https://open.toronto.ca/dataset/washroom-facilities/ City of Toronto Open Data Portal] which is of type GeoJSON covering Toronto in [[Canada]]).  The import is currently as of July 25, 2024 at the planning stage.
 
-==Goals==
+==Goals and Background==
 
 The goal of this project is to import the locations and details of public washrooms in Toronto, Ontario, Canada using open data provided by the City of Toronto. 
 
 The City has two open datasets with the locations of public washrooms:
 
-[https://open.toronto.ca/dataset/washroom-facilities/ Park Washroom Facilities] includes the location and key details of 418 City-run public washrooms in parks and community centres. This dataset will be imported in this project.
+[https://open.toronto.ca/dataset/washroom-facilities/ Park Washroom Facilities] includes the location and key details of 418 City-run public washrooms in parks and community centres. This dataset will be imported in this project. 
 
-Expect 300 points to be imported after filtering for quality and status...
+As of 2024-07-27, we expect to import around 300 data points after filtering for quality, type, and status. Of these, around 100 will be conflated with existing washroom locations and around 200 will be locations that were previously un-mapped. These will be broken up into 25 changesets based on City of Toronto ward.
 
-'''TODO - add number of points to be imported after filtering for quality and status and number expected to be net new vs conflated; also add changeset size'''
+In addition to the 300 data points in the main import sets, there are also an additional up to 20 washroom locations with service alerts that will be manually reviewed and added or conflated if appropriate. (Service alerts range from total closure of the washroom for one gender to a single broken stall or sink.)
 
-[https://open.toronto.ca/dataset/street-furniture-public-washroom/ Street Furniture - Public Washroom] includes the locations of four public washrooms installed and maintained by Astral Media as part of their street furniture contract with the City. This dataset only includes four features, three of which are already in OpenStreetMap. This dataset will be manually reviewed to add the one missing washroom location.
+[https://open.toronto.ca/dataset/street-furniture-public-washroom/ Street Furniture - Public Washroom] includes the locations of four automated public washrooms installed and maintained by Astral Media as part of their street furniture contract with the City. This dataset only includes four features, three of which are already in OpenStreetMap. This dataset will be manually reviewed to add the one missing washroom location. Unlike the other public washrooms run by the City, these washrooms appear to be paid (25 cent fee) and have a 20 minute time limit [https://www.toronto.ca/services-payments/streets-parking-transportation/enhancing-our-streets-and-public-realm/street-furniture/furniture-design-and-placement/ according to the City's street furniture webpage].
 
 The source code and import files for this project can be found at our GitHub repository here: https://github.com/tallcoleman/toronto-osm-washroom-import
 
@@ -22,13 +22,15 @@ The source code and import files for this project can be found at our GitHub rep
 
 == Schedule==
 
-List the general timeframe of your project.
+* DATE: proposal finalized and shared to community forum
+* + 2 weeks: proposed date to start importing changesets
+* + 4 weeks: proposed date to complete imports
+* Manual addition of locations with service alerts after main import is completed
+* November: re-check City dataset to see if it has been updated to indicate which park washrooms are closed or open in the winter
 
 ==Import Data==
 
 ===Background===
-
-Source dataset: https://open.toronto.ca/dataset/washroom-facilities/
 
 '''Data source site:''' https://open.toronto.ca/dataset/washroom-facilities/ <br>
 '''Data license:''' [https://open.toronto.ca/open-data-license/ Open Government License - Toronto]<br>
@@ -38,38 +40,170 @@ Source dataset: https://open.toronto.ca/dataset/washroom-facilities/
 '''ODbL Compliance verified:''' yes <br>
 
 ===OSM Data Files===
+
 The import files for this project can be found at our GitHub repository here: https://github.com/tallcoleman/toronto-osm-washroom-import
+
+The "by_ward" folder includes one folder for each changeset to be imported. The full set of data to be import is included in the root "to_import" folder for reference only.
 
 
 ===Import Type===
 
 So far, this is only planned as a one-time import, however we will save a copy of the source dataset in the GitHub repository as of the import date(s) so that it can be used to determine future changes and updates made by the City.
 
-The data will be imported into OSM using JOSM.
+The data will be imported into OSM using JOSM. Filtering and transformation of the source dataset is done using the python script in the code repository, and conflation and import will be done manually in JOSM using the protocol outlined below.
 
-
-Identify if this is a one-time or recurring import and whether you'll be doing it with automated scripts, etc.
-
-Identify what method will be used for entering the imported data into the OSM database - e.g. API, JOSM, MapRoulette, etc.
 
 ==Data Preparation==
 
 ===Data Reduction & Simplification===
 
-The source data will be converted into OpenStreetMap tags and any extraneous data in the City Dataset will not be imported. Data will be conflated with existing OpenStreetMap data to maintain edit history, as well as surveyed tags and geometry. 
+The source data will be converted into OpenStreetMap tags and any extraneous data in the City dataset will not be imported. Data will be conflated with existing OpenStreetMap data to maintain edit history, as well as surveyed tags and geometry. 
 
-The source dataset represents all washroom locations as points; during the import process, washroom building geometry may be added as needed using aerial imagery as a guide.
+The source data is filtered according to the following criteria:
+
+* "type" is "Washroom Building" (and not "Portable Toilet")
+* "status" is 1 (open) and not 0 (closed) or 2 (service alert)
 
 
 ===Tagging Plans===
 
-Describe your plan for mapping source attributes to OSM tags.
+The source data from the City has the following attributes, as described in the "Data Features" section of the [https://open.toronto.ca/dataset/washroom-facilities/ source page]. A data profile summary can be found on the [https://github.com/tallcoleman/toronto-osm-washroom-import/blob/main/README.md#data-profiling---park-washroom-facilities GitHub repository README].
+
+Note that in the descriptions below, "asset" means the washroom and "parent asset" means the park or community centre the washroom is located within.
+
+{| class="wikitable"
+!Column             !! Description
+|-
+|_id	              || Unique row identifier for Open Data database
+|-
+|id
+|Parks, Forestry and Recreation Unique Identifier of the parent asset
+|-
+|asset_id
+|Parks, Forestry and Recreation Unique Identifier of the asset
+|-
+|location           || Name of the parent asset
+|-
+|alternative_name
+|Is comprised of the name of the parent asset and a descriptor of the location
+|-
+|type	              || Ex: Washroom, Portable Toilet
+|-
+|accessible	        || Provides a list of accessible features, if available
+|-
+|hours	            || Hours of Operation, if outside of Park hours
+|-
+|location_details	  || A detailed description of where to find the asset
+|-
+|url	              || A link to the webpage of the parent asset
+|-
+|address
+|Street address of the park, where the drinking water source is located.
+|-
+|PostedDate	        || Date status was posted
+|-
+|AssetName	        || This asset's name
+|-
+|Reason	            || Reason for a particular status
+|-
+|Comments	          || Open field for comments on this asset
+|-
+|Status	
+|
+* 0 = closed
+* 1 = open
+* 2 = service alert
+|-
+|geometry	          || (lat/long coordinates for the location)
+|-
+|}
+
+The data to be imported will have the following tags:
+
+{| class="wikitable"
+!key                      !! value
+|-
+|amenity                  || "toilets"
+|-
+|access                   || "yes"
+|-
+|fee                      || "no"
+|-
+|male/female/unisex
+|Assumed unisex unless AssetName in the source data includes e.g. "Men's", "Female", etc. As of 2024-07-27, the filtered source data only included washrooms that appeared to be unisex.
+|-
+|toilets:disposal         || "flush"
+|-
+|toilets:handwashing      || "yes"
+|-
+|changing_table 
+|"yes" if Accessible in the source data includes "Child Change Table"
+|-
+|changing_table:adult
+|"yes" if Accessible in the source data includes "Adult Change Table"
+|-
+|wheelchair
+|
+* "yes" if Accessible in the source data has "Entrance at Grade" or "Entrance Access Ramp" as well as "Accessible Stall"
+* "no" if Accessible in the source data is "None"
+* left blank otherwise
+|-
+|toilets:wheelchair
+|"yes" if Accessible in the source data has "Accessible Stall"
+|-
+|wheelchair:description
+|Creates a list of the relevant features from Accessible in the source data, e.g. "Accessible features: entrance at grade, automatic door opener, accessible stall"
+|-
+|operator                 || "City of Toronto"
+|-
+|opening_hours            || see note below
+|-
+|description              || location_details from source data, e.g. "Located on the grassy area behind the baseball diamond"
+|-
+|note                     || see note below about opening_hours
+|-
+|ref:open.toronto.ca:washroom-facilities:asset_id
+|asset_id from source data
+|}
+
+====opening_hours====
+
+The city's [https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/washrooms-drinking-water-in-parks-recreational-facilities/ information page about public washrooms] notes the following:
+
+<blockquote>
+A number of the City’s washroom buildings have been winterized and are open year round.
+
+...
+
+Hours of Operation
+
+* From May to October, washrooms in parks are open from 9 a.m. to 10 p.m.
+* From November to April, washrooms in parks are open from 9 a.m. to 8 p.m.
+* Staff teams open and close many washrooms in a geographic area every day, so individual washrooms may open earlier according to where they land on the route.
+* Check building hours for washrooms located in recreation centres.
+</blockquote>
+
+Unfortunately, the City dataset does not indicate which washrooms in parks are winterized. As a result, we have assumed that all washrooms in parks that have the regular "9 a.m. to 10 p.m." hours are only open from May to October.
+
+In these cases, the note tag will prompt surveyors to update the opening_hours tag if the washroom is winterized (usually indicated by a sign on the outside of the washroom building). 
+
+The script cross-references the washroom data with the [https://open.toronto.ca/dataset/parks-and-recreation-facilities/ City's dataset on Parks and Recreation Facilities] to determine whether the washroom is in a park or a community centre. Washrooms with "9 a.m. to 10 p.m." hours in a community centre are assumed to have the same hours year-round. 
+
+For a small number of washrooms, the City Parks and Recreation Facilities dataset includes both a park and a community centre with the same facility ID. In these cases, the note tag will prompt surveyors to record the opening hours, since the context is unclear.
+
+For other numeric opening hours indicated in the City source data (e.g. "9 a.m. to 5 p.m.", "9 a.m. to 7:30 p.m.", "6:30 a.m. to 11:30 p.m."), hours are assumed to apply year-round.
+
+In all other cases, including where the City source data indicates, e.g. "View centre hours" or "View outdoor rink hours", the opening_hours tag is left blank. The [https://open.toronto.ca/dataset/parks-and-recreation-facilities/ City's dataset on Parks and Recreation Facilities] does not indicate opening hours; these would have to be obtained from the City's webpages.
+
+As a final note, the source dataset may be updated in November to indicate which washrooms remain open during the winter; this will be checked as the final step of the proposed import plan.
+
 
 ===Changeset Tags===
 
-Fill in the values your changesets will use.
+Changesets will be tagged with the following values. The script generates changeset tags to go along with each import set.
+
 {| class="wikitable"
-!Key              || !Value
+!Key              !! Value
 |-
 |comment          || Toronto Public Washroom Import, subset NAME OF SUBSET
 |-
@@ -88,28 +222,45 @@ Fill in the values your changesets will use.
 |source:license   || Open Government License - Toronto
 |}
 
-===Data Transformation===
-
-Describe the transformations you'll need to conduct, the tools you're using, and any specific configurations or code that will be used in the transformation.
-
-===Data Transformation Results===
-
-Post a link to your OSM XML files.
 
 ==Data Merge Workflow==
+
+===Team Approach===
+
+Describe if you'll be doing this solo or as a team.
+
+===References===
+
+List all factors that will be evaluated in the import.
+
+===Workflow and Conflation Steps===
+
+Detail the steps you'll take during the actual import.
+
+Information to include:
+* Step by step instructions
+* Changeset size policy
+* Revert plans
+
+25 changesets generated, largest has 23 points, and smallest has 5 points
+
 
 Precursor: check for '''building=toilets''' that don't have '''amenity=toilets'''
 
 <pre>building=toilets & -amenity=toilets</pre>
 
-# Run '''generate_imports.py''' to update the import data
+====Update and commit import data====
 
-In JOSM:
+# Run '''generate_imports.py''' to update the import data and commit the updated source and import data to GitHub
+
+====Load data in JOSM====
 
 # Import the '''WARD_washrooms.geojson''' file
 # Download existing toilets data from OSM
 ## Download data using '''WARD_toilets_query''' in "Download from Overpass API" - make sure to "Download as a new layer"
 ## rename layer to "existing_toilets"
+
+====Conflate import data with existing toilets====
 
 Conflation Tool:
 # Configure
@@ -121,7 +272,13 @@ Conflation Tool:
 # Advanced tab
 # Centroid distance, under 50m
 
-Tip: navigate using zoom to option with right click. Keep "existing_toilets" activated
+[[File:assets/Screenshot_configure_conflation_settings.png|500px|alt=Screenshot of JOSM conflation plugin configuration menu|]]
+
+====Review "reference only" conflation results====
+
+Tip: navigate using zoom to option with right click (or just double click?).
+
+Tip: keep existing_toilets layer selected the whole time
 
 # Reference only
 ## Download data for the view area to check if there's an existing building
@@ -134,39 +291,26 @@ Tip: navigate using zoom to option with right click. Keep "existing_toilets" act
 ### copy tags over
 ### add building=toilets (if appropriate) - description field may help here
 
+====Review match conflation results====
 
+TODO
 
+====Upload changes====
 
+TODO
 
+* Add note about pasting in changeset tags
 
-
-
-===Team Approach===
-
-Describe if you'll be doing this solo or as a team.
-
-===References===
-
-List all factors that will be evaluated in the import.
-
-===Workflow===
-
-Detail the steps you'll take during the actual import.
-
-Information to include:
-* Step by step instructions
-* Changeset size policy
-* Revert plans
-
-[[File:assets/Screenshot_configure_conflation_settings.png|500px|alt=Screenshot of JOSM conflation plugin configuration menu|]]
-
-===Conflation===
-
-Identify your approach to conflation here.
 
 ==QA==
 
-The script fixes some known typos and character encoding errors in the City dataset.
+The script includes the following features for quality assurance:
+
+* City source data is validated against a schema using [https://pandera.readthedocs.io/en/stable/ pandera] --- this way, if the assumptions used when writing the transformation functions have changed, the script will throw an informative error
+* The filtered set of City source data is also validated to confirm that there are no service alert--related notes
+* Automatic fixing of known typos and character encoding errors in the City dataset
+
+The protocol outlined above for the conflation and upload steps in JOSM will also help to keep the import thorough and consistent, and will help ensure that the geometry from the City dataset is adjusted as needed to ensure it is correctly positioned relative to surrounding features.
 
 ==See also==
 
