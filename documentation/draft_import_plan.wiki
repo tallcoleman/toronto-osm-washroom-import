@@ -67,6 +67,8 @@ The source data is filtered according to the following criteria:
 
 ===Tagging Plans===
 
+====Source Data Attributes====
+
 The source data from the City has the following attributes, as described in the "Data Features" section of the [https://open.toronto.ca/dataset/washroom-facilities/ source page]. A data profile summary can be found on the [https://github.com/tallcoleman/toronto-osm-washroom-import/blob/main/README.md#data-profiling---park-washroom-facilities GitHub repository README].
 
 Note that in the descriptions below, "asset" means the washroom and "parent asset" means the park or community centre the washroom is located within.
@@ -117,6 +119,8 @@ Note that in the descriptions below, "asset" means the washroom and "parent asse
 |geometry	          || (lat/long coordinates for the location)
 |-
 |}
+
+====Tagging Plan for Data to be Imported====
 
 The data to be imported will have the following tags:
 
@@ -195,7 +199,7 @@ For other numeric opening hours indicated in the City source data (e.g. "9 a.m. 
 
 In all other cases, including where the City source data indicates, e.g. "View centre hours" or "View outdoor rink hours", the opening_hours tag is left blank. The [https://open.toronto.ca/dataset/parks-and-recreation-facilities/ City's dataset on Parks and Recreation Facilities] does not indicate opening hours; these would have to be obtained from the City's webpages.
 
-As a final note, the source dataset may be updated in November to indicate which washrooms remain open during the winter; this will be checked as the final step of the proposed import plan.
+As a final note, it is possible that the City may update the source dataset in November to indicate which washrooms remain open during the winter; this will be checked as the final step of the proposed import plan.
 
 
 ===Changeset Tags===
@@ -253,6 +257,10 @@ Precursor: check for '''building=toilets''' that don't have '''amenity=toilets''
 
 # Run '''generate_imports.py''' to update the import data and commit the updated source and import data to GitHub
 
+====Video for JOSM Steps====
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rc_FZzuA2o4?si=K5OHKNi8lleCVvKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ====Load data in JOSM====
 
 # Import the '''WARD_washrooms.geojson''' file
@@ -294,6 +302,8 @@ Tip: keep existing_toilets layer selected the whole time
 ====Review match conflation results====
 
 TODO
+
+(review tags and make notes). Add proper hours if it's clear the survey has found it to be winterized. Tips on building vs. node and when to leave an additional note.
 
 ====Upload changes====
 
