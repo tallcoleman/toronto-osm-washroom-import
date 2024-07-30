@@ -37,7 +37,7 @@ The source code and import files for this project can be found at our GitHub rep
 '''Data source site:''' https://open.toronto.ca/dataset/washroom-facilities/ <br>
 '''Data license:''' [https://open.toronto.ca/open-data-license/ Open Government License - Toronto]<br>
 '''Type of license (if applicable):''' N/A - custom Open Government License<br>
-'''Link to permission (if required):''' See [[Toronto#City_of_Toronto_Open_Data]]<br> 
+'''Link to permission (if required):''' See [[Toronto#City_of_Toronto_Open_Data]] and [https://osmfoundation.org/wiki/OGL_Canada_and_local_variants osmfoundation.org - OGL Canada and local variants]<br> 
 '''OSM attribution (if required):''' http://wiki.openstreetmap.org/wiki/Contributors#Toronto <br>
 '''ODbL Compliance verified:''' yes <br>
 
@@ -312,6 +312,9 @@ TODO
 (review tags and make notes). Add proper hours if it's clear the survey has found it to be winterized. Tips on building vs. node and when to leave an additional note.
 
 Keep gender_segregated=yes where it's clear from doors or prior mapping
+Lean towards keeping original tag values, except:
+
+* access=yes instead of access=permissive
 
 ====Upload changes====
 
