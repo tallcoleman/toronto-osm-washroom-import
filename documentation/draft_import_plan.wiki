@@ -25,7 +25,9 @@ The source code and import files for this project can be found at our GitHub rep
 * DATE: proposal finalized and shared to community forum
 * + 2 weeks: proposed date to start importing changesets
 * + 4 weeks: proposed date to complete imports
-* Manual addition of locations with service alerts after main import is completed
+* After main import is completed
+** Double check for any additional changes to City source data
+** Manual addition of locations with service alerts
 * November: re-check City dataset to see if it has been updated to indicate which park washrooms are closed or open in the winter
 
 ==Import Data==
@@ -176,9 +178,9 @@ The city's [https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/
 
 <blockquote>
 A number of the City’s washroom buildings have been winterized and are open year round.
-
+ 
 ...
-
+ 
 Hours of Operation
 
 * From May to October, washrooms in parks are open from 9 a.m. to 10 p.m.
@@ -235,27 +237,24 @@ Describe if you'll be doing this solo or as a team.
 
 ===References===
 
-List all factors that will be evaluated in the import.
+* [[Tag:amenity=toilets]]
+** [[Key:opening_hours]]
+** [[Key:wheelchair#Toilets]]
+** [[Key:changing_table:adult]]
+* [[Tag:building=toilets]]
+* [[Key:building]]
 
 ===Workflow and Conflation Steps===
 
-Detail the steps you'll take during the actual import.
+There are 25 changesets to be conflated and uploaded in JOSM (one for each City Ward). The largest has has 23 nodes, and the smallest has 5 nodes.
 
-Information to include:
-* Step by step instructions
-* Changeset size policy
-* Revert plans
-
-25 changesets generated, largest has 23 points, and smallest has 5 points
-
-
-Precursor: check for '''building=toilets''' that don't have '''amenity=toilets'''
-
-<pre>building=toilets & -amenity=toilets</pre>
+As a precursor, we checked for ways with '''building=toilets''' that don't have the '''amenity=toilets''' tag (since the conflation steps later on match on the '''amenity=toilets''' tag) &mdash; [https://www.openstreetmap.org/changeset/154503418 changeset here].
 
 ====Update and commit import data====
 
-# Run '''generate_imports.py''' to update the import data and commit the updated source and import data to GitHub
+# Run '''generate_imports.py''' to update the import data and commit the updated source and import data to GitHub.
+
+Since the City source data is updated daily, the best plan is likely to run the script and commit its results once before working through the 25 changesets. Then, after the 25 changesets are done, we can run the script again and check for additional changes (e.g. washrooms that have changed status code in the meantime).
 
 ====Video for JOSM Steps====
 
@@ -277,27 +276,34 @@ Conflation Tool:
 # Select '''existing_toilets''' layer and search for datapoints with '''amenity=toilets''' (ctrl/command + F)
 # Subject -> Freeze
 # Make sure "Replace Geometry" is unchecked
-# Advanced tab
-# Centroid distance, under 50m
+# In the Advanced tab, make sure the only option selected is "Centroid distance" and set the distance at 50 metres
 
 [[File:assets/Screenshot_configure_conflation_settings.png|500px|alt=Screenshot of JOSM conflation plugin configuration menu|]]
 
 ====Review "reference only" conflation results====
 
-Tip: navigate using zoom to option with right click (or just double click?).
+Tip: Keep the existing_toilets layer selected the whole time to prevent accidental edits to the reference layer
 
-Tip: keep existing_toilets layer selected the whole time
+"reference only" results are new additions to the map
 
-# Reference only
-## Download data for the view area to check if there's an existing building
-## check '''amenity=toilets inview'''
-## Conflate in and edit
-## if point, move according to how existing features are offset, or to a logical space within the building (check the description, and when in doubt, place in the center of the building)
-## make sure to conflate them in
-### drawing - ensure offset is consistent with surrounding objects
-### draw building
-### copy tags over
-### add building=toilets (if appropriate) - description field may help here
+# Double click on a result in the list to zoom to it
+# Download data (from the overpass API) for the view area to check if there's an existing building
+# check '''amenity=toilets inview''' (to double confirm that there aren't any nearby buildings already tagged as toilets)
+# Select "conflate" to add the node to the existing_toilets layer
+# Based on the aerial imagery, the "description" tag on the imported node, and the surrounding context, decide how to map the toilet:
+## Option 1: leave as a node (e.g. if within a multi-purpose building, e.g. a community centre) &mdash; in this case, ensure the node is in a logical space within the building (check the description, and when in doubt, place in the center of the building)
+## Option 2: copy tags to an existing building (e.g. a standalone washroom building that is not already tagged '''building=toilets''') &mdash; in this case, add or edit the building tag to '''building=toilets''', copy the tags from the imported node onto the building, and delete the imported node.
+## Option 3: draw a building based on aerial imagery (e.g. if a standalone washroom building has not been created yet) &mdash; in this case, ensure the aerial imagery aligns with surrounding features, then draw the building, and then add/copy the relevant tags like in Option 2.
+
+If you are especially unsure about the location used in option 1, you can add a note, e.g. "Please survey to determine exact location within community centre". If very unsure about how to properly map a washroom location, delete/do not conflate the node, finish the rest of the changeset, and add a note to this wiki requesting a survey of the skipped location.
+
+Some general guidelines for when a washroom building is likely to be standalone (and the tags can be copied onto the building along with '''building=toilets''') and when it is likely to be multi-purpose (and the washroom should be kept as a node):
+
+* Assume buildings that are also likely to offer change facilities (e.g. adjoining outdoor swimming pools, hockey rinks, or beaches) are multi-purpose
+* Community centres are multi-purpose
+* Existing map features may indicate a building is multi-purpose (e.g. the existence of a café or information booth within the same building)
+* Stand-alone buildings are generally smaller - most commonly with an area of less than 250-300 square metres. (The [https://wiki.openstreetmap.org/wiki/JOSM/Plugins/measurement JOSM Measurement plugin] can show you the area of a selected building.)
+
 
 ====Review match conflation results====
 
@@ -305,19 +311,23 @@ TODO
 
 (review tags and make notes). Add proper hours if it's clear the survey has found it to be winterized. Tips on building vs. node and when to leave an additional note.
 
+Keep gender_segregated=yes where it's clear from doors or prior mapping
+
 ====Upload changes====
 
 TODO
 
 * Add note about pasting in changeset tags
 
+* Revert plans
+
 
 ==QA==
 
 The script includes the following features for quality assurance:
 
-* City source data is validated against a schema using [https://pandera.readthedocs.io/en/stable/ pandera] --- this way, if the assumptions used when writing the transformation functions have changed, the script will throw an informative error
-* The filtered set of City source data is also validated to confirm that there are no service alert--related notes
+* City source data is validated against a schema using [https://pandera.readthedocs.io/en/stable/ pandera] &mdash; this way, if the assumptions used when writing the transformation functions have changed, the script will throw an informative error
+* The filtered set of City source data is also validated to confirm that there are no service alert&ndash;related notes
 * Automatic fixing of known typos and character encoding errors in the City dataset
 
 The protocol outlined above for the conflation and upload steps in JOSM will also help to keep the import thorough and consistent, and will help ensure that the geometry from the City dataset is adjusted as needed to ensure it is correctly positioned relative to surrounding features.

@@ -7,6 +7,12 @@ This project uses poetry to manage python packages and the virtual environment. 
 
 ## Running
 
+First time set-up:
+
+```bash
+$ poetry install
+```
+
 Run scripts:
 
 ```bash
