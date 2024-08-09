@@ -307,22 +307,40 @@ Some general guidelines for when a washroom building is likely to be standalone 
 
 ====Review match conflation results====
 
-TODO
+Tip: Keep the existing_toilets layer selected the whole time to prevent accidental edits to the reference layer
 
-(review tags and make notes). Add proper hours if it's clear the survey has found it to be winterized. Tips on building vs. node and when to leave an additional note.
+"Match" results are the closest features from both datasets within the search radius (which in this case is 50 metres). Matches need to be reviewed to merge tags and make any needed corrections to tagging or geometry.
 
-Keep gender_segregated=yes where it's clear from doors or prior mapping
-Lean towards keeping original tag values, except:
+# Double click on a result in the list to zoom to it
+# Hover over the icons in the "Reference" and "Subject" columns to see the existing tags for each dataset. 
+## The "Tags" column will show if any tags are conflicting. Tags on "No Conflict" matches should still be reviewed (a) in case there are any tagging mistakes or (b) if there is information in the existing tags that is more specific than what is in the reference (import) file. See notes below on both cases.
+## For matches with tag conflicts, write down some notes about which values should be retained and which should be overwritten. (This is helpful since the tag conflict resolution menu can be ambiguous about which value came from which dataset).
+# Select "conflate" to merge the tags and resolve any conflicts using the notes you took earlier
+# Follow steps 2, 3, and 5 from the "reference only" procedure above to confirm that the geometry is appropriate based on the aerial imagery and surrounding context.
 
-* access=yes instead of access=permissive
+Potential tagging mistakes:
+* Tagging that does not confirm to the instructions in [[Tag:amenity=toilets]]
+* Gender-segregated washrooms should tagged as one node or way in accordance with [[One_feature,_one_OSM_element]]. If the immediately adjacent male and female sections were originally mapped separately, the overall facility should be tagged '''gender_segregated=yes'''. (Ideally, the entrances would be added with gender-specific tags as described in [[Tag:amenity=toilets]], but in most cases this would require an in-person survey to confirm the correct entrance locations on the building.)
+* Washrooms in this dataset should be access=yes instead of access=permissive
+* Otherwise, if the tagging on the existing feature is different than the tagging in the reference (import) file, assume the existing tagging is correct
+
+Examples of information in the existing data that may be more specific than the import file:
+* '''gender_segregated'''=yes/no
+* surveyed tagging for '''wheelchair''' or '''wheelchair:description'''
+* Indication of whether opening hours are seasonsal (e.g. via the '''opening_hours''' tag or '''seasonal'''=yes/no)
+
+
+
 
 ====Upload changes====
 
-TODO
+# With the existing_toilets layer selected, select the "upload" arrow.
+# The validator will show any tagging errors detected - the "key with uncommon character error relating to "ref:open.toronto.ca:washroom-facilities:asset_id" can be ignored, but any other errors should be fixed before uploading.
+# Open WARD_changeset_tags.txt, copy the contents. In the "Settings" tab, select the button with three plus signs to paste the tag values for the changeset.
+# Select "Upload Changes" to publish the changeset
 
-* Add note about pasting in changeset tags
 
-* Revert plans
+In case a changeset needs to be reverted, we will use the [[JOSM/Plugins/Reverter]] plugin.
 
 
 ==QA==
