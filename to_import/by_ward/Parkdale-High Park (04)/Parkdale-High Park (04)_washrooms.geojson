@@ -10,6 +10,27 @@
         "unisex": "yes",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the rink building west of the outdoor ice rink.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29351"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4737939,
+          43.64417038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
         "changing_table": "yes",
         "wheelchair": "yes",
         "toilets:wheelchair": "yes",

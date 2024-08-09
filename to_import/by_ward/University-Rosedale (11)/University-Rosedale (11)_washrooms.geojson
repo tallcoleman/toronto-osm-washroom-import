@@ -10,6 +10,54 @@
         "unisex": "yes",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at the south end of the park next to dog off-leash area and the baseball diamond.",
+        "note": "Please survey to determine: is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29286"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.41804098,
+          43.66036425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the Sid Smith rink building located south of the ice rink",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "28886"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.42236977,
+          43.66514161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
         "description": "Located at the west end of the outdoor ice rink.",
@@ -44,50 +92,6 @@
         "coordinates": [
           -79.37905467,
           43.68336807
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "amenity": "toilets",
-        "access": "yes",
-        "fee": "no",
-        "unisex": "yes",
-        "toilets:disposal": "flush",
-        "toilets:handwashing": "yes",
-        "operator": "City of Toronto",
-        "opening_hours": "May-Oct 09:00-22:00",
-        "description": "Located north of the wading pool.",
-        "note": "Please survey to determine: is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00",
-        "ref:open.toronto.ca:washroom-facilities:asset_id": "36482"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.42070512,
-          43.66482409
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "amenity": "toilets",
-        "access": "yes",
-        "fee": "no",
-        "unisex": "yes",
-        "toilets:disposal": "flush",
-        "toilets:handwashing": "yes",
-        "operator": "City of Toronto",
-        "description": "Located in the Sid Smith rink building located south of the ice rink",
-        "ref:open.toronto.ca:washroom-facilities:asset_id": "28886"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.42236977,
-          43.66514161
         ]
       }
     },
@@ -190,33 +194,6 @@
         "coordinates": [
           -79.3822504,
           43.69358544
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "amenity": "toilets",
-        "access": "yes",
-        "fee": "no",
-        "unisex": "yes",
-        "toilets:disposal": "flush",
-        "toilets:handwashing": "yes",
-        "changing_table": "yes",
-        "wheelchair": "yes",
-        "toilets:wheelchair": "yes",
-        "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
-        "operator": "City of Toronto",
-        "opening_hours": "May-Oct 09:00-22:00",
-        "description": "Located at the south end of the park next to dog off-leash area and the baseball diamond.",
-        "note": "Please survey to determine: is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00",
-        "ref:open.toronto.ca:washroom-facilities:asset_id": "29286"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.41804098,
-          43.66036425
         ]
       }
     },

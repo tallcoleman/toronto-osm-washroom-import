@@ -2,6 +2,6 @@ comment	Toronto Public Washroom Import, subset Spadina-Fort York (10)
 import	yes
 source	City of Toronto
 source:url	https://open.toronto.ca/dataset/washroom-facilities/
-source:date	2024-07-27
+source:date	2024-08-07
 import:page	TODO
 source:license	Open Government License - Toronto

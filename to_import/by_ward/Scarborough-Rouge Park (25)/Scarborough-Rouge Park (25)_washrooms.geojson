@@ -10,43 +10,17 @@
         "unisex": "yes",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
-        "wheelchair": "yes",
-        "toilets:wheelchair": "yes",
-        "wheelchair:description": "Accessible features: entrance at grade, automatic door opener, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
-        "description": "Located on the pathway between parking lot and the playground.",
+        "description": "Located on the pathway west of the parking lot.",
         "note": "Please survey to determine: is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00",
-        "ref:open.toronto.ca:washroom-facilities:asset_id": "29598"
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "45442"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.13477359999999,
-          43.77672534
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "amenity": "toilets",
-        "access": "yes",
-        "fee": "no",
-        "unisex": "yes",
-        "toilets:disposal": "flush",
-        "toilets:handwashing": "yes",
-        "operator": "City of Toronto",
-        "opening_hours": "May-Oct 09:00-22:00",
-        "description": "Located on the pathway west of the splash pad.",
-        "note": "Please survey to determine: is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00",
-        "ref:open.toronto.ca:washroom-facilities:asset_id": "29265"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.1468689,
-          43.79217932
+          -79.16492968,
+          43.77715782
         ]
       }
     },
@@ -85,17 +59,20 @@
         "unisex": "yes",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, automatic door opener, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
-        "description": "Located on the pathway west of the parking lot.",
+        "description": "Located on the pathway between parking lot and the playground.",
         "note": "Please survey to determine: is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00",
-        "ref:open.toronto.ca:washroom-facilities:asset_id": "45442"
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29598"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.16492968,
-          43.77715782
+          -79.13477359999999,
+          43.77672534
         ]
       }
     },
