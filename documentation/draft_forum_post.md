@@ -28,9 +28,9 @@ The goal of this project is to import the locations and details of public washro
 
 [Park Washroom Facilities](https://open.toronto.ca/dataset/washroom-facilities/) includes the location and key details of 418 City-run public washrooms in parks and community centres. This dataset will be imported in this project. 
 
-We expect to import around 300 data points after filtering for quality, type, and status. Of these, around 100 will be conflated with existing washroom locations and around 200 will be locations that were previously un-mapped. These will be broken up into 25 changesets based on City of Toronto ward.
+We expect to import just under 300 data points after filtering for quality, type, and status. Of these, around 100 will be conflated with existing washroom locations and around 200 will be locations that were previously un-mapped. These will be broken up into 25 changesets based on City of Toronto ward.
 
-In addition to the 300 data points in the main import sets, there are also an additional up to 20 washroom locations with service alerts that will be manually reviewed and added or conflated if appropriate. (Service alerts range from total closure of the washroom for one gender to a single broken stall or sink.)
+In addition to the 300 data points in the main import sets, there are also approximately 25 washroom locations with service alerts that will be manually reviewed and added or conflated if appropriate. (Service alerts range from total closure of the washroom for one gender to a single broken stall or sink.)
 
 The import will be a two-part process:
 

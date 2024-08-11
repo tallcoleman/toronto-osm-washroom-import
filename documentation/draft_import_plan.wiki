@@ -1,6 +1,6 @@
 <!-- preview locally using `pandoc -s -o documentation/import_plan_preview.html documentation/draft_import_plan.wiki --metadata title="Preview"`-->
 
-'''Toronto Public Washroom Import''' is an [[import]] of the Park Washroom Facilities dataset from the [https://open.toronto.ca/dataset/washroom-facilities/ City of Toronto Open Data Portal] which is of type GeoJSON covering Toronto in [[Canada]]).  The import is currently as of July 25, 2024 at the planning stage.
+'''Toronto Public Washroom Import''' is an [[import]] of the Park Washroom Facilities dataset from the [https://open.toronto.ca/dataset/washroom-facilities/ City of Toronto Open Data Portal] which is of type GeoJSON covering Toronto in [[Canada]]).  The import is currently as of August 10, 2024 at the planning stage.
 
 ==Goals and Background==
 
@@ -8,13 +8,13 @@ The goal of this project is to import the locations and details of public washro
 
 The City has two open datasets with the locations of public washrooms:
 
-[https://open.toronto.ca/dataset/washroom-facilities/ Park Washroom Facilities] includes the location and key details of 418 City-run public washrooms in parks and community centres. This dataset will be imported in this project. 
+The first dataset, [https://open.toronto.ca/dataset/washroom-facilities/ Park Washroom Facilities] includes the location and key details of 418 City-run public washrooms in parks and community centres. This dataset will be imported in this project. 
 
-As of 2024-07-27, we expect to import around 300 data points after filtering for quality, type, and status. Of these, around 100 will be conflated with existing washroom locations and around 200 will be locations that were previously un-mapped. These will be broken up into 25 changesets based on City of Toronto ward.
+As of 2024-08-10, we expect to import just under 300 data points after filtering for quality, type, and status. Of these, around 100 will be conflated with existing washroom locations and around 200 will be locations that were previously un-mapped. These will be broken up into 25 changesets based on City of Toronto ward.
 
-In addition to the 300 data points in the main import sets, there are also an additional up to 20 washroom locations with service alerts that will be manually reviewed and added or conflated if appropriate. (Service alerts range from total closure of the washroom for one gender to a single broken stall or sink.)
+In addition to the just under 300 data points in the main import sets, there are also approximately 25 washroom locations with service alerts that will be manually reviewed and added or conflated if appropriate. (Service alerts range from total closure of the washroom for one gender to a single broken stall or sink.)
 
-[https://open.toronto.ca/dataset/street-furniture-public-washroom/ Street Furniture - Public Washroom] includes the locations of four automated public washrooms installed and maintained by Astral Media as part of their street furniture contract with the City. This dataset only includes four features, three of which are already in OpenStreetMap. This dataset will be manually reviewed to add the one missing washroom location. Unlike the other public washrooms run by the City, these washrooms appear to be paid (25 cent fee) and have a 20 minute time limit [https://www.toronto.ca/services-payments/streets-parking-transportation/enhancing-our-streets-and-public-realm/street-furniture/furniture-design-and-placement/ according to the City's street furniture webpage].
+The second dataset, [https://open.toronto.ca/dataset/street-furniture-public-washroom/ Street Furniture - Public Washroom] includes the locations of four automated public washrooms installed and maintained by Astral Media as part of their street furniture contract with the City. This dataset only includes four features, three of which are already in OpenStreetMap. This dataset will be manually reviewed to add the one missing washroom location. Unlike the other public washrooms run by the City, these washrooms are paid (25 cent fee) and have a 20 minute time limit [https://www.toronto.ca/services-payments/streets-parking-transportation/enhancing-our-streets-and-public-realm/street-furniture/furniture-design-and-placement/ according to the City's street furniture webpage].
 
 The source code and import files for this project can be found at our GitHub repository here: https://github.com/tallcoleman/toronto-osm-washroom-import
 
@@ -45,7 +45,7 @@ The source code and import files for this project can be found at our GitHub rep
 
 The import files for this project can be found at our GitHub repository here: https://github.com/tallcoleman/toronto-osm-washroom-import
 
-The "by_ward" folder includes one folder for each changeset to be imported. The full set of data to be import is included in the root "to_import" folder for reference only.
+The "by_ward" folder includes one folder for each changeset to be imported. The full set of data to be imported is included in the root "to_import" folder for reference only.
 
 
 ===Import Type===
@@ -63,8 +63,10 @@ The source data will be converted into OpenStreetMap tags and any extraneous dat
 
 The source data is filtered according to the following criteria:
 
-* "type" is "Washroom Building" (and not "Portable Toilet")
+* "type" is "Washroom Building" (and not "Portable Toilet", per [[Good_practice#Don't_map_temporary_events_and_temporary_features Don't map... temporary features]])
 * "status" is 1 (open) and not 0 (closed) or 2 (service alert)
+
+Status 2 (service alert) washrooms will be reviewed manually as described in the Goals and Background section.
 
 
 ===Tagging Plans===
@@ -135,8 +137,8 @@ The data to be imported will have the following tags:
 |-
 |fee                      || "no"
 |-
-|male/female/unisex
-|Assumed unisex unless AssetName in the source data includes e.g. "Men's", "Female", etc. As of 2024-07-27, the filtered source data only included washrooms that appeared to be unisex.
+|male/female
+|Only included as "yes" in the rare case that AssetName in the source data includes e.g. "Men's", "Female", etc. See note below about gender values.
 |-
 |toilets:disposal         || "flush"
 |-
@@ -189,7 +191,7 @@ Hours of Operation
 * Check building hours for washrooms located in recreation centres.
 </blockquote>
 
-Unfortunately, the City dataset does not indicate which washrooms in parks are winterized. As a result, we have assumed that all washrooms in parks that have the regular "9 a.m. to 10 p.m." hours are only open from May to October.
+Unfortunately, the City dataset does not indicate which washrooms in parks are winterized. As a result, we have conservatively generated the '''opening_hours''' tag for all washrooms in parks that have the regular "9 a.m. to 10 p.m." hours to indicate that they are only open from May to October.
 
 In these cases, the note tag will prompt surveyors to update the opening_hours tag if the washroom is winterized (usually indicated by a sign on the outside of the washroom building). 
 
@@ -202,6 +204,12 @@ For other numeric opening hours indicated in the City source data (e.g. "9 a.m. 
 In all other cases, including where the City source data indicates, e.g. "View centre hours" or "View outdoor rink hours", the opening_hours tag is left blank. The [https://open.toronto.ca/dataset/parks-and-recreation-facilities/ City's dataset on Parks and Recreation Facilities] does not indicate opening hours; these would have to be obtained from the City's webpages.
 
 As a final note, it is possible that the City may update the source dataset in November to indicate which washrooms remain open during the winter; this will be checked as the final step of the proposed import plan.
+
+====Gender Tagging====
+
+Unless the AssetName column includes e.g. "Men's" or "Female", the City source data does not include sufficient information to determine the '''male''', '''female''', '''unisex''' or '''gender_segregated''' tags.
+
+While most washrooms in the dataset are likely '''male=yes''' + '''female=yes''', some newer City parks and community centres are designed with unisex washrooms (see, e.g. [https://www.toronto.ca/city-government/planning-development/construction-new-facilities/improvements-expansion-redevelopment/bluffers-park-east-washroom-building-improvements/ Bluffer's Park East Washroom Building Improvements]). There is not a clear consensus about whether '''unisex=yes''' has the same meaning as '''male=yes''' + '''female=yes''', so using '''unisex=yes''' as a catch-all seems unwise. (See: [[Talk:Tag:amenity%3Dtoilets#Gender_neutral,_gender_segregated_and_unisex=yes]])
 
 
 ===Changeset Tags===
@@ -233,7 +241,7 @@ Changesets will be tagged with the following values. The script generates change
 
 ===Team Approach===
 
-Describe if you'll be doing this solo or as a team.
+TODO Describe if you'll be doing this solo or as a team.
 
 ===References===
 
@@ -280,62 +288,61 @@ Conflation Tool:
 
 [[File:assets/Screenshot_configure_conflation_settings.png|500px|alt=Screenshot of JOSM conflation plugin configuration menu|]]
 
-====Review "reference only" conflation results====
+====Review conflation results====
 
-Tip: Keep the existing_toilets layer selected the whole time to prevent accidental edits to the reference layer
+Tip: Keep the existing_toilets layer selected the whole time to prevent accidental edits to the reference layer. The selected layer has a green check-mark next to it.
 
-"reference only" results are new additions to the map
+The conflation plugin generates two types of results that need to be reviewed following the steps below:
+
+* "Reference only" results are new additions to the map (i.e. with no existing toilets found within 50 metres).
+* "Match" results are the closest features from both datasets within the search radius (which in this case is 50 metres). Matches require an additional step of merging and reviewing tags from both datasets.
+
+=====Check surrounding context=====
 
 # Double click on a result in the list to zoom to it
-# Download data (from the overpass API) for the view area to check if there's an existing building
+# Download data (from the overpass API) for the view area to check if there's an existing building relevant to the washroom feature
 # check '''amenity=toilets inview''' (to double confirm that there aren't any nearby buildings already tagged as toilets)
+
+=====Conflation: "Reference Only" results=====
+
 # Select "conflate" to add the node to the existing_toilets layer
+
+=====Conflation: "Match" results=====
+
+# Hover over the icons in the "Reference" and "Subject" columns to see the existing tags for each dataset. 
+## The "Tags" column will show if any tags are conflicting. Tags on "No Conflict" matches should still be reviewed (a) in case there are any tagging mistakes or (b) if there is information in the existing tags that is more specific than what is in the reference (import) file. See notes below on both cases.
+## For matches with tag conflicts, write down some notes about which values should be retained and which should be overwritten. (This is helpful since the tag conflict resolution menu can be ambiguous about which value came from which dataset).
+# Select "conflate" to merge the tags and resolve any conflicts using the notes you took earlier
+
+Potential tagging mistakes:
+* Tagging that does not confirm to the instructions in [[Tag:amenity=toilets]]
+* Gender-segregated washrooms should tagged as one node or way in accordance with [[One_feature,_one_OSM_element]]. If the immediately adjacent male and female sections were originally mapped separately, the overall facility should be tagged with '''male=yes''', '''female=yes''', and '''gender_segregated=yes'''.
+* Washrooms in this dataset should be access=yes instead of access=permissive
+* Otherwise, if the tagging on the existing feature is different than the tagging in the reference (import) file, assume the existing tagging is correct
+
+=====Check Geometry=====
+
 # Based on the aerial imagery, the "description" tag on the imported node, and the surrounding context, decide how to map the toilet:
 ## Option 1: leave as a node (e.g. if within a multi-purpose building, e.g. a community centre) &mdash; in this case, ensure the node is in a logical space within the building (check the description, and when in doubt, place in the center of the building)
 ## Option 2: copy tags to an existing building (e.g. a standalone washroom building that is not already tagged '''building=toilets''') &mdash; in this case, add or edit the building tag to '''building=toilets''', copy the tags from the imported node onto the building, and delete the imported node.
 ## Option 3: draw a building based on aerial imagery (e.g. if a standalone washroom building has not been created yet) &mdash; in this case, ensure the aerial imagery aligns with surrounding features, then draw the building, and then add/copy the relevant tags like in Option 2.
 
-If you are especially unsure about the location used in option 1, you can add a note, e.g. "Please survey to determine exact location within community centre". If very unsure about how to properly map a washroom location, delete/do not conflate the node, finish the rest of the changeset, and add a note to this wiki requesting a survey of the skipped location.
+If you are especially unsure where to locate a node (option 1), you can add a note, e.g. "Please survey to determine exact location within community centre".
 
 Some general guidelines for when a washroom building is likely to be standalone (and the tags can be copied onto the building along with '''building=toilets''') and when it is likely to be multi-purpose (and the washroom should be kept as a node):
 
-* Assume buildings that are also likely to offer change facilities (e.g. adjoining outdoor swimming pools, hockey rinks, or beaches) are multi-purpose
-* Community centres are multi-purpose
-* Existing map features may indicate a building is multi-purpose (e.g. the existence of a café or information booth within the same building)
-* Stand-alone buildings are generally smaller - most commonly with an area of less than 250-300 square metres. (The [https://wiki.openstreetmap.org/wiki/JOSM/Plugins/measurement JOSM Measurement plugin] can show you the area of a selected building.)
+* Buildings that are also likely to offer change facilities (e.g. adjoining outdoor swimming pools, hockey rinks, or beaches) --- map the washroom as a node
+* Community centres --- map the washroom as a node
+* Buildings with existing map features indicating e.g. a café or information booth --- map the washroom as a node
+* Smaller stand-alone with an area of less than 250-300 square metres --- map the washroom as a building (The [https://wiki.openstreetmap.org/wiki/JOSM/Plugins/measurement JOSM Measurement plugin] can show you the area of a selected building.)
 
-
-====Review match conflation results====
-
-Tip: Keep the existing_toilets layer selected the whole time to prevent accidental edits to the reference layer
-
-"Match" results are the closest features from both datasets within the search radius (which in this case is 50 metres). Matches need to be reviewed to merge tags and make any needed corrections to tagging or geometry.
-
-# Double click on a result in the list to zoom to it
-# Hover over the icons in the "Reference" and "Subject" columns to see the existing tags for each dataset. 
-## The "Tags" column will show if any tags are conflicting. Tags on "No Conflict" matches should still be reviewed (a) in case there are any tagging mistakes or (b) if there is information in the existing tags that is more specific than what is in the reference (import) file. See notes below on both cases.
-## For matches with tag conflicts, write down some notes about which values should be retained and which should be overwritten. (This is helpful since the tag conflict resolution menu can be ambiguous about which value came from which dataset).
-# Select "conflate" to merge the tags and resolve any conflicts using the notes you took earlier
-# Follow steps 2, 3, and 5 from the "reference only" procedure above to confirm that the geometry is appropriate based on the aerial imagery and surrounding context.
-
-Potential tagging mistakes:
-* Tagging that does not confirm to the instructions in [[Tag:amenity=toilets]]
-* Gender-segregated washrooms should tagged as one node or way in accordance with [[One_feature,_one_OSM_element]]. If the immediately adjacent male and female sections were originally mapped separately, the overall facility should be tagged '''gender_segregated=yes'''. (Ideally, the entrances would be added with gender-specific tags as described in [[Tag:amenity=toilets]], but in most cases this would require an in-person survey to confirm the correct entrance locations on the building.)
-* Washrooms in this dataset should be access=yes instead of access=permissive
-* Otherwise, if the tagging on the existing feature is different than the tagging in the reference (import) file, assume the existing tagging is correct
-
-Examples of information in the existing data that may be more specific than the import file:
-* '''gender_segregated'''=yes/no
-* surveyed tagging for '''wheelchair''' or '''wheelchair:description'''
-* Indication of whether opening hours are seasonsal (e.g. via the '''opening_hours''' tag or '''seasonal'''=yes/no)
-
-
+If very unsure about how to properly map the geometry of a washroom, delete/do not conflate the node, finish the rest of the changeset, and add a note to this wiki requesting a survey of the skipped location (include the washroom's ref ID).
 
 
 ====Upload changes====
 
 # With the existing_toilets layer selected, select the "upload" arrow.
-# The validator will show any tagging errors detected - the "key with uncommon character error relating to "ref:open.toronto.ca:washroom-facilities:asset_id" can be ignored, but any other errors should be fixed before uploading.
+# The validator will show any tagging errors detected - the "key with uncommon character error relating to "ref:open.toronto.ca:washroom-facilities:asset_id" can be ignored (hyphens are not included in the [[Any_tags_you_like#Characters wiki documention on discouraged key characters]]), but any other errors should be fixed before uploading.
 # Open WARD_changeset_tags.txt, copy the contents. In the "Settings" tab, select the button with three plus signs to paste the tag values for the changeset.
 # Select "Upload Changes" to publish the changeset
 
@@ -350,6 +357,7 @@ The script includes the following features for quality assurance:
 * City source data is validated against a schema using [https://pandera.readthedocs.io/en/stable/ pandera] &mdash; this way, if the assumptions used when writing the transformation functions have changed, the script will throw an informative error
 * The filtered set of City source data is also validated to confirm that there are no service alert&ndash;related notes
 * Automatic fixing of known typos and character encoding errors in the City dataset
+* Variable length tag values generated by the script are checked to ensure that they do not exceed the 255 character limit
 
 The protocol outlined above for the conflation and upload steps in JOSM will also help to keep the import thorough and consistent, and will help ensure that the geometry from the City dataset is adjusted as needed to ensure it is correctly positioned relative to surrounding features.
 
