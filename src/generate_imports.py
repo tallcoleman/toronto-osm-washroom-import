@@ -13,7 +13,9 @@ from resources.openstreetmap import (
 from resources.torontoopendata import request_tod_gdf, TODResponse
 from resources.toronto_encoding_issues import encoding_fixes, spelling_fixes
 
-PROPOSAL_WIKI_LINK = "TODO"
+PROPOSAL_WIKI_LINK = (
+    "https://wiki.openstreetmap.org/wiki/Import/Toronto_Public_Washroom_Import"
+)
 
 
 def generate_imports():

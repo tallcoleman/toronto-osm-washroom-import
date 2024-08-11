@@ -8,8 +8,7 @@ Hello Canada, we are proposing to import the Toronto Park Washroom Facilities da
 
 
 ## Documentation
-This is the wiki page for our import: **TODO ADD**
-wiki.openstreetmap.org/wiki/
+This is the wiki page for our import: [Import/Toronto Public Washroom Import](https://wiki.openstreetmap.org/wiki/Import/Toronto_Public_Washroom_Import)
 
 This is the source dataset's website:
 https://open.toronto.ca/dataset/washroom-facilities/
@@ -41,4 +40,4 @@ More information about the tag transformation logic and the instructions for JOS
 
 If you have any questions or suggestions to improve the import plan, please let us know!
 
-Many thanks - **TODO NAMES**
+Many thanks - Ben
