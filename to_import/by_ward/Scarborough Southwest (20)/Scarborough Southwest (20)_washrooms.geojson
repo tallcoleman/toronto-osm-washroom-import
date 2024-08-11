@@ -7,7 +7,26 @@
         "amenity": "toilets",
         "access": "yes",
         "fee": "no",
-        "unisex": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located at the north side of the TTC station (Victoria Park), 50 metres east of the main entrance.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29358"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.28881695,
+          43.69551105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
@@ -28,7 +47,6 @@
         "amenity": "toilets",
         "access": "yes",
         "fee": "no",
-        "unisex": "yes",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
@@ -49,7 +67,6 @@
         "amenity": "toilets",
         "access": "yes",
         "fee": "no",
-        "unisex": "yes",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "wheelchair": "yes",
@@ -75,7 +92,6 @@
         "amenity": "toilets",
         "access": "yes",
         "fee": "no",
-        "unisex": "yes",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
@@ -98,7 +114,6 @@
         "amenity": "toilets",
         "access": "yes",
         "fee": "no",
-        "unisex": "yes",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
@@ -121,7 +136,6 @@
         "amenity": "toilets",
         "access": "yes",
         "fee": "no",
-        "unisex": "yes",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
@@ -144,7 +158,6 @@
         "amenity": "toilets",
         "access": "yes",
         "fee": "no",
-        "unisex": "yes",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "changing_table": "yes",
@@ -168,7 +181,6 @@
         "amenity": "toilets",
         "access": "yes",
         "fee": "no",
-        "unisex": "yes",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
@@ -191,7 +203,6 @@
         "amenity": "toilets",
         "access": "yes",
         "fee": "no",
-        "unisex": "yes",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
@@ -214,28 +225,6 @@
         "amenity": "toilets",
         "access": "yes",
         "fee": "no",
-        "unisex": "yes",
-        "toilets:disposal": "flush",
-        "toilets:handwashing": "yes",
-        "operator": "City of Toronto",
-        "description": "Located at the north side of the TTC station (Victoria Park), 50 metres east of the main entrance.",
-        "ref:open.toronto.ca:washroom-facilities:asset_id": "29358"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.28881695,
-          43.69551105
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "amenity": "toilets",
-        "access": "yes",
-        "fee": "no",
-        "unisex": "yes",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
@@ -256,7 +245,6 @@
         "amenity": "toilets",
         "access": "yes",
         "fee": "no",
-        "unisex": "yes",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
@@ -277,7 +265,6 @@
         "amenity": "toilets",
         "access": "yes",
         "fee": "no",
-        "unisex": "yes",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
@@ -298,7 +285,6 @@
         "amenity": "toilets",
         "access": "yes",
         "fee": "no",
-        "unisex": "yes",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",

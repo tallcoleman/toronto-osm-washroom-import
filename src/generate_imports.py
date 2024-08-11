@@ -17,6 +17,8 @@ PROPOSAL_WIKI_LINK = "TODO"
 
 
 def generate_imports():
+    """Main script function to get, transform, and save data"""
+
     # generate output directories if needed
     os.makedirs("source_data", exist_ok=True)
     os.makedirs("to_import", exist_ok=True)
@@ -46,8 +48,11 @@ def generate_imports():
         on="parent_id",
     )
 
-    # normalize city washroom data into osm tags and organize by ward
-    pfr_washrooms_osm = get_pfr_washrooms_osm(pfr_washrooms_type)
+    # normalize city washroom data into osm tags
+    pfr_washrooms_osm = get_pfr_washrooms_osm_status1(pfr_washrooms_type)
+    pfr_washrooms_osm_status2 = get_pfr_washrooms_osm_status2(pfr_washrooms_type)
+
+    # organize status 1 washrooms into ward-level changesets
     wards = get_wards_gdf()
     pfr_washrooms_wards = pfr_washrooms_osm.sjoin(wards, how="left").drop(
         ["index_right", "ward_code", "ward_name"], axis=1
@@ -96,6 +101,9 @@ def generate_imports():
     )
     summary.append(f"{len(pfr_washrooms_osm)} data points in normalized import dataset")
     summary.append(
+        f"{len(pfr_washrooms_osm_status2)} data points with Status 2 (service alert)"
+    )
+    summary.append(
         f"{len(changesets)} changesets generated, largest has {changesets["size"].max()} points, and smallest has {changesets["size"].min()} points"
     )
     summary.append(changesets.to_string(index=False))
@@ -103,6 +111,8 @@ def generate_imports():
 
 
 def get_current_washrooms():
+    """Retrieves amenity=toilets that are currently in OpenStreetMap within the City of Toronto. Saves output to source_data/current_washrooms.json"""
+
     washroom_query = """
         [out:json][timeout:25];
         area["official_name"="City of Toronto"]->.toArea;
@@ -119,6 +129,7 @@ def get_current_washrooms():
 
 
 def get_current_washrooms_gdf(current_washrooms):
+    """Converts the output from get_current_washrooms into a GeoDataFrame. Saves output to source_data/current_washrooms.geojson"""
     current_washrooms_gdf = gpd.GeoDataFrame.from_features(
         {
             "type": "FeatureCollection",
@@ -140,6 +151,8 @@ def get_current_washrooms_gdf(current_washrooms):
 
 
 def get_pfr_washrooms() -> TODResponse:
+    """Retrieves, validates, and saves data from the Park Washroom Facilities dataset on open.toronto.ca. Saves gdf output to source_data/pfr_washrooms.geojson and metadata output to source_data/pfr_washrooms_meta.json"""
+
     pfr_washrooms = request_tod_gdf(
         dataset_name="washroom-facilities",
         resource_id="6d848f38-45a3-41e8-9783-804385ec5a16",
@@ -239,12 +252,14 @@ def get_pfr_washrooms() -> TODResponse:
             )
             .to_json(na="drop", drop_id=True, indent=2)
         )
-    with open("source_data/pfr_washrooms_meta.geojson", "w") as f:
+    with open("source_data/pfr_washrooms_meta.json", "w") as f:
         json.dump(pfr_washrooms["metadata"], f, indent=2)
     return pfr_washrooms
 
 
 def get_pfr_facilities() -> TODResponse:
+    """Retrieves, validates, and saves data from the Parks and Recreation Facilities dataset on open.toronto.ca. Saves gdf output to source_data/pfr_facilities.geojson and metadata output to source_data/pfr_facilities_meta.json"""
+
     pfr_facilities = request_tod_gdf(
         dataset_name="parks-and-recreation-facilities",
         resource_id="f6cdcd50-da7b-4ede-8e60-c3cdba70b559",
@@ -264,24 +279,114 @@ def get_pfr_facilities() -> TODResponse:
     # save validated city data
     with open("source_data/pfr_facilities.geojson", "w") as f:
         f.write(pfr_facilities["gdf"].to_json(na="drop", drop_id=True, indent=2))
-    with open("source_data/pfr_facilities_meta.geojson", "w") as f:
+    with open("source_data/pfr_facilities_meta.json", "w") as f:
         json.dump(pfr_facilities["metadata"], f, indent=2)
     return pfr_facilities
 
 
 def get_pfr_facility_types(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
+    """Simplifies and de-duplicates facility type entries returned by get_pfr_facilities"""
+
     return (
         gdf[["LOCATIONID", "TYPE"]]
         .sort_values("TYPE", ascending=True)
         .groupby("LOCATIONID", as_index=False)
-        .agg(lambda x: "|".join(set(x)))
+        .agg(lambda x: "|".join(pd.unique(x)))
     )
 
 
-def get_pfr_washrooms_osm(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
+# functions to normalize city data to openstreetmap tags
+def pattern_search(pattern):
+    def f(asset_name):
+        match = re.search(pattern, asset_name, re.IGNORECASE)
+        return "yes" if match != None else pd.NA
+
+    return f
+
+
+def get_changing_table(accessible: str):
+    return "yes" if "Child Change Table" in accessible else pd.NA
+
+
+def get_changing_table_adult(accessible: str):
+    return "yes" if "Adult Change Table" in accessible else pd.NA
+
+
+def get_wheelchair(accessible: str):
+    if accessible == "None":
+        return "no"
+    if (
+        ("Entrance at Grade" in accessible) or ("Entrance Access Ramp" in accessible)
+    ) and ("Accessible Stall" in accessible):
+        return "yes"
+    else:
+        return pd.NA
+
+
+def get_toilets_wheelchair(accessible: str):
+    return "yes" if "Accessible Stall" in accessible else pd.NA
+
+
+def get_wheelchair_description(accessible: str):
+    if str(get_wheelchair(accessible)) != "yes":
+        return pd.NA
+    features = [
+        "entrance at grade" if "Entrance at Grade" in accessible else None,
+        "entrance access ramp" if "Entrance Access Ramp" in accessible else None,
+        "automatic door opener" if "Automatic Door Opener" in accessible else None,
+        "accessible stall" if "Accessible Stall" in accessible else None,
+        "child change table" if "Child Change Table" in accessible else None,
+        "adult change table" if "Adult Change Table" in accessible else None,
+    ]
+    return f"Accessible features: {", ".join([x for x in features if x is not None])}"
+
+
+def get_opening_hours(row):
+    hours = row["hours"]
+    parent_type = row["parent_type"]
+    if hours == "9 a.m. to 10 p.m." and parent_type == "Park":
+        return "May-Oct 09:00-22:00"
+    elif hours == "9 a.m. to 10 p.m." and parent_type == "Community Centre":
+        return "09:00-22:00"
+    elif hours == "9 a.m. to 10 p.m." and parent_type == "Community Centre|Park":
+        return pd.NA
+    # Riverdale Farm:
+    elif hours == "9 a.m. to 5 p.m.":
+        return "09:00-17:00"
+    # Coronation Park, 711 Lake Shore Blvd  W:
+    elif hours == "9 a.m. to 7:30 p.m.":
+        return "09:00-19:30"
+    # Jack Layton Ferry terminal:
+    elif hours == "6:30 a.m. to 11:30 p.m.":
+        return "06:30-23:30"
+    else:
+        return pd.NA
+
+
+def get_note(row):
+    prompts = []
+    if row["hours"] == "9 a.m. to 10 p.m." and row["parent_type"] == "Park":
+        prompts.append(
+            "is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00"
+        )
+    if (
+        row["hours"] == "9 a.m. to 10 p.m."
+        and row["parent_type"] == "Community Centre|Park"
+    ):
+        prompts.append("opening hours")
+    prompt_string = "; ".join(prompts)
+    if len(prompt_string) > 0:
+        return f"Please survey to determine: {prompt_string}"
+    else:
+        return pd.NA
+
+
+def get_pfr_washrooms_osm_status1(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
+    """Transforms output from get_pfr_washrooms into OpenStreetMap tags for washrooms with status 1 (open). Requires that a "parent_type" column be joined onto the get_pfr_washrooms output to indicate whether the washroom is in a park or a community centre. Saves output to to_import/pfr_to_import.geojson"""
+
     original_cols = gdf.columns.drop("geometry")
 
-    # filter city data and confirm that filtered data does not contain Reason or Comments columns
+    # filter city data and confirm that (a) filtered data does not contain Reason or Comments columns and (b) that the input data contains an appropriate "parent_type" column
     gdf_filtered = gdf[(gdf["type"] == "Washroom Building") & (gdf["Status"] == "1")]
     schema = pa.DataFrameSchema(
         {
@@ -295,96 +400,17 @@ def get_pfr_washrooms_osm(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
                 nullable=True,
                 checks=pa.Check.equal_to(pd.NA),
             ),
+            "parent_type": pa.Column(
+                str,
+                required=True,
+                nullable=True,
+                checks=pa.Check.isin(
+                    ["Park", "Community Centre", "Community Centre|Park"]
+                ),
+            ),
         }
     )
     schema.validate(gdf_filtered, lazy=True)
-
-    # normalize city data to openstreetmap tags
-    def pattern_search(pattern):
-        def f(asset_name):
-            match = re.search(pattern, asset_name, re.IGNORECASE)
-            return "yes" if match != None else pd.NA
-
-        return f
-
-    def get_unisex(asset_name):
-        match = re.search(
-            r"\bmen's\b|\bmale\b|\bwomen's\b|\bfemale\b", asset_name, re.IGNORECASE
-        )
-        return "yes" if match == None else pd.NA
-
-    def get_changing_table(accessible: str):
-        return "yes" if "Child Change Table" in accessible else pd.NA
-
-    def get_changing_table_adult(accessible: str):
-        return "yes" if "Adult Change Table" in accessible else pd.NA
-
-    def get_wheelchair(accessible: str):
-        if accessible == "None":
-            return "no"
-        if (
-            ("Entrance at Grade" in accessible)
-            or ("Entrance Access Ramp" in accessible)
-        ) and ("Accessible Stall" in accessible):
-            return "yes"
-        else:
-            return pd.NA
-
-    def get_toilets_wheelchair(accessible: str):
-        return "yes" if "Accessible Stall" in accessible else pd.NA
-
-    def get_wheelchair_description(accessible: str):
-        if str(get_wheelchair(accessible)) != "yes":
-            return pd.NA
-        features = [
-            "entrance at grade" if "Entrance at Grade" in accessible else None,
-            "entrance access ramp" if "Entrance Access Ramp" in accessible else None,
-            "automatic door opener" if "Automatic Door Opener" in accessible else None,
-            "accessible stall" if "Accessible Stall" in accessible else None,
-            "child change table" if "Child Change Table" in accessible else None,
-            "adult change table" if "Adult Change Table" in accessible else None,
-        ]
-        return (
-            f"Accessible features: {", ".join([x for x in features if x is not None])}"
-        )
-
-    def get_opening_hours(row):
-        hours = row["hours"]
-        parent_type = row["parent_type"]
-        if hours == "9 a.m. to 10 p.m." and parent_type == "Park":
-            return "May-Oct 09:00-22:00"
-        elif hours == "9 a.m. to 10 p.m." and parent_type == "Community Centre":
-            return "09:00-22:00"
-        elif hours == "9 a.m. to 10 p.m." and parent_type == "Community Centre|Park":
-            return pd.NA
-        # Riverdale Farm:
-        elif hours == "9 a.m. to 5 p.m.":
-            return "09:00-17:00"
-        # Coronation Park, 711 Lake Shore Blvd  W:
-        elif hours == "9 a.m. to 7:30 p.m.":
-            return "09:00-19:30"
-        # Jack Layton Ferry terminal:
-        elif hours == "6:30 a.m. to 11:30 p.m.":
-            return "06:30-23:30"
-        else:
-            return pd.NA
-
-    def get_note(row):
-        prompts = []
-        if row["hours"] == "9 a.m. to 10 p.m." and row["parent_type"] == "Park":
-            prompts.append(
-                "is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00"
-            )
-        if (
-            row["hours"] == "9 a.m. to 10 p.m."
-            and row["parent_type"] == "Community Centre|Park"
-        ):
-            prompts.append("opening hours")
-        prompt_string = "; ".join(prompts)
-        if len(prompt_string) > 0:
-            return f"Please survey to determine: {prompt_string}"
-        else:
-            return pd.NA
 
     gdf_normalized = (
         gdf_filtered.assign(
@@ -398,7 +424,6 @@ def get_pfr_washrooms_osm(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
                 "female": gdf_filtered["AssetName"].apply(
                     pattern_search(r"\bwomen's\b|\bfemale\b")
                 ),
-                "unisex": gdf_filtered["AssetName"].apply(get_unisex),
                 "toilets:disposal": "flush",
                 "toilets:handwashing": "yes",
                 "changing_table": (
@@ -440,6 +465,29 @@ def get_pfr_washrooms_osm(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
         .drop(original_cols, axis=1)
         .explode(index_parts=False)  # convert MultiPoint to Point
     )
+
+    # ensure variable length tag values do not exceed 255 char limit
+    output_schema = pa.DataFrameSchema(
+        {
+            "wheelchair:description": pa.Column(
+                str,
+                nullable=True,
+                checks=pa.Check.str_length(max_value=255),
+            ),
+            "description": pa.Column(
+                str,
+                nullable=True,
+                checks=pa.Check.str_length(max_value=255),
+            ),
+            "note": pa.Column(
+                str,
+                nullable=True,
+                checks=pa.Check.str_length(max_value=255),
+            ),
+        }
+    )
+    output_schema.validate(gdf_normalized)
+
     with open("to_import/pfr_to_import.geojson", "w") as f:
         f.write(
             gdf_normalized.to_json(
@@ -451,7 +499,122 @@ def get_pfr_washrooms_osm(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
     return gdf_normalized
 
 
+def get_pfr_washrooms_osm_status2(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
+    """Transforms output from get_pfr_washrooms into OpenStreetMap tags for washrooms with status 2 (service alert). Requires that a "parent_type" column be joined onto the get_pfr_washrooms output to indicate whether the washroom is in a park or a community centre. Saves output to to_import/pfr_status_2_to_review.geojson"""
+
+    original_cols = gdf.columns.drop("geometry")
+
+    # filter city data and confirm that the input data contains an appropriate "parent_type" column
+    gdf_filtered = gdf[(gdf["type"] == "Washroom Building") & (gdf["Status"] == "2")]
+    schema = pa.DataFrameSchema(
+        {
+            "parent_type": pa.Column(
+                str,
+                required=True,
+                nullable=True,
+                checks=pa.Check.isin(
+                    ["Park", "Community Centre", "Community Centre|Park"]
+                ),
+            ),
+        }
+    )
+    schema.validate(gdf_filtered, lazy=True)
+
+    gdf_normalized = (
+        gdf_filtered.assign(
+            **{
+                "DELETE_Status_PostedDate": gdf_filtered["PostedDate"].dt.strftime(
+                    "%Y-%m-%dT%H:%M:%S.%f%z"
+                ),
+                "DELETE_Status_Reason": gdf_filtered["Reason"],
+                "DELETE_Status_Comments": gdf_filtered["Comments"],
+                "amenity": "toilets",
+                "access": "yes",
+                "fee": "no",
+                "male": gdf_filtered["AssetName"].apply(
+                    pattern_search(r"\bmen's\b|\bmale\b")
+                ),
+                "female": gdf_filtered["AssetName"].apply(
+                    pattern_search(r"\bwomen's\b|\bfemale\b")
+                ),
+                "toilets:disposal": "flush",
+                "toilets:handwashing": "yes",
+                "changing_table": (
+                    gdf_filtered["accessible"].astype(str).apply(get_changing_table)
+                ),
+                "changing_table:adult": (
+                    gdf_filtered["accessible"]
+                    .astype(str)
+                    .apply(get_changing_table_adult)
+                ),
+                "wheelchair": (
+                    gdf_filtered["accessible"].astype(str).apply(get_wheelchair)
+                ),
+                "toilets:wheelchair": (
+                    gdf_filtered["accessible"].astype(str).apply(get_toilets_wheelchair)
+                ),
+                "wheelchair:description": (
+                    gdf_filtered["accessible"]
+                    .astype(str)
+                    .apply(get_wheelchair_description)
+                ),
+                "operator": "City of Toronto",
+                "opening_hours": (
+                    gdf_filtered[["hours", "parent_type"]]
+                    .astype(str)
+                    .apply(get_opening_hours, axis=1)
+                ),
+                "description": gdf_filtered["location_details"].str.strip(),
+                "note": (
+                    gdf_filtered[["AssetName", "hours", "parent_type"]]
+                    .astype(str)
+                    .apply(get_note, axis=1)
+                ),
+                "ref:open.toronto.ca:washroom-facilities:asset_id": (
+                    gdf_filtered["asset_id"].astype(str)
+                ),
+            }
+        )
+        .drop(original_cols, axis=1)
+        .explode(index_parts=False)  # convert MultiPoint to Point
+    )
+
+    # ensure variable length tag values do not exceed 255 char limit
+    output_schema = pa.DataFrameSchema(
+        {
+            "wheelchair:description": pa.Column(
+                str,
+                nullable=True,
+                checks=pa.Check.str_length(max_value=255),
+            ),
+            "description": pa.Column(
+                str,
+                nullable=True,
+                checks=pa.Check.str_length(max_value=255),
+            ),
+            "note": pa.Column(
+                str,
+                nullable=True,
+                checks=pa.Check.str_length(max_value=255),
+            ),
+        }
+    )
+    output_schema.validate(gdf_normalized)
+
+    with open("to_import/pfr_status_2_to_review.geojson", "w") as f:
+        f.write(
+            gdf_normalized.to_json(
+                na="drop",
+                drop_id=True,
+                indent=2,
+            )
+        )
+    return gdf_normalized
+
+
 def get_wards_gdf() -> gpd.GeoDataFrame:
+    """Retrieves, simplifies, and saves data from the City Wards dataset from open.toronto.ca"""
+
     wards = request_tod_gdf(
         dataset_name="city-wards",
         resource_id="737b29e0-8329-4260-b6af-21555ab24f28",
@@ -481,6 +644,8 @@ def get_wards_gdf() -> gpd.GeoDataFrame:
 
 
 def get_washrooms_query(bbox: str) -> str:
+    """Generates a query to retrieve amenity=toilets that are currently in OpenStreetMap within a custom bounding box"""
+
     return f"""[out:xml][timeout:30][bbox:{bbox}];
 area["official_name"="City of Toronto"]->.toArea;
 (
@@ -496,6 +661,8 @@ def get_changeset_tags(
     source_date: str,
     wiki_link: str,
 ) -> str:
+    """Generates changeset tags to use in JOSM"""
+
     tags = {
         "comment": f"Toronto Public Washroom Import, subset {subset_name}",
         "import": "yes",
