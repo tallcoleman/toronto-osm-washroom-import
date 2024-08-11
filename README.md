@@ -1,6 +1,8 @@
 # toronto-osm-washroom-import
  Analysis and prep files for importing City of Toronto washrooms into OpenStreetMap
 
+ Main documentation can be found on the OpenStreetMap Wiki at [Import/Toronto Public Washroom Import](https://wiki.openstreetmap.org/wiki/Import/Toronto_Public_Washroom_Import)
+
 ## Set Up
 
 This project uses poetry to manage python packages and the virtual environment. Please make sure to install poetry using the instructions here: [Poetry Documentation](https://python-poetry.org/docs/).
