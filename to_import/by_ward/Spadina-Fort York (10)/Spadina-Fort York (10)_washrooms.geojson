@@ -10,6 +10,26 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
+        "description": "Located in the rink building at the west end of the outdoor ice rinks.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "28882"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40455592,
+          43.6513412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
         "description": "Located in the outdoor pool building at the east side of the park.",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "6091"
       },
@@ -32,7 +52,7 @@
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
         "description": "Entrance is located on the outside of the outdoor pool building on the southwest side.",
-        "note": "Please survey to determine: is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "5984"
       },
       "geometry": {
@@ -126,7 +146,7 @@
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
         "description": "Entrance is located on the outside of the Community Center next to the playground.",
-        "note": "Please survey to determine: is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "1000000059"
       },
       "geometry": {
@@ -171,7 +191,7 @@
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
         "description": "Located at the south-end of the park on Grange Road, opposite University Settlement.",
-        "note": "Please survey to determine: is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "79343"
       },
       "geometry": {
@@ -210,7 +230,7 @@
       "type": "Feature",
       "properties": {
         "amenity": "toilets",
-        "access": "yes",
+        "access": "customers",
         "fee": "no",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
@@ -314,7 +334,7 @@
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
         "description": "Located near the King Street entrance, next to the playground.",
-        "note": "Please survey to determine: is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29644"
       },
       "geometry": {
@@ -336,7 +356,7 @@
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
         "description": "Entrance is located on the outside of the outdoor ice rink building.",
-        "note": "Please survey to determine: is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "28901"
       },
       "geometry": {
@@ -428,7 +448,7 @@
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
         "description": "Located in fieldhouse southwest of the entrance to the Jack Layton Ferry Terminal.",
-        "note": "Please survey to determine: is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29443"
       },
       "geometry": {
@@ -436,32 +456,6 @@
         "coordinates": [
           -79.3758139,
           43.64008423
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "amenity": "toilets",
-        "access": "yes",
-        "fee": "no",
-        "toilets:disposal": "flush",
-        "toilets:handwashing": "yes",
-        "changing_table": "yes",
-        "wheelchair": "yes",
-        "toilets:wheelchair": "yes",
-        "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
-        "operator": "City of Toronto",
-        "opening_hours": "May-Oct 09:00-22:00",
-        "description": "Located on the pathway north of the outdoor ice rink.",
-        "note": "Please survey to determine: is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00",
-        "ref:open.toronto.ca:washroom-facilities:asset_id": "29716"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.41368713,
-          43.64953473
         ]
       }
     },

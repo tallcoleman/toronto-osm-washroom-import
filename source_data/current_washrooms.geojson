@@ -828,16 +828,18 @@
         "amenity": "toilets",
         "_type": "node",
         "_id": 1861068627,
-        "_version": 3,
-        "_timestamp": "2024-05-27T01:55:35+00:00",
+        "_version": 4,
+        "_timestamp": "2024-08-13T03:14:58+00:00",
         "_url_nwr": "https://www.openstreetmap.org/node/1861068627",
         "access": "yes",
         "toilets:disposal": "flush",
         "fee": "no",
         "operator": "City of Toronto",
+        "female": "yes",
         "gender_segregated": "yes",
+        "male": "yes",
         "opening_hours": "May-Oct Mo-Su 9:00-20:00",
-        "unisex": "yes"
+        "unisex": "no"
       },
       "geometry": {
         "type": "Point",
@@ -2631,9 +2633,9 @@
         "access": "yes",
         "toilets:disposal": "flush",
         "fee": "no",
-        "unisex": "no",
         "female": "yes",
-        "male": "yes"
+        "male": "yes",
+        "unisex": "no"
       },
       "geometry": {
         "type": "Point",
@@ -5079,10 +5081,10 @@
         "wheelchair": "limited",
         "access": "yes",
         "toilets:disposal": "flush",
-        "opening_hours": "Mo-Su 09:00-21:00",
-        "toilets:handwashing": "yes",
         "female": "yes",
-        "male": "yes"
+        "male": "yes",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "toilets:handwashing": "yes"
       },
       "geometry": {
         "type": "Point",
@@ -6384,8 +6386,8 @@
         "amenity": "toilets",
         "_type": "way",
         "_id": 129309846,
-        "_version": 5,
-        "_timestamp": "2024-07-01T23:07:34+00:00",
+        "_version": 6,
+        "_timestamp": "2024-08-13T03:14:58+00:00",
         "_url_nwr": "https://www.openstreetmap.org/way/129309846",
         "wheelchair": "limited",
         "access": "yes",
@@ -6393,8 +6395,11 @@
         "fee": "no",
         "operator": "City of Toronto",
         "description": "Has wheelchair accessible stall but no power doors and doors are often propped open with objects that would be hard to move a wheelchair around",
+        "female": "yes",
+        "gender_segregated": "yes",
+        "male": "yes",
         "opening_hours": "May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00",
-        "unisex": "yes",
+        "unisex": "no",
         "portable": "no",
         "toilets:handwashing": "yes",
         "seasonal": "no",
@@ -6710,9 +6715,9 @@
         "_timestamp": "2022-08-07T12:23:36+00:00",
         "_url_nwr": "https://www.openstreetmap.org/way/141292652",
         "fee": "no",
-        "source": "Bing",
         "female": "yes",
         "male": "yes",
+        "source": "Bing",
         "building": "yes",
         "building:levels": "1",
         "building:colour": "red",
@@ -7478,15 +7483,17 @@
         "amenity": "toilets",
         "_type": "way",
         "_id": 220520660,
-        "_version": 3,
-        "_timestamp": "2024-05-27T01:55:35+00:00",
+        "_version": 4,
+        "_timestamp": "2024-08-13T03:14:58+00:00",
         "_url_nwr": "https://www.openstreetmap.org/way/220520660",
         "access": "yes",
         "toilets:disposal": "flush",
         "operator": "City of Toronto",
+        "female": "yes",
         "gender_segregated": "yes",
+        "male": "yes",
         "opening_hours": "May-Oct Mo-Su 9:00-22:00",
-        "unisex": "yes",
+        "unisex": "no",
         "building": "yes"
       },
       "geometry": {
@@ -7959,10 +7966,10 @@
         "access": "permissive",
         "toilets:disposal": "flush",
         "name": "Simpson House",
-        "unisex": "yes",
-        "changing_table": "yes",
         "female": "yes",
         "male": "yes",
+        "unisex": "yes",
+        "changing_table": "yes",
         "toilets:position": "seated",
         "building": "house",
         "historic": "building"
@@ -8343,6 +8350,51 @@
     {
       "type": "Feature",
       "properties": {
+        "amenity": "toilets",
+        "_type": "way",
+        "_id": 659117209,
+        "_version": 6,
+        "_timestamp": "2024-08-13T20:25:48+00:00",
+        "_url_nwr": "https://www.openstreetmap.org/way/659117209",
+        "access": "yes",
+        "name": "Centre for Urban Ecology",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.6095885,
+              43.7257571
+            ],
+            [
+              -79.6095877,
+              43.7257359
+            ],
+            [
+              -79.609582,
+              43.7256244
+            ],
+            [
+              -79.6097603,
+              43.7256194
+            ],
+            [
+              -79.6097657,
+              43.7257519
+            ],
+            [
+              -79.6095885,
+              43.7257571
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "_type": "way",
         "_id": 659549539,
         "_version": 3,
@@ -8548,10 +8600,10 @@
         "_timestamp": "2024-05-12T01:52:40+00:00",
         "_url_nwr": "https://www.openstreetmap.org/way/663828818",
         "toilets:disposal": "flush",
-        "opening_hours": "May-Oct 09:00-22:00",
-        "unisex": "no",
         "female": "yes",
         "male": "yes",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "unisex": "no",
         "building": "toilets"
       },
       "geometry": {
@@ -9543,8 +9595,8 @@
         "wheelchair": "no",
         "access": "private",
         "toilets:disposal": "flush",
-        "changing_table": "no",
         "female": "yes",
+        "changing_table": "no",
         "building": "yes"
       },
       "geometry": {

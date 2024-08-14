@@ -298,6 +298,11 @@ def get_pfr_facility_types(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
 
 
 # functions to normalize city data to openstreetmap tags
+def get_access(asset_id):
+    """Public access ("yes") with the exception of Jack Layton Ferry Terminal Washroom (asset_id: 58062) where the description indicates it is behind fare paid area."""
+    return "customers" if asset_id == 58062 else "yes"
+
+
 def pattern_search(pattern):
     def f(asset_name):
         match = re.search(pattern, asset_name, re.IGNORECASE)
@@ -369,13 +374,13 @@ def get_note(row):
     prompts = []
     if row["hours"] == "9 a.m. to 10 p.m." and row["parent_type"] == "Park":
         prompts.append(
-            "is this washroom open in the winter? If yes, opening_hours are likely May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00"
+            "Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off"
         )
     if (
         row["hours"] == "9 a.m. to 10 p.m."
         and row["parent_type"] == "Community Centre|Park"
     ):
-        prompts.append("opening hours")
+        prompts.append("opening_hours")
     prompt_string = "; ".join(prompts)
     if len(prompt_string) > 0:
         return f"Please survey to determine: {prompt_string}"
@@ -418,7 +423,7 @@ def get_pfr_washrooms_osm_status1(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
         gdf_filtered.assign(
             **{
                 "amenity": "toilets",
-                "access": "yes",
+                "access": gdf_filtered["asset_id"].apply(get_access),
                 "fee": "no",
                 "male": gdf_filtered["AssetName"].apply(
                     pattern_search(r"\bmen's\b|\bmale\b")
@@ -531,7 +536,7 @@ def get_pfr_washrooms_osm_status2(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
                 "DELETE_Status_Reason": gdf_filtered["Reason"],
                 "DELETE_Status_Comments": gdf_filtered["Comments"],
                 "amenity": "toilets",
-                "access": "yes",
+                "access": gdf_filtered["asset_id"].apply(get_access),
                 "fee": "no",
                 "male": gdf_filtered["AssetName"].apply(
                     pattern_search(r"\bmen's\b|\bmale\b")

@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-08-11T03:43:14Z",
-    "timestamp_areas_base": "2024-08-11T01:29:27Z",
+    "timestamp_osm_base": "2024-08-13T23:57:16Z",
+    "timestamp_areas_base": "2024-08-13T22:49:27Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -661,20 +661,22 @@
       "id": 1861068627,
       "lat": 43.6677194,
       "lon": -79.3556414,
-      "timestamp": "2024-05-27T01:55:35Z",
-      "version": 3,
-      "changeset": 151874585,
+      "timestamp": "2024-08-13T03:14:58Z",
+      "version": 4,
+      "changeset": 155174905,
       "user": "tallcoleman",
       "uid": 20580903,
       "tags": {
         "access": "yes",
         "amenity": "toilets",
         "fee": "no",
+        "female": "yes",
         "gender_segregated": "yes",
+        "male": "yes",
         "opening_hours": "May-Oct Mo-Su 9:00-20:00",
         "operator": "City of Toronto",
         "toilets:disposal": "flush",
-        "unisex": "yes"
+        "unisex": "no"
       }
     },
     {
@@ -5491,9 +5493,9 @@
     {
       "type": "way",
       "id": 129309846,
-      "timestamp": "2024-07-01T23:07:34Z",
-      "version": 5,
-      "changeset": 153432621,
+      "timestamp": "2024-08-13T03:14:58Z",
+      "version": 6,
+      "changeset": 155174905,
       "user": "tallcoleman",
       "uid": 20580903,
       "bounds": {
@@ -5562,13 +5564,16 @@
         "building": "yes",
         "description": "Has wheelchair accessible stall but no power doors and doors are often propped open with objects that would be hard to move a wheelchair around",
         "fee": "no",
+        "female": "yes",
+        "gender_segregated": "yes",
+        "male": "yes",
         "opening_hours": "May-Oct Mo-Su 09:00-22:00; Nov-Apr Mo-Su 09:00-20:00",
         "operator": "City of Toronto",
         "portable": "no",
         "seasonal": "no",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
-        "unisex": "yes",
+        "unisex": "no",
         "wheelchair": "limited"
       }
     },
@@ -6830,9 +6835,9 @@
     {
       "type": "way",
       "id": 220520660,
-      "timestamp": "2024-05-27T01:55:35Z",
-      "version": 3,
-      "changeset": 151874585,
+      "timestamp": "2024-08-13T03:14:58Z",
+      "version": 4,
+      "changeset": 155174905,
       "user": "tallcoleman",
       "uid": 20580903,
       "bounds": {
@@ -6894,11 +6899,13 @@
         "access": "yes",
         "amenity": "toilets",
         "building": "yes",
+        "female": "yes",
         "gender_segregated": "yes",
+        "male": "yes",
         "opening_hours": "May-Oct Mo-Su 9:00-22:00",
         "operator": "City of Toronto",
         "toilets:disposal": "flush",
-        "unisex": "yes"
+        "unisex": "no"
       }
     },
     {
@@ -7890,6 +7897,61 @@
         "amenity": "toilets",
         "building": "yes",
         "toilets:disposal": "flush"
+      }
+    },
+    {
+      "type": "way",
+      "id": 659117209,
+      "timestamp": "2024-08-13T20:25:48Z",
+      "version": 6,
+      "changeset": 155213387,
+      "user": "torquewall",
+      "uid": 8433297,
+      "bounds": {
+        "minlat": 43.7256194,
+        "minlon": -79.6097657,
+        "maxlat": 43.7257571,
+        "maxlon": -79.609582
+      },
+      "nodes": [
+        6171067553,
+        6386908979,
+        6171067547,
+        9774442533,
+        6171067538,
+        6171067553
+      ],
+      "geometry": [
+        {
+          "lat": 43.7257571,
+          "lon": -79.6095885
+        },
+        {
+          "lat": 43.7257359,
+          "lon": -79.6095877
+        },
+        {
+          "lat": 43.7256244,
+          "lon": -79.609582
+        },
+        {
+          "lat": 43.7256194,
+          "lon": -79.6097603
+        },
+        {
+          "lat": 43.7257519,
+          "lon": -79.6097657
+        },
+        {
+          "lat": 43.7257571,
+          "lon": -79.6095885
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "name": "Centre for Urban Ecology"
       }
     },
     {

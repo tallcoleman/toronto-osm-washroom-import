@@ -1,0 +1,32 @@
+===== SUMMARY =====
+
+418 data points in original Park Washroom Facilities dataset
+296 data points in normalized import dataset
+25 data points with Status 2 (service alert)
+25 changesets generated, largest has 23 points, and smallest has 5 points
+                    ward_full  size
+       Beaches-East York (19)    21
+               Davenport (09)     8
+         Don Valley East (16)     5
+        Don Valley North (17)     7
+         Don Valley West (15)    12
+       Eglinton-Lawrence (08)    11
+        Etobicoke Centre (02)    14
+         Etobicoke North (01)    15
+     Etobicoke-Lakeshore (03)    20
+Humber River-Black Creek (07)     9
+      Parkdale-High Park (04)    20
+      Scarborough Centre (21)    10
+       Scarborough North (23)     6
+   Scarborough Southwest (20)    14
+   Scarborough-Agincourt (22)     8
+   Scarborough-Guildwood (24)     8
+  Scarborough-Rouge Park (25)     9
+       Spadina-Fort York (10)    23
+          Toronto Centre (13)     9
+        Toronto-Danforth (14)    19
+      Toronto-St. Paul's (12)     5
+     University-Rosedale (11)    13
+              Willowdale (18)     7
+             York Centre (06)    14
+       York South-Weston (05)     9
