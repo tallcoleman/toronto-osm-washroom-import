@@ -5,6 +5,96 @@
       "type": "Feature",
       "properties": {
         "_id": 1,
+        "parent_id": "320",
+        "asset_id": 347,
+        "location": "Esther Shiner Stadium",
+        "alternative_name": "Esther Shiner Stadium Washroom",
+        "type": "Washroom Building",
+        "accessible": "",
+        "hours": "9 a.m. to 10 p.m.",
+        "location_details": "Located at the main entrance to the stadium.",
+        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/320/index.html",
+        "address": "5720 Bathurst St  ",
+        "PostedDate": "2024-08-31T08:40:59.000000",
+        "AssetName": "Esther Shiner Stadium Washroom",
+        "Reason": "Planned Closure",
+        "Comments": "Public washrooms closed due to permit in Stadium",
+        "Status": "0"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.44546332,
+            43.77604296
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_id": 2,
+        "parent_id": "733",
+        "asset_id": 29600,
+        "location": "Prairie Drive Park",
+        "alternative_name": "Prairie Drive Park Washroom ",
+        "type": "Washroom Building",
+        "accessible": "Entrance at Grade",
+        "hours": "9 a.m. to 10 p.m.",
+        "location_details": "Located on the pathway between parking lot and the playground.",
+        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/733/index.html",
+        "address": "101 Pharmacy Ave  ",
+        "PostedDate": "2024-08-30T13:12:58.000000",
+        "AssetName": "Prairie Drive Park Washroom ",
+        "Reason": "Maintenance/Repairs",
+        "Comments": "Women's hand dryer not working, repair is process.",
+        "Status": "2"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.28394728,
+            43.69721943
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_id": 3,
+        "parent_id": "557",
+        "asset_id": 29298,
+        "location": "Blantyre Park",
+        "alternative_name": "Blantyre Park Fieldhouse Washroom",
+        "type": "Washroom Building",
+        "accessible": "Entrance at Grade",
+        "hours": "9 a.m. to 10 p.m.",
+        "location_details": "Located next to the parking lot, west of the baseball diamond.",
+        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/557/index.html",
+        "address": "180 Fallingbrook Rd  ",
+        "PostedDate": "2024-08-30T12:56:30.000000",
+        "AssetName": "Blantyre Park Fieldhouse Washroom",
+        "Reason": "Men's Washroom Closed, Women's Washroom Open",
+        "Comments": "Men's closed due to repairs.",
+        "Status": "2"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.2811334,
+            43.68227904
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_id": 4,
         "parent_id": "1079",
         "asset_id": 29392,
         "location": "East Point Park",
@@ -15,7 +105,7 @@
         "location_details": "Entrance is located on the outside of the Softball Complex.",
         "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1079/index.html",
         "address": "101 Copperfield Rd  ",
-        "PostedDate": "2024-08-13T07:01:06.000000",
+        "PostedDate": "2024-08-30T07:31:43.000000",
         "AssetName": "East Point Park Ken Morrish Softball Complex Washroom",
         "Status": "1"
       },
@@ -32,35 +122,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 2,
-        "parent_id": "1094",
-        "asset_id": 29598,
-        "location": "Port Union Village Common Park",
-        "alternative_name": "Port Union Village Common Park Washroom",
-        "type": "Washroom Building",
-        "accessible": "Accessible Stall, Entrance at Grade, Automatic Door Opener",
-        "hours": "9 a.m. to 10 p.m.",
-        "location_details": "Located on the pathway between parking lot and the playground.",
-        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1094/index.html",
-        "address": "105 Bridgend St  ",
-        "PostedDate": "2024-08-13T07:00:48.000000",
-        "AssetName": "Port Union Village Common Park Washroom",
-        "Status": "1"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.13477359999999,
-            43.77672534
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "_id": 3,
+        "_id": 5,
         "parent_id": "4",
         "asset_id": 45442,
         "location": "Colonel Danforth Park",
@@ -71,7 +133,7 @@
         "location_details": "Located on the pathway west of the parking lot.",
         "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/4/index.html",
         "address": "73 Colonel Danforth Trl  ",
-        "PostedDate": "2024-08-13T07:00:27.000000",
+        "PostedDate": "2024-08-30T07:31:26.000000",
         "AssetName": "Colonel Danforth Park Washroom",
         "Status": "1"
       },
@@ -88,7 +150,37 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 4,
+        "_id": 6,
+        "parent_id": "1094",
+        "asset_id": 29598,
+        "location": "Port Union Village Common Park",
+        "alternative_name": "Port Union Village Common Park Washroom",
+        "type": "Washroom Building",
+        "accessible": "Accessible Stall, Entrance at Grade, Automatic Door Opener",
+        "hours": "9 a.m. to 10 p.m.",
+        "location_details": "Located on the pathway between parking lot and the playground.",
+        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1094/index.html",
+        "address": "105 Bridgend St  ",
+        "PostedDate": "2024-08-30T07:31:06.000000",
+        "AssetName": "Port Union Village Common Park Washroom",
+        "Reason": "Maintenance/Repairs",
+        "Comments": "Mens handicapped washroom  stall and one woman washroom stall are closed for repair",
+        "Status": "2"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.13477359999999,
+            43.77672534
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_id": 7,
         "parent_id": "522",
         "asset_id": 29265,
         "location": "Adams Park",
@@ -99,7 +191,7 @@
         "location_details": "Located on the pathway west of the splash pad.",
         "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/522/index.html",
         "address": "2 Rozell Rd  ",
-        "PostedDate": "2024-08-13T07:00:12.000000",
+        "PostedDate": "2024-08-30T07:30:43.000000",
         "AssetName": "Adams Park West Fieldhouse Washroom",
         "Status": "1"
       },
@@ -116,7 +208,376 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 5,
+        "_id": 8,
+        "parent_id": "1508",
+        "asset_id": 74844,
+        "location": "Humberline Park",
+        "alternative_name": "Humberline Park Washroom ",
+        "type": "Washroom Building",
+        "accessible": "Accessible Stall, Entrance at Grade, Automatic Door Opener, Child Change Table, Adult Change Table",
+        "hours": "9 a.m. to 10 p.m.",
+        "location_details": "Located on the pathway next to the playground.",
+        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1508/index.html",
+        "address": "32 Humberline Dr  ",
+        "PostedDate": "2024-08-29T10:10:23.000000",
+        "AssetName": "Humberline Park Washroom ",
+        "Reason": "Maintenance/Repairs",
+        "Comments": "Universal washroom closed due to flooding ",
+        "Status": "0"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.61579573,
+            43.73151662
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_id": 9,
+        "parent_id": "87",
+        "asset_id": 29379,
+        "location": "Dufferin Grove Park",
+        "alternative_name": "Dufferin Grove Sports Field Washroom",
+        "type": "Washroom Building",
+        "accessible": "Accessible Stall, Entrance at Grade",
+        "hours": "9 a.m. to 10 p.m.",
+        "location_details": "Located in the grassy area west of the sports field.",
+        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/87/index.html",
+        "address": "875 Dufferin St  ",
+        "PostedDate": "2024-08-28T15:24:18.000000",
+        "AssetName": "Dufferin Grove Sports Field Washroom",
+        "Status": "1"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.43219567,
+            43.65705289
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_id": 10,
+        "parent_id": "343",
+        "asset_id": 29612,
+        "location": "Riverdale Park East",
+        "alternative_name": "Riverdale Park East Fieldhouse Washroom ",
+        "type": "Washroom Building",
+        "accessible": "Entrance at Grade",
+        "hours": "9 a.m. to 10 p.m.",
+        "location_details": "Located in the fieldhouse at the south end of the park.",
+        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/343/index.html",
+        "address": "550 Broadview Ave  ",
+        "PostedDate": "2024-08-27T23:35:14.000000",
+        "AssetName": "Riverdale Park East Fieldhouse Washroom ",
+        "Status": "1"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.35550582,
+            43.66772754
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_id": 11,
+        "parent_id": "149",
+        "asset_id": 93642,
+        "location": "Sherwood Park",
+        "alternative_name": "Sherwood Park Washroom ",
+        "type": "Washroom Building",
+        "accessible": "",
+        "hours": "9 a.m. to 10 p.m.",
+        "location_details": "Located on the east side of the splash pad. ",
+        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/149/index.html",
+        "address": "190 Sherwood Ave  ",
+        "PostedDate": "2024-08-22T14:23:37.000000",
+        "AssetName": "Sherwood Park Washroom ",
+        "Status": "1"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.38705153,
+            43.71718225
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_id": 12,
+        "parent_id": "468",
+        "asset_id": 29376,
+        "location": "Downsview Dells Park",
+        "alternative_name": "Downsview Dells Park South Washroom ",
+        "type": "Washroom Building",
+        "accessible": "Entrance at Grade",
+        "hours": "9 a.m. to 10 p.m.",
+        "location_details": "Located east of the second parking lot on the south side of the park road.",
+        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/468/index.html",
+        "address": "2515 Jane St  ",
+        "PostedDate": "2024-08-20T13:59:21.000000",
+        "AssetName": "Downsview Dells Park South Washroom ",
+        "Status": "1"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.49599924,
+            43.73542591
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_id": 13,
+        "parent_id": "629",
+        "asset_id": 1908,
+        "location": "Cedarvale Park",
+        "alternative_name": "Phil White Arena Washroom",
+        "type": "Washroom Building",
+        "accessible": "",
+        "hours": "9 a.m. to 10 p.m.",
+        "location_details": "Entrance is located on the outside of Phil White Arena.",
+        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/629/index.html",
+        "address": "443 Arlington Ave  ",
+        "PostedDate": "2024-08-20T10:03:27.000000",
+        "AssetName": "Phil White Arena Washroom",
+        "Status": "1"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.43144289,
+            43.69127915
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_id": 14,
+        "parent_id": "196",
+        "asset_id": 36482,
+        "location": "Christie Pits Park",
+        "alternative_name": "Christie Pits Park Washroom",
+        "type": "Washroom Building",
+        "accessible": "",
+        "hours": "9 a.m. to 10 p.m.",
+        "location_details": "Located north of the wading pool.",
+        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/196/index.html",
+        "address": "750 Bloor St  W ",
+        "PostedDate": "2024-08-19T10:56:27.000000",
+        "AssetName": "Christie Pits Park Washroom",
+        "Status": "1"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.42070512,
+            43.66482409
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_id": 15,
+        "parent_id": "481",
+        "asset_id": 29589,
+        "location": "Northwood Park",
+        "alternative_name": "Northwood Park Washroom ",
+        "type": "Washroom Building",
+        "accessible": "Accessible Stall, Entrance at Grade",
+        "hours": "9 a.m. to 10 p.m.",
+        "location_details": "Located on the pathway 100 metres north of the parking lot, near Picnic Site #2.",
+        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/481/index.html",
+        "address": "140 Stilecroft Dr  ",
+        "PostedDate": "2024-08-19T08:28:31.000000",
+        "AssetName": "Northwood Park Washroom ",
+        "Status": "1"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.49686636,
+            43.74763687
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_id": 16,
+        "parent_id": "468",
+        "asset_id": 29375,
+        "location": "Downsview Dells Park",
+        "alternative_name": "Downsview Dells Park North Washroom",
+        "type": "Washroom Building",
+        "accessible": "",
+        "hours": "9 a.m. to 10 p.m.",
+        "location_details": "Located across from Picnic Site #3, east of the last parking lot.",
+        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/468/index.html",
+        "address": "2515 Jane St  ",
+        "PostedDate": "2024-08-19T08:27:23.000000",
+        "AssetName": "Downsview Dells Park North Washroom",
+        "Status": "1"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.50093668,
+            43.73662343
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_id": 17,
+        "parent_id": "492",
+        "asset_id": 32745,
+        "location": "Wilket Creek Park",
+        "alternative_name": "Wilket Creek Park Washroom",
+        "type": "Washroom Building",
+        "accessible": "",
+        "hours": "9 a.m. to 10 p.m.",
+        "location_details": "Located in the washroom building along main park road 0.5 km from Leslie Street.",
+        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/492/index.html",
+        "address": "1100 Leslie St  ",
+        "PostedDate": "2024-08-17T23:31:49.000000",
+        "AssetName": "Wilket Creek Park Washroom",
+        "Status": "1"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.35300257,
+            43.72140939
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_id": 18,
+        "parent_id": "393",
+        "asset_id": 29729,
+        "location": "Wells Hill Park",
+        "alternative_name": "Wells Hill Park Washroom ",
+        "type": "Washroom Building",
+        "accessible": "Accessible Stall, Entrance at Grade, Entrance Access Ramp",
+        "hours": "9 a.m. to 10 p.m.",
+        "location_details": "Located in the southwest area of the park next to the playground.",
+        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/393/index.html",
+        "address": "145 Hilton Ave  ",
+        "PostedDate": "2024-08-16T11:26:57.000000",
+        "AssetName": "Wells Hill Park Washroom ",
+        "Status": "1"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.41634327000001,
+            43.6823371
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_id": 19,
+        "parent_id": "1449",
+        "asset_id": 79459,
+        "location": "Don Valley Brick Works",
+        "alternative_name": "Don Valley Brick Works Washroom ",
+        "type": "Washroom Building",
+        "accessible": "",
+        "hours": "9 a.m. to 10 p.m.",
+        "location_details": "Located in the western building along the pathway into the park.",
+        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1449/index.html",
+        "address": "550 Bayview Ave  ",
+        "PostedDate": "2024-08-15T12:28:20.000000",
+        "AssetName": "Don Valley Brick Works Washroom ",
+        "Reason": "Maintenance/Repairs",
+        "Status": "0"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.36642253,
+            43.68437785
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_id": 20,
+        "parent_id": "543",
+        "asset_id": 29661,
+        "location": "Thomson Memorial Park",
+        "alternative_name": "Thomson Memorial Park South Washroom",
+        "type": "Washroom Building",
+        "accessible": "",
+        "hours": "9 a.m. to 10 p.m.",
+        "location_details": "Located in the south washroom building of the park. ",
+        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/543/index.html",
+        "address": "1005 Brimley Rd  ",
+        "PostedDate": "2024-08-15T10:32:30.000000",
+        "AssetName": "Thomson Memorial Park South Washroom",
+        "Reason": "Maintenance/Repairs",
+        "Comments": "Accessible washroom is closed for repairs ",
+        "Status": "2"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.25523249,
+            43.75759412
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_id": 21,
         "parent_id": "31",
         "asset_id": 28882,
         "location": "Alexandra Park",
@@ -144,7 +605,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 6,
+        "_id": 22,
         "parent_id": "241",
         "asset_id": 29716,
         "location": "Trinity Bellwoods Park",
@@ -174,7 +635,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 7,
+        "_id": 23,
         "parent_id": "29",
         "asset_id": 29656,
         "location": "Taylor Creek Park",
@@ -202,7 +663,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 8,
+        "_id": 24,
         "parent_id": "402",
         "asset_id": 29358,
         "location": "Dentonia Park Golf Course",
@@ -230,7 +691,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 9,
+        "_id": 25,
         "parent_id": "276",
         "asset_id": 13677,
         "location": "Topham Park",
@@ -260,7 +721,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 10,
+        "_id": 26,
         "parent_id": "543",
         "asset_id": 29660,
         "location": "Thomson Memorial Park",
@@ -288,7 +749,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 11,
+        "_id": 27,
         "parent_id": "668",
         "asset_id": 41662,
         "location": "Glamorgan Park",
@@ -318,37 +779,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 12,
-        "parent_id": "543",
-        "asset_id": 29661,
-        "location": "Thomson Memorial Park",
-        "alternative_name": "Thomson Memorial Park South Washroom",
-        "type": "Washroom Building",
-        "accessible": "",
-        "hours": "9 a.m. to 10 p.m.",
-        "location_details": "Located in the south washroom building of the park. ",
-        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/543/index.html",
-        "address": "1005 Brimley Rd  ",
-        "PostedDate": "2024-08-06T15:15:41.000000",
-        "AssetName": "Thomson Memorial Park South Washroom",
-        "Reason": "Maintenance/Repairs",
-        "Comments": "Accessible washroom is closed for repairs ",
-        "Status": "2"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.25523249,
-            43.75759412
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "_id": 13,
+        "_id": 28,
         "parent_id": "295",
         "asset_id": 29286,
         "location": "Bickford Park",
@@ -376,7 +807,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 14,
+        "_id": 29,
         "parent_id": "514",
         "asset_id": 29388,
         "location": "Earlscourt Park",
@@ -406,7 +837,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 15,
+        "_id": 30,
         "parent_id": "181",
         "asset_id": 29351,
         "location": "Rennie Park",
@@ -434,36 +865,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 16,
-        "parent_id": "196",
-        "asset_id": 36482,
-        "location": "Christie Pits Park",
-        "alternative_name": "Christie Pits Park Washroom",
-        "type": "Washroom Building",
-        "accessible": "",
-        "hours": "9 a.m. to 10 p.m.",
-        "location_details": "Located north of the wading pool.",
-        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/196/index.html",
-        "address": "750 Bloor St  W ",
-        "PostedDate": "2024-07-30T20:02:18.000000",
-        "AssetName": "Christie Pits Park Washroom",
-        "Reason": "Maintenance/Repairs",
-        "Status": "0"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.42070512,
-            43.66482409
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "_id": 17,
+        "_id": 31,
         "parent_id": "2",
         "asset_id": 29300,
         "location": "Bluffer's Park",
@@ -493,7 +895,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 18,
+        "_id": 32,
         "parent_id": "87",
         "asset_id": 28888,
         "location": "Dufferin Grove Park",
@@ -521,7 +923,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 19,
+        "_id": 33,
         "parent_id": "445",
         "asset_id": 29755,
         "location": "Woburn Avenue Playground",
@@ -551,7 +953,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 20,
+        "_id": 34,
         "parent_id": "196",
         "asset_id": 28886,
         "location": "Christie Pits Park",
@@ -579,7 +981,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 21,
+        "_id": 35,
         "parent_id": "379",
         "asset_id": 32743,
         "location": "McCleary Park",
@@ -609,7 +1011,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 22,
+        "_id": 36,
         "parent_id": "117",
         "asset_id": 36489,
         "location": "Eglinton Park",
@@ -639,67 +1041,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 23,
-        "parent_id": "393",
-        "asset_id": 29729,
-        "location": "Wells Hill Park",
-        "alternative_name": "Wells Hill Park Washroom ",
-        "type": "Washroom Building",
-        "accessible": "Accessible Stall, Entrance at Grade, Entrance Access Ramp",
-        "hours": "9 a.m. to 10 p.m.",
-        "location_details": "Located in the southwest area of the park next to the playground.",
-        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/393/index.html",
-        "address": "145 Hilton Ave  ",
-        "PostedDate": "2024-07-22T18:41:00.000000",
-        "AssetName": "Wells Hill Park Washroom ",
-        "Reason": "Women's Washroom Closed, Men's Washroom Open",
-        "Comments": "Women\u00e2\u0080\u0099s washroom closed due to clogged plumbing. Service request submitted.",
-        "Status": "2"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.41634327000001,
-            43.6823371
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "_id": 24,
-        "parent_id": "468",
-        "asset_id": 29375,
-        "location": "Downsview Dells Park",
-        "alternative_name": "Downsview Dells Park North Washroom",
-        "type": "Washroom Building",
-        "accessible": "",
-        "hours": "9 a.m. to 10 p.m.",
-        "location_details": "Located across from Picnic Site #3, east of the last parking lot.",
-        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/468/index.html",
-        "address": "2515 Jane St  ",
-        "PostedDate": "2024-07-22T16:21:03.000000",
-        "AssetName": "Downsview Dells Park North Washroom",
-        "Reason": "Maintenance/Repairs",
-        "Comments": "Both washrooms are closed due to plumbing related issues. A service request has been issued. Park patrons please use the south washroom location. We apologize for any inconvenience.",
-        "Status": "0"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.50093668,
-            43.73662343
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "_id": 25,
+        "_id": 37,
         "parent_id": "26",
         "asset_id": 36503,
         "location": "Serena Gundy Park",
@@ -727,7 +1069,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 26,
+        "_id": 38,
         "parent_id": "11",
         "asset_id": 30891,
         "location": "G. Ross Lord Park",
@@ -754,7 +1096,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 27,
+        "_id": 39,
         "parent_id": "659",
         "asset_id": 29453,
         "location": "Hendon Park",
@@ -781,7 +1123,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 28,
+        "_id": 40,
         "parent_id": "77",
         "asset_id": 29511,
         "location": "High Park",
@@ -809,7 +1151,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 29,
+        "_id": 41,
         "parent_id": "1429",
         "asset_id": 13061,
         "location": "Power House Recreation Centre",
@@ -837,7 +1179,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 30,
+        "_id": 42,
         "parent_id": "1074",
         "asset_id": 36442,
         "location": "Humber Bay Park West",
@@ -865,7 +1207,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 31,
+        "_id": 43,
         "parent_id": "6",
         "asset_id": 13591,
         "location": "Marie Curtis Park",
@@ -893,35 +1235,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 32,
-        "parent_id": "492",
-        "asset_id": 32745,
-        "location": "Wilket Creek Park",
-        "alternative_name": "Wilket Creek Park Washroom",
-        "type": "Washroom Building",
-        "accessible": "",
-        "hours": "9 a.m. to 10 p.m.",
-        "location_details": "Located in the washroom building along main park road 0.5 km from Leslie Street.",
-        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/492/index.html",
-        "address": "1100 Leslie St  ",
-        "PostedDate": "2024-07-17T18:47:03.000000",
-        "AssetName": "Wilket Creek Park Washroom",
-        "Status": "1"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.35300257,
-            43.72140939
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "_id": 33,
+        "_id": 44,
         "parent_id": "1061",
         "asset_id": 29384,
         "location": "E.T. Seton Park",
@@ -949,7 +1263,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 34,
+        "_id": 45,
         "parent_id": "28",
         "asset_id": 1981,
         "location": "Sunnybrook Park",
@@ -977,7 +1291,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 35,
+        "_id": 46,
         "parent_id": "817",
         "asset_id": 32862,
         "location": "Queensway Park Rink and Trail",
@@ -1005,7 +1319,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 36,
+        "_id": 47,
         "parent_id": "641",
         "asset_id": 1000000030,
         "location": "Godstone Park",
@@ -1032,7 +1346,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 37,
+        "_id": 48,
         "parent_id": "2595",
         "asset_id": 1000000049,
         "location": "Shawnee Park",
@@ -1059,37 +1373,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 38,
-        "parent_id": "468",
-        "asset_id": 29376,
-        "location": "Downsview Dells Park",
-        "alternative_name": "Downsview Dells Park South Washroom ",
-        "type": "Washroom Building",
-        "accessible": "Entrance at Grade",
-        "hours": "9 a.m. to 10 p.m.",
-        "location_details": "Located east of the second parking lot on the south side of the park road.",
-        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/468/index.html",
-        "address": "2515 Jane St  ",
-        "PostedDate": "2024-07-17T07:26:51.000000",
-        "AssetName": "Downsview Dells Park South Washroom ",
-        "Reason": "Maintenance/Repairs",
-        "Comments": "Washroom is closed due to storm damage",
-        "Status": "0"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.49599924,
-            43.73542591
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "_id": 39,
+        "_id": 49,
         "parent_id": "22",
         "asset_id": 29622,
         "location": "Rowntree Mills Park",
@@ -1117,7 +1401,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 40,
+        "_id": 50,
         "parent_id": "284",
         "asset_id": 29596,
         "location": "Perth Square Park",
@@ -1147,7 +1431,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 41,
+        "_id": 51,
         "parent_id": "1053",
         "asset_id": 28885,
         "location": "Campbell Avenue Park",
@@ -1177,7 +1461,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 42,
+        "_id": 52,
         "parent_id": "1101",
         "asset_id": 32882,
         "location": "Silverbirch Boat House",
@@ -1205,7 +1489,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 43,
+        "_id": 53,
         "parent_id": "519",
         "asset_id": 29280,
         "location": "Bellbury Park",
@@ -1233,7 +1517,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 44,
+        "_id": 54,
         "parent_id": "167",
         "asset_id": 28895,
         "location": "Ramsden Park",
@@ -1261,7 +1545,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 45,
+        "_id": 55,
         "parent_id": "378",
         "asset_id": 29567,
         "location": "MacGregor Playground",
@@ -1289,7 +1573,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 46,
+        "_id": 56,
         "parent_id": "337",
         "asset_id": 5787,
         "location": "Earl Bales Park",
@@ -1317,7 +1601,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 47,
+        "_id": 57,
         "parent_id": "865",
         "asset_id": 29745,
         "location": "Willowdale Park",
@@ -1345,7 +1629,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 48,
+        "_id": 58,
         "parent_id": "506",
         "asset_id": 13052,
         "location": "McGregor Park Community Centre",
@@ -1373,7 +1657,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 49,
+        "_id": 59,
         "parent_id": "873",
         "asset_id": 29732,
         "location": "West Deane Park",
@@ -1401,7 +1685,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 50,
+        "_id": 60,
         "parent_id": "508",
         "asset_id": 5470,
         "location": "Weston Lions Park",
@@ -1429,7 +1713,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 51,
+        "_id": 61,
         "parent_id": "888",
         "asset_id": 5465,
         "location": "Westmount Park Outdoor Pool",
@@ -1457,7 +1741,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 52,
+        "_id": 62,
         "parent_id": "900",
         "asset_id": 5472,
         "location": "Westgrove Park Outdoor Pool",
@@ -1485,7 +1769,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 53,
+        "_id": 63,
         "parent_id": "905",
         "asset_id": 6324,
         "location": "West Mall Outdoor Pool",
@@ -1513,7 +1797,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 54,
+        "_id": 64,
         "parent_id": "904",
         "asset_id": 5555,
         "location": "West Deane Park Outdoor Pool",
@@ -1541,7 +1825,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 55,
+        "_id": 65,
         "parent_id": "395",
         "asset_id": 29652,
         "location": "Sunnyside Park",
@@ -1569,7 +1853,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 56,
+        "_id": 66,
         "parent_id": "2750",
         "asset_id": 6091,
         "location": "Stanley Park South - Toronto",
@@ -1597,7 +1881,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 57,
+        "_id": 67,
         "parent_id": "895",
         "asset_id": 6107,
         "location": "Smithfield Park Outdoor Pool",
@@ -1625,7 +1909,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 58,
+        "_id": 68,
         "parent_id": "909",
         "asset_id": 6157,
         "location": "Rotary Peace Park Outdoor Pool",
@@ -1653,7 +1937,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 59,
+        "_id": 69,
         "parent_id": "889",
         "asset_id": 6126,
         "location": "Richmond Gardens Pool",
@@ -1681,7 +1965,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 60,
+        "_id": 70,
         "parent_id": "858",
         "asset_id": 6201,
         "location": "Park Lawn Park",
@@ -1709,7 +1993,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 61,
+        "_id": 71,
         "parent_id": "907",
         "asset_id": 6206,
         "location": "Ourland Park Outdoor Pool",
@@ -1737,7 +2021,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 62,
+        "_id": 72,
         "parent_id": "902",
         "asset_id": 5491,
         "location": "Lambton - Kingsway Park Outdoor Pool",
@@ -1765,7 +2049,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 63,
+        "_id": 73,
         "parent_id": "690",
         "asset_id": 5511,
         "location": "Knob Hill Park",
@@ -1793,7 +2077,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 64,
+        "_id": 74,
         "parent_id": "768",
         "asset_id": 5665,
         "location": "Halbert Park",
@@ -1821,7 +2105,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 65,
+        "_id": 75,
         "parent_id": "894",
         "asset_id": 5697,
         "location": "Gihon Spring Park Outdoor Pool",
@@ -1849,7 +2133,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 66,
+        "_id": 76,
         "parent_id": "898",
         "asset_id": 5720,
         "location": "Flagstaff Park Outdoor Pool",
@@ -1877,7 +2161,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 67,
+        "_id": 77,
         "parent_id": "887",
         "asset_id": 5730,
         "location": "Fairhaven Park Outdoor Pool Building",
@@ -1905,7 +2189,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 68,
+        "_id": 78,
         "parent_id": "901",
         "asset_id": 5745,
         "location": "Eringate Park Outdoor Pool",
@@ -1933,7 +2217,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 69,
+        "_id": 79,
         "parent_id": "557",
         "asset_id": 5932,
         "location": "Blantyre Park",
@@ -1961,7 +2245,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 70,
+        "_id": 80,
         "parent_id": "906",
         "asset_id": 5976,
         "location": "Amos Waites Park",
@@ -1989,7 +2273,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 71,
+        "_id": 81,
         "parent_id": "31",
         "asset_id": 5984,
         "location": "Alexandra Park",
@@ -2017,7 +2301,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 72,
+        "_id": 82,
         "parent_id": "698",
         "asset_id": 13850,
         "location": "L'Amoreaux Sports Centre",
@@ -2046,37 +2330,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 73,
-        "parent_id": "557",
-        "asset_id": 29298,
-        "location": "Blantyre Park",
-        "alternative_name": "Blantyre Park Fieldhouse Washroom",
-        "type": "Washroom Building",
-        "accessible": "Entrance at Grade",
-        "hours": "9 a.m. to 10 p.m.",
-        "location_details": "Located next to the parking lot, west of the baseball diamond.",
-        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/557/index.html",
-        "address": "180 Fallingbrook Rd  ",
-        "PostedDate": "2024-06-28T08:08:51.000000",
-        "AssetName": "Blantyre Park Fieldhouse Washroom",
-        "Reason": "Men's Washroom Closed, Women's Washroom Open",
-        "Comments": "Men's washroom closed for repairs",
-        "Status": "2"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.2811334,
-            43.68227904
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "_id": 74,
+        "_id": 83,
         "parent_id": "2543",
         "asset_id": 29705,
         "location": "Toronto Islands - Olympic Island Park",
@@ -2104,7 +2358,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 75,
+        "_id": 84,
         "parent_id": "245",
         "asset_id": 37106,
         "location": "Oriole Park - Toronto",
@@ -2132,7 +2386,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 76,
+        "_id": 85,
         "parent_id": "348",
         "asset_id": 57282,
         "location": "Sorauren Avenue Park",
@@ -2160,7 +2414,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 77,
+        "_id": 86,
         "parent_id": "71",
         "asset_id": 29638,
         "location": "Sir Casimir Gzowski Park",
@@ -2190,7 +2444,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 78,
+        "_id": 87,
         "parent_id": "676",
         "asset_id": 29521,
         "location": "Highview Park",
@@ -2218,7 +2472,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 79,
+        "_id": 88,
         "parent_id": "210",
         "asset_id": 29616,
         "location": "Rosedale Park",
@@ -2246,7 +2500,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 80,
+        "_id": 89,
         "parent_id": "3499",
         "asset_id": 36974,
         "location": "Corktown Common",
@@ -2274,7 +2528,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 81,
+        "_id": 90,
         "parent_id": "504",
         "asset_id": 6105,
         "location": "Smythe Park",
@@ -2302,7 +2556,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 82,
+        "_id": 91,
         "parent_id": "798",
         "asset_id": 34992,
         "location": "Centennial Park - Etobicoke",
@@ -2329,7 +2583,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 83,
+        "_id": 92,
         "parent_id": "2541",
         "asset_id": 29440,
         "location": "Toronto Islands - Hanlan's Point",
@@ -2356,7 +2610,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 84,
+        "_id": 93,
         "parent_id": "1074",
         "asset_id": 1000000034,
         "location": "Humber Bay Park West",
@@ -2383,7 +2637,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 85,
+        "_id": 94,
         "parent_id": "6",
         "asset_id": 1000000038,
         "location": "Marie Curtis Park",
@@ -2410,7 +2664,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 86,
+        "_id": 95,
         "parent_id": "306",
         "asset_id": 29751,
         "location": "Withrow Park",
@@ -2438,7 +2692,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 87,
+        "_id": 96,
         "parent_id": "426",
         "asset_id": 29416,
         "location": "George Webster Park",
@@ -2466,7 +2720,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 88,
+        "_id": 97,
         "parent_id": "3693",
         "asset_id": 78226,
         "location": "Stanley Greene Park",
@@ -2494,7 +2748,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 89,
+        "_id": 98,
         "parent_id": "421",
         "asset_id": 2104,
         "location": "Stan  Wadlow Park",
@@ -2522,37 +2776,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 90,
-        "parent_id": "629",
-        "asset_id": 1908,
-        "location": "Cedarvale Park",
-        "alternative_name": "Phil White Arena Washroom",
-        "type": "Washroom Building",
-        "accessible": "",
-        "hours": "9 a.m. to 10 p.m.",
-        "location_details": "Entrance is located on the outside of Phil White Arena.",
-        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/629/index.html",
-        "address": "443 Arlington Ave  ",
-        "PostedDate": "2024-06-04T12:17:29.000000",
-        "AssetName": "Phil White Arena Washroom",
-        "Reason": "Maintenance/Repairs",
-        "Comments": "Roof repairs closed access to indoor washrooms washrooms. Portable washrooms on site available for use.",
-        "Status": "2"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.43144289,
-            43.69127915
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "_id": 91,
+        "_id": 99,
         "parent_id": "345",
         "asset_id": 13637,
         "location": "Riverdale Farm",
@@ -2579,7 +2803,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 92,
+        "_id": 100,
         "parent_id": "1470",
         "asset_id": 29579,
         "location": "Morningside Park",
@@ -2609,7 +2833,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 93,
+        "_id": 101,
         "parent_id": "2264",
         "asset_id": 36492,
         "location": "Hinder Area",
@@ -2637,7 +2861,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 94,
+        "_id": 102,
         "parent_id": "1470",
         "asset_id": 29580,
         "location": "Morningside Park",
@@ -2667,7 +2891,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 95,
+        "_id": 103,
         "parent_id": "2541",
         "asset_id": 29442,
         "location": "Toronto Islands - Hanlan's Point Park",
@@ -2694,7 +2918,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 96,
+        "_id": 104,
         "parent_id": "2024",
         "asset_id": 29685,
         "location": "Toronto Islands - Toronto Island Park",
@@ -2721,7 +2945,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 97,
+        "_id": 105,
         "parent_id": "209",
         "asset_id": 37108,
         "location": "Cherry Beach Clarke Beach Park",
@@ -2749,7 +2973,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 98,
+        "_id": 106,
         "parent_id": "241",
         "asset_id": 1000000059,
         "location": "Trinity Bellwoods Park",
@@ -2777,7 +3001,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 99,
+        "_id": 107,
         "parent_id": "306",
         "asset_id": 29749,
         "location": "Withrow Park",
@@ -2805,7 +3029,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 100,
+        "_id": 108,
         "parent_id": "2441",
         "asset_id": 101976,
         "location": "Tommy Thompson Park",
@@ -2833,7 +3057,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 101,
+        "_id": 109,
         "parent_id": "287",
         "asset_id": 2006,
         "location": "Trinity Community Recreation Centre",
@@ -2863,7 +3087,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 102,
+        "_id": 110,
         "parent_id": "2725",
         "asset_id": 29695,
         "location": "Toronto Islands - Centre Island",
@@ -2889,7 +3113,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 103,
+        "_id": 111,
         "parent_id": "10",
         "asset_id": 29407,
         "location": "Etienne Brule Park",
@@ -2916,7 +3140,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 104,
+        "_id": 112,
         "parent_id": "1431",
         "asset_id": 79344,
         "location": "Grange Park",
@@ -2945,7 +3169,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 105,
+        "_id": 113,
         "parent_id": "1080",
         "asset_id": 1000000007,
         "location": "King's Mill Park",
@@ -2972,7 +3196,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 106,
+        "_id": 114,
         "parent_id": "847",
         "asset_id": 1000000036,
         "location": "Lambton - Kingways Park",
@@ -2999,7 +3223,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 107,
+        "_id": 115,
         "parent_id": "128",
         "asset_id": 32902,
         "location": "Little Norway Park",
@@ -3028,7 +3252,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 108,
+        "_id": 116,
         "parent_id": "837",
         "asset_id": 1000000055,
         "location": "Tom Riley Park",
@@ -3055,7 +3279,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 109,
+        "_id": 117,
         "parent_id": "873",
         "asset_id": 1000000057,
         "location": "West Deane Park",
@@ -3083,7 +3307,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 110,
+        "_id": 118,
         "parent_id": "137",
         "asset_id": 29277,
         "location": "Baird Park",
@@ -3111,7 +3335,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 111,
+        "_id": 119,
         "parent_id": "77",
         "asset_id": 29509,
         "location": "High Park",
@@ -3139,7 +3363,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 112,
+        "_id": 120,
         "parent_id": "77",
         "asset_id": 35368,
         "location": "High Park",
@@ -3166,7 +3390,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 113,
+        "_id": 121,
         "parent_id": "77",
         "asset_id": 5635,
         "location": "High Park",
@@ -3194,7 +3418,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 114,
+        "_id": 122,
         "parent_id": "77",
         "asset_id": 29478,
         "location": "High Park",
@@ -3222,7 +3446,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 115,
+        "_id": 123,
         "parent_id": "77",
         "asset_id": 29502,
         "location": "High Park",
@@ -3250,7 +3474,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 116,
+        "_id": 124,
         "parent_id": "578",
         "asset_id": 29309,
         "location": "Bridlewood Park",
@@ -3278,7 +3502,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 117,
+        "_id": 125,
         "parent_id": "2472",
         "asset_id": 29547,
         "location": "L'Amoreaux North Park",
@@ -3306,7 +3530,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 118,
+        "_id": 126,
         "parent_id": "798",
         "asset_id": 101975,
         "location": "Centennial Park - Etobicoke",
@@ -3335,7 +3559,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 119,
+        "_id": 127,
         "parent_id": "798",
         "asset_id": 1000000015,
         "location": "Centennial Park - Etobicoke",
@@ -3363,7 +3587,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 120,
+        "_id": 128,
         "parent_id": "798",
         "asset_id": 1000000014,
         "location": "Centennial Park - Etobicoke",
@@ -3391,7 +3615,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 121,
+        "_id": 129,
         "parent_id": "123",
         "asset_id": 29556,
         "location": "Leslie Grove Park",
@@ -3420,7 +3644,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 122,
+        "_id": 130,
         "parent_id": "327",
         "asset_id": 29361,
         "location": "Dieppe Park",
@@ -3448,7 +3672,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 123,
+        "_id": 131,
         "parent_id": "167",
         "asset_id": 29606,
         "location": "Ramsden Park",
@@ -3476,7 +3700,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 124,
+        "_id": 132,
         "parent_id": "1431",
         "asset_id": 79343,
         "location": "Grange Park",
@@ -3504,7 +3728,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 125,
+        "_id": 133,
         "parent_id": "2541",
         "asset_id": 29441,
         "location": "Toronto Islands - Hanlan's Point",
@@ -3531,7 +3755,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 126,
+        "_id": 134,
         "parent_id": "72",
         "asset_id": 29415,
         "location": "Fred Hamilton Playground",
@@ -3559,7 +3783,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 127,
+        "_id": 135,
         "parent_id": "143",
         "asset_id": 97106,
         "location": "David A. Balfour Park",
@@ -3587,7 +3811,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 128,
+        "_id": 136,
         "parent_id": "344",
         "asset_id": 29614,
         "location": "Riverdale Park West",
@@ -3617,7 +3841,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 129,
+        "_id": 137,
         "parent_id": "576",
         "asset_id": 29347,
         "location": "Corvette Park",
@@ -3645,7 +3869,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 130,
+        "_id": 138,
         "parent_id": "473",
         "asset_id": 13476,
         "location": "Edwards Gardens",
@@ -3673,35 +3897,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 131,
-        "parent_id": "149",
-        "asset_id": 93642,
-        "location": "Sherwood Park",
-        "alternative_name": "Sherwood Park Washroom ",
-        "type": "Washroom Building",
-        "accessible": "",
-        "hours": "9 a.m. to 10 p.m.",
-        "location_details": "Located on the east side of the splash pad. ",
-        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/149/index.html",
-        "address": "190 Sherwood Ave  ",
-        "PostedDate": "2024-04-29T11:15:37.000000",
-        "AssetName": "Sherwood Park Washroom ",
-        "Status": "1"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.38705153,
-            43.71718225
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "_id": 132,
+        "_id": 139,
         "parent_id": "11",
         "asset_id": 13493,
         "location": "G. Ross Lord Park",
@@ -3729,7 +3925,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 133,
+        "_id": 140,
         "parent_id": "2288",
         "asset_id": 29411,
         "location": "Fergy Brown Park",
@@ -3757,7 +3953,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 134,
+        "_id": 141,
         "parent_id": "9",
         "asset_id": 29401,
         "location": "Eglinton Flats",
@@ -3785,7 +3981,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 135,
+        "_id": 142,
         "parent_id": "9",
         "asset_id": 13482,
         "location": "Eglinton Flats",
@@ -3813,7 +4009,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 136,
+        "_id": 143,
         "parent_id": "9",
         "asset_id": 13481,
         "location": "Eglinton Flats",
@@ -3841,7 +4037,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 137,
+        "_id": 144,
         "parent_id": "3789",
         "asset_id": 58062,
         "location": "Jack Layton Ferry Terminal",
@@ -3869,7 +4065,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 138,
+        "_id": 145,
         "parent_id": "2",
         "asset_id": 29307,
         "location": "Bluffer's Park",
@@ -3897,7 +4093,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 139,
+        "_id": 146,
         "parent_id": "590",
         "asset_id": 29634,
         "location": "Seven Oaks Park",
@@ -3925,7 +4121,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 140,
+        "_id": 147,
         "parent_id": "746",
         "asset_id": 29628,
         "location": "Scarborough Village Park",
@@ -3953,7 +4149,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 141,
+        "_id": 148,
         "parent_id": "1470",
         "asset_id": 29578,
         "location": "Morningside Park",
@@ -3981,7 +4177,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 142,
+        "_id": 149,
         "parent_id": "2725",
         "asset_id": 29698,
         "location": "Toronto Islands - Centre Island",
@@ -4008,7 +4204,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 143,
+        "_id": 150,
         "parent_id": "2039",
         "asset_id": 29708,
         "location": "Toronto Islands - Ward's Island",
@@ -4035,7 +4231,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 144,
+        "_id": 151,
         "parent_id": "2024",
         "asset_id": 29689,
         "location": "Toronto Islands - Toronto Island Park",
@@ -4062,7 +4258,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 145,
+        "_id": 152,
         "parent_id": "311",
         "asset_id": 37104,
         "location": "Woodbine Beach Park",
@@ -4090,7 +4286,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 146,
+        "_id": 153,
         "parent_id": "870",
         "asset_id": 75662,
         "location": "Summerlea Park",
@@ -4118,7 +4314,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 147,
+        "_id": 154,
         "parent_id": "107",
         "asset_id": 36324,
         "location": "Kew Gardens",
@@ -4146,7 +4342,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 148,
+        "_id": 155,
         "parent_id": "67",
         "asset_id": 32922,
         "location": "Jonathan Ashbridge Park",
@@ -4174,35 +4370,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 149,
-        "parent_id": "87",
-        "asset_id": 29379,
-        "location": "Dufferin Grove Park",
-        "alternative_name": "Dufferin Grove Sports Field Washroom",
-        "type": "Washroom Building",
-        "accessible": "Accessible Stall, Entrance at Grade",
-        "hours": "9 a.m. to 10 p.m.",
-        "location_details": "Located in the grassy area west of the sports field.",
-        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/87/index.html",
-        "address": "875 Dufferin St  ",
-        "PostedDate": "2024-04-26T07:24:58.000000",
-        "AssetName": "Dufferin Grove Sports Field Washroom",
-        "Status": "1"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.43219567,
-            43.65705289
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "_id": 150,
+        "_id": 156,
         "parent_id": "321",
         "asset_id": 1846,
         "location": "Leaside Outdoor Pool",
@@ -4230,7 +4398,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 151,
+        "_id": 157,
         "parent_id": "939",
         "asset_id": 66883,
         "location": "Amos Waites Park",
@@ -4258,7 +4426,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 152,
+        "_id": 158,
         "parent_id": "254",
         "asset_id": 32744,
         "location": "Pantry Park",
@@ -4286,7 +4454,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 153,
+        "_id": 159,
         "parent_id": "437",
         "asset_id": 5459,
         "location": "Donald D. Summerville Olympic Pools",
@@ -4314,7 +4482,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 154,
+        "_id": 160,
         "parent_id": "1",
         "asset_id": 31265,
         "location": "Ashbridges Bay Park",
@@ -4342,7 +4510,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 155,
+        "_id": 161,
         "parent_id": "459",
         "asset_id": 46142,
         "location": "Cherry Beach Sports Fields",
@@ -4370,7 +4538,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 156,
+        "_id": 162,
         "parent_id": "406",
         "asset_id": 75804,
         "location": "Guild Park and Gardens",
@@ -4398,7 +4566,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 157,
+        "_id": 163,
         "parent_id": "77",
         "asset_id": 29459,
         "location": "High Park",
@@ -4426,35 +4594,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 158,
-        "parent_id": "1508",
-        "asset_id": 74844,
-        "location": "Humberline Park",
-        "alternative_name": "Humberline Park Washroom ",
-        "type": "Washroom Building",
-        "accessible": "Accessible Stall, Entrance at Grade, Automatic Door Opener, Child Change Table, Adult Change Table",
-        "hours": "9 a.m. to 10 p.m.",
-        "location_details": "Located on the pathway next to the playground.",
-        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1508/index.html",
-        "address": "32 Humberline Dr  ",
-        "PostedDate": "2024-04-22T12:56:29.000000",
-        "AssetName": "Humberline Park Washroom ",
-        "Status": "1"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.61579573,
-            43.73151662
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "_id": 159,
+        "_id": 164,
         "parent_id": "605",
         "asset_id": 29383,
         "location": "Dunlop Park",
@@ -4482,7 +4622,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 160,
+        "_id": 165,
         "parent_id": "790",
         "asset_id": 5445,
         "location": "Maryvale Park Outdoor Pool",
@@ -4510,7 +4650,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 161,
+        "_id": 166,
         "parent_id": "630",
         "asset_id": 2081,
         "location": "Jack Goodlad Community Centre",
@@ -4538,7 +4678,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 162,
+        "_id": 167,
         "parent_id": "138",
         "asset_id": 29566,
         "location": "Lytton Park",
@@ -4566,7 +4706,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 163,
+        "_id": 168,
         "parent_id": "131",
         "asset_id": 1840,
         "location": "Memorial Park - North York",
@@ -4594,7 +4734,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 164,
+        "_id": 169,
         "parent_id": "792",
         "asset_id": 29583,
         "location": "Neilson Park - Scarborough",
@@ -4622,7 +4762,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 165,
+        "_id": 170,
         "parent_id": "337",
         "asset_id": 29385,
         "location": "Earl Bales Park",
@@ -4650,7 +4790,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 166,
+        "_id": 171,
         "parent_id": "19",
         "asset_id": 29617,
         "location": "Rosetta McClain Gardens",
@@ -4678,35 +4818,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 167,
-        "parent_id": "733",
-        "asset_id": 29600,
-        "location": "Prairie Drive Park",
-        "alternative_name": "Prairie Drive Park Washroom ",
-        "type": "Washroom Building",
-        "accessible": "Entrance at Grade",
-        "hours": "9 a.m. to 10 p.m.",
-        "location_details": "Located on the pathway between parking lot and the playground.",
-        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/733/index.html",
-        "address": "101 Pharmacy Ave  ",
-        "PostedDate": "2024-04-18T14:19:20.000000",
-        "AssetName": "Prairie Drive Park Washroom ",
-        "Status": "1"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.28394728,
-            43.69721943
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "_id": 168,
+        "_id": 172,
         "parent_id": "394",
         "asset_id": 46102,
         "location": "Sunnyside Park",
@@ -4734,7 +4846,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 169,
+        "_id": 173,
         "parent_id": "394",
         "asset_id": 46103,
         "location": "Sunnyside Park",
@@ -4762,35 +4874,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 170,
-        "parent_id": "481",
-        "asset_id": 29589,
-        "location": "Northwood Park",
-        "alternative_name": "Northwood Park Washroom ",
-        "type": "Washroom Building",
-        "accessible": "Accessible Stall, Entrance at Grade",
-        "hours": "9 a.m. to 10 p.m.",
-        "location_details": "Located on the pathway 100 metres north of the parking lot, near Picnic Site #2.",
-        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/481/index.html",
-        "address": "140 Stilecroft Dr  ",
-        "PostedDate": "2024-04-17T13:45:26.000000",
-        "AssetName": "Northwood Park Washroom ",
-        "Status": "1"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.49686636,
-            43.74763687
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "_id": 171,
+        "_id": 174,
         "parent_id": "571",
         "asset_id": 29740,
         "location": "Wexford Park",
@@ -4818,7 +4902,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 172,
+        "_id": 175,
         "parent_id": "202",
         "asset_id": 29276,
         "location": "Ashtonbee Reservoir Park",
@@ -4846,7 +4930,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 173,
+        "_id": 176,
         "parent_id": "129",
         "asset_id": 29410,
         "location": "Felstead Avenue Playground",
@@ -4874,7 +4958,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 174,
+        "_id": 177,
         "parent_id": "306",
         "asset_id": 29753,
         "location": "Withrow Park",
@@ -4902,7 +4986,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 175,
+        "_id": 178,
         "parent_id": "174",
         "asset_id": 29581,
         "location": "Morse Street Playground",
@@ -4930,7 +5014,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 176,
+        "_id": 179,
         "parent_id": "708",
         "asset_id": 13599,
         "location": "Major Abbas Ali Park",
@@ -4958,7 +5042,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 177,
+        "_id": 180,
         "parent_id": "686",
         "asset_id": 29536,
         "location": "Iroquois Park",
@@ -4986,7 +5070,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 178,
+        "_id": 181,
         "parent_id": "6",
         "asset_id": 29570,
         "location": "Marie Curtis Park",
@@ -5014,7 +5098,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 179,
+        "_id": 182,
         "parent_id": "228",
         "asset_id": 29590,
         "location": "Norwood Park",
@@ -5042,7 +5126,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 180,
+        "_id": 183,
         "parent_id": "265",
         "asset_id": 29724,
         "location": "Wanless Park",
@@ -5070,7 +5154,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 181,
+        "_id": 184,
         "parent_id": "5",
         "asset_id": 29359,
         "location": "Derrydowns Park",
@@ -5098,7 +5182,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 182,
+        "_id": 185,
         "parent_id": "586",
         "asset_id": 29746,
         "location": "Wishing Well Park",
@@ -5126,7 +5210,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 183,
+        "_id": 186,
         "parent_id": "119",
         "asset_id": 29553,
         "location": "Lawrence Park Ravine",
@@ -5154,7 +5238,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 184,
+        "_id": 187,
         "parent_id": "212",
         "asset_id": 29644,
         "location": "Stanley Park North - Toronto",
@@ -5182,7 +5266,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 185,
+        "_id": 188,
         "parent_id": "841",
         "asset_id": 29405,
         "location": "Esther Lorrie Park",
@@ -5210,7 +5294,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 186,
+        "_id": 189,
         "parent_id": "798",
         "asset_id": 101973,
         "location": "Centennial Park - Etobicoke",
@@ -5238,7 +5322,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 187,
+        "_id": 190,
         "parent_id": "798",
         "asset_id": 34993,
         "location": "Centennial Park - Etobicoke",
@@ -5265,7 +5349,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 188,
+        "_id": 191,
         "parent_id": "798",
         "asset_id": 101974,
         "location": "Centennial Park - Etobicoke",
@@ -5292,7 +5376,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 189,
+        "_id": 192,
         "parent_id": "168",
         "asset_id": 30923,
         "location": "Moorevale Park",
@@ -5320,7 +5404,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 190,
+        "_id": 193,
         "parent_id": "125",
         "asset_id": 29561,
         "location": "Lithuania Park",
@@ -5348,7 +5432,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 191,
+        "_id": 194,
         "parent_id": "15",
         "asset_id": 29527,
         "location": "Home Smith Park",
@@ -5376,7 +5460,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 192,
+        "_id": 195,
         "parent_id": "79",
         "asset_id": 29524,
         "location": "Hillcrest Park",
@@ -5404,7 +5488,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 193,
+        "_id": 196,
         "parent_id": "77",
         "asset_id": 29462,
         "location": "High Park",
@@ -5432,7 +5516,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 194,
+        "_id": 197,
         "parent_id": "798",
         "asset_id": 13016,
         "location": "Centennial Park - Etobicoke",
@@ -5460,7 +5544,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 195,
+        "_id": 198,
         "parent_id": "918",
         "asset_id": 29365,
         "location": "Don Valley Golf Course",
@@ -5488,7 +5572,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 196,
+        "_id": 199,
         "parent_id": "805",
         "asset_id": 28900,
         "location": "Royal Crest Rink",
@@ -5517,7 +5601,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 197,
+        "_id": 200,
         "parent_id": "812",
         "asset_id": 29720,
         "location": "Valleyfield Park",
@@ -5546,7 +5630,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 198,
+        "_id": 201,
         "parent_id": "809",
         "asset_id": 28904,
         "location": "Sunnydale Acres Park",
@@ -5575,7 +5659,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 199,
+        "_id": 202,
         "parent_id": "804",
         "asset_id": 28910,
         "location": "Westway Park",
@@ -5604,7 +5688,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 200,
+        "_id": 203,
         "parent_id": "808",
         "asset_id": 28908,
         "location": "West Mall Rink",
@@ -5633,7 +5717,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 201,
+        "_id": 204,
         "parent_id": "814",
         "asset_id": 28902,
         "location": "Sir Adam Beck Rink",
@@ -5662,7 +5746,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 202,
+        "_id": 205,
         "parent_id": "873",
         "asset_id": 28893,
         "location": "West Deane Park",
@@ -5691,7 +5775,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 203,
+        "_id": 206,
         "parent_id": "70",
         "asset_id": 29421,
         "location": "Greenwood Park",
@@ -5719,7 +5803,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 204,
+        "_id": 207,
         "parent_id": "773",
         "asset_id": 28907,
         "location": "Wedgewood Park",
@@ -5748,7 +5832,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 205,
+        "_id": 208,
         "parent_id": "819",
         "asset_id": 28894,
         "location": "Prince of Wales Rink",
@@ -5777,7 +5861,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 206,
+        "_id": 209,
         "parent_id": "816",
         "asset_id": 28891,
         "location": "Humber Valley Rink",
@@ -5806,7 +5890,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 207,
+        "_id": 210,
         "parent_id": "401",
         "asset_id": 29631,
         "location": "Scarlett Woods Golf Course",
@@ -5834,37 +5918,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 208,
-        "parent_id": "343",
-        "asset_id": 29612,
-        "location": "Riverdale Park East",
-        "alternative_name": "Riverdale Park East Fieldhouse Washroom ",
-        "type": "Washroom Building",
-        "accessible": "Entrance at Grade",
-        "hours": "9 a.m. to 10 p.m.",
-        "location_details": "Located in the fieldhouse at the south end of the park.",
-        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/343/index.html",
-        "address": "550 Broadview Ave  ",
-        "PostedDate": "2024-02-09T07:19:54.000000",
-        "AssetName": "Riverdale Park East Fieldhouse Washroom ",
-        "Reason": "Maintenance/Repairs",
-        "Comments": "Men\u00e2\u0080\u0099s Washroom - one stall out of order - door off hinges - work order submitted ",
-        "Status": "2"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.35550582,
-            43.66772754
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "_id": 209,
+        "_id": 211,
         "parent_id": "490",
         "asset_id": 29332,
         "location": "Elie Wiesel Park",
@@ -5892,85 +5946,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 210,
-        "parent_id": "386",
-        "asset_id": 1000000232,
-        "location": "Roundhouse Park",
-        "alternative_name": "Roundhouse Park Portable Toilet",
-        "type": "Portable Toilet",
-        "location_details": "Located beside Bremmer Drive",
-        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/386/index.html",
-        "address": "255 Bremner Blvd",
-        "PostedDate": "2024-01-13T10:55:43.000000",
-        "AssetName": "Roundhouse Park Portable Toilet",
-        "Status": "1"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.38538105,
-            43.64193379
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "_id": 211,
-        "parent_id": "759",
-        "asset_id": 1000000233,
-        "location": "Skymark Park",
-        "alternative_name": "Skymark Park Portable Toilet",
-        "type": "Portable Toilet",
-        "location_details": "Located north west of the parking lot, south of the soccer field",
-        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/759/index.html",
-        "address": "3500 Don Mills Rd",
-        "PostedDate": "2024-01-13T10:55:43.000000",
-        "AssetName": "Skymark Park Portable Toilet",
-        "Status": "1"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.35590976,
-            43.79473127
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "_id": 212,
-        "parent_id": "306",
-        "asset_id": 1000000234,
-        "location": "Withrow Park",
-        "alternative_name": "Withrow Park Portable Toilet",
-        "type": "Portable Toilet",
-        "location_details": "Located on the path between the clubhouse and the ice rink",
-        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/306/index.html",
-        "address": "725 Logan Ave",
-        "PostedDate": "2024-01-13T10:55:43.000000",
-        "AssetName": "Withrow Park Portable Toilet",
-        "Status": "1"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.34670396,
-            43.67545479
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "_id": 213,
         "parent_id": "1707",
         "asset_id": 1000000228,
         "location": "Toronto Music Garden",
@@ -5996,7 +5972,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 214,
+        "_id": 213,
         "parent_id": "792",
         "asset_id": 1000000229,
         "location": "Neilson Park Scarborough",
@@ -6022,7 +5998,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 215,
+        "_id": 214,
         "parent_id": "2674",
         "asset_id": 1000000230,
         "location": "Queen's Park",
@@ -6048,7 +6024,85 @@
     {
       "type": "Feature",
       "properties": {
+        "_id": 215,
+        "parent_id": "386",
+        "asset_id": 1000000232,
+        "location": "Roundhouse Park",
+        "alternative_name": "Roundhouse Park Portable Toilet",
+        "type": "Portable Toilet",
+        "location_details": "Located beside Bremmer Drive",
+        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/386/index.html",
+        "address": "255 Bremner Blvd",
+        "PostedDate": "2024-01-13T10:55:43.000000",
+        "AssetName": "Roundhouse Park Portable Toilet",
+        "Status": "1"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.38538105,
+            43.64193379
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "_id": 216,
+        "parent_id": "759",
+        "asset_id": 1000000233,
+        "location": "Skymark Park",
+        "alternative_name": "Skymark Park Portable Toilet",
+        "type": "Portable Toilet",
+        "location_details": "Located north west of the parking lot, south of the soccer field",
+        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/759/index.html",
+        "address": "3500 Don Mills Rd",
+        "PostedDate": "2024-01-13T10:55:43.000000",
+        "AssetName": "Skymark Park Portable Toilet",
+        "Status": "1"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.35590976,
+            43.79473127
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_id": 217,
+        "parent_id": "306",
+        "asset_id": 1000000234,
+        "location": "Withrow Park",
+        "alternative_name": "Withrow Park Portable Toilet",
+        "type": "Portable Toilet",
+        "location_details": "Located on the path between the clubhouse and the ice rink",
+        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/306/index.html",
+        "address": "725 Logan Ave",
+        "PostedDate": "2024-01-13T10:55:43.000000",
+        "AssetName": "Withrow Park Portable Toilet",
+        "Status": "1"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.34670396,
+            43.67545479
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_id": 218,
         "parent_id": "3555",
         "asset_id": 1000000222,
         "location": "Lee Lifeson Art Park",
@@ -6074,7 +6128,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 217,
+        "_id": 219,
         "parent_id": "128",
         "asset_id": 1000000223,
         "location": "Little Norway Park",
@@ -6100,7 +6154,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 218,
+        "_id": 220,
         "parent_id": "471",
         "asset_id": 1000000224,
         "location": "Marilyn Bell Park",
@@ -6126,7 +6180,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 219,
+        "_id": 221,
         "parent_id": "379",
         "asset_id": 1000000225,
         "location": "McCleary Park",
@@ -6152,7 +6206,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 220,
+        "_id": 222,
         "parent_id": "145",
         "asset_id": 1000000226,
         "location": "Monarch Park",
@@ -6178,7 +6232,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 221,
+        "_id": 223,
         "parent_id": "1470",
         "asset_id": 1000000227,
         "location": "Morningside Park",
@@ -6204,7 +6258,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 222,
+        "_id": 224,
         "parent_id": "514",
         "asset_id": 1000000217,
         "location": "Earlscourt Park",
@@ -6230,7 +6284,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 223,
+        "_id": 225,
         "parent_id": "117",
         "asset_id": 1000000218,
         "location": "Eglinton Park",
@@ -6256,7 +6310,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 224,
+        "_id": 226,
         "parent_id": "2288",
         "asset_id": 1000000219,
         "location": "Fergy Brown Park",
@@ -6282,7 +6336,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 225,
+        "_id": 227,
         "parent_id": "70",
         "asset_id": 1000000220,
         "location": "Greenwood Park",
@@ -6308,7 +6362,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 226,
+        "_id": 228,
         "parent_id": "1053",
         "asset_id": 1000000214,
         "location": "Campbell Avenue Park",
@@ -6334,7 +6388,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 227,
+        "_id": 229,
         "parent_id": "196",
         "asset_id": 1000000215,
         "location": "Christie Pits Park",
@@ -6360,7 +6414,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 228,
+        "_id": 230,
         "parent_id": "86",
         "asset_id": 1000000216,
         "location": "Dovercourt Park",
@@ -6386,7 +6440,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 229,
+        "_id": 231,
         "parent_id": "228",
         "asset_id": 1000000043,
         "location": "Norwood Park",
@@ -6414,7 +6468,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 230,
+        "_id": 232,
         "parent_id": "87",
         "asset_id": 1000000023,
         "location": "Dufferin Grove Park",
@@ -6442,7 +6496,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 231,
+        "_id": 233,
         "parent_id": "87",
         "asset_id": 1000000022,
         "location": "Dufferin Grove Park",
@@ -6470,7 +6524,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 232,
+        "_id": 234,
         "parent_id": "143",
         "asset_id": 1000000020,
         "location": "David A. Balfour Park",
@@ -6498,7 +6552,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 233,
+        "_id": 235,
         "parent_id": "611",
         "asset_id": 1000000041,
         "location": "Cruickshank Park",
@@ -6526,7 +6580,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 234,
+        "_id": 236,
         "parent_id": "850",
         "asset_id": 1000000040,
         "location": "Masseygrove Park",
@@ -6554,7 +6608,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 235,
+        "_id": 237,
         "parent_id": "723",
         "asset_id": 1000000044,
         "location": "Pelmo Park",
@@ -6582,7 +6636,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 236,
+        "_id": 238,
         "parent_id": "1471",
         "asset_id": 1000000048,
         "location": "Scarlett Mills Park",
@@ -6610,7 +6664,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 237,
+        "_id": 239,
         "parent_id": "348",
         "asset_id": 1000000053,
         "location": "Sorauren Avenue Park",
@@ -6638,7 +6692,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 238,
+        "_id": 240,
         "parent_id": "2178",
         "asset_id": 1000000013,
         "location": "Brookbanks Park",
@@ -6666,7 +6720,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 239,
+        "_id": 241,
         "parent_id": "468",
         "asset_id": 1000000021,
         "location": "Downsview Dells Park",
@@ -6694,7 +6748,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 240,
+        "_id": 242,
         "parent_id": "11",
         "asset_id": 1000000029,
         "location": "G Ross Lord Park",
@@ -6722,7 +6776,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 241,
+        "_id": 243,
         "parent_id": "181",
         "asset_id": 1000000008,
         "location": "Rennie Park",
@@ -6750,7 +6804,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 242,
+        "_id": 244,
         "parent_id": "716",
         "asset_id": 1000000037,
         "location": "Magwood Park",
@@ -6778,7 +6832,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 243,
+        "_id": 245,
         "parent_id": "107",
         "asset_id": 32883,
         "location": "Kew Gardens",
@@ -6806,7 +6860,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 244,
+        "_id": 246,
         "parent_id": "798",
         "asset_id": 1674,
         "location": "Centennial Park - Etobicoke",
@@ -6836,7 +6890,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 245,
+        "_id": 247,
         "parent_id": "610",
         "asset_id": 1000000056,
         "location": "Wallace C. Swanek Park",
@@ -6864,7 +6918,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 246,
+        "_id": 248,
         "parent_id": "484",
         "asset_id": 1000000200,
         "location": "Amesbury Park",
@@ -6891,7 +6945,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 247,
+        "_id": 249,
         "parent_id": "870",
         "asset_id": 1000000054,
         "location": "Summerlea Park",
@@ -6918,7 +6972,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 248,
+        "_id": 250,
         "parent_id": "71",
         "asset_id": 1000000051,
         "location": "Sir Casimir Gzowski Park",
@@ -6945,7 +6999,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 249,
+        "_id": 251,
         "parent_id": "311",
         "asset_id": 1000000058,
         "location": "Woodbine Beach Park",
@@ -6965,60 +7019,6 @@
           [
             -79.30928434,
             43.66302455
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "_id": 250,
-        "parent_id": "704",
-        "asset_id": 1000000039,
-        "location": "Maryvale Park",
-        "alternative_name": "Maryvale Park Portable Toilet",
-        "type": "Portable Toilet",
-        "accessible": "",
-        "location_details": "Located at the entrance of the tennis courts next to the drinking fountain.",
-        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/704/index.html",
-        "address": "5 Trestleside Grv  ",
-        "PostedDate": "2023-12-14T11:23:27.000000",
-        "AssetName": "Maryvale Park Portable Toilet",
-        "Status": "1"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.30621157,
-            43.75383629
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "_id": 251,
-        "parent_id": "1088",
-        "asset_id": 1000000042,
-        "location": "Milliken Park",
-        "alternative_name": "Milliken Park Portable Toilet",
-        "type": "Portable Toilet",
-        "accessible": "",
-        "location_details": "Located at the northeast corner of the concession building driveway.",
-        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1088/index.html",
-        "address": "5555 Steeles Ave  E ",
-        "PostedDate": "2023-12-14T11:23:27.000000",
-        "AssetName": "Milliken Park Portable Toilet",
-        "Status": "1"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.2713769,
-            43.83022255
           ]
         ]
       }
@@ -7054,6 +7054,33 @@
       "type": "Feature",
       "properties": {
         "_id": 253,
+        "parent_id": "704",
+        "asset_id": 1000000039,
+        "location": "Maryvale Park",
+        "alternative_name": "Maryvale Park Portable Toilet",
+        "type": "Portable Toilet",
+        "accessible": "",
+        "location_details": "Located at the entrance of the tennis courts next to the drinking fountain.",
+        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/704/index.html",
+        "address": "5 Trestleside Grv  ",
+        "PostedDate": "2023-12-14T11:23:27.000000",
+        "AssetName": "Maryvale Park Portable Toilet",
+        "Status": "1"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.30621157,
+            43.75383629
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_id": 254,
         "parent_id": "1663",
         "asset_id": 1000000033,
         "location": "HTO Park",
@@ -7080,7 +7107,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 254,
+        "_id": 255,
         "parent_id": "1508",
         "asset_id": 1000000006,
         "location": "Humberline Park",
@@ -7107,7 +7134,34 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 255,
+        "_id": 256,
+        "parent_id": "1088",
+        "asset_id": 1000000042,
+        "location": "Milliken Park",
+        "alternative_name": "Milliken Park Portable Toilet",
+        "type": "Portable Toilet",
+        "accessible": "",
+        "location_details": "Located at the northeast corner of the concession building driveway.",
+        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1088/index.html",
+        "address": "5555 Steeles Ave  E ",
+        "PostedDate": "2023-12-14T11:23:27.000000",
+        "AssetName": "Milliken Park Portable Toilet",
+        "Status": "1"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.2713769,
+            43.83022255
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_id": 257,
         "parent_id": "87",
         "asset_id": 1000000024,
         "location": "Dufferin Grove Park",
@@ -7134,7 +7188,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 256,
+        "_id": 258,
         "parent_id": "9",
         "asset_id": 1000000026,
         "location": "Eglinton Flats",
@@ -7161,7 +7215,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 257,
+        "_id": 259,
         "parent_id": "841",
         "asset_id": 1000000027,
         "location": "Esther Lorrie Park",
@@ -7188,7 +7242,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 258,
+        "_id": 260,
         "parent_id": "10",
         "asset_id": 1000000028,
         "location": "Etienne Brule Park",
@@ -7215,7 +7269,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 259,
+        "_id": 261,
         "parent_id": "209",
         "asset_id": 1000000004,
         "location": "Cherry Beach Clarke Beach Park",
@@ -7242,7 +7296,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 260,
+        "_id": 262,
         "parent_id": "1450",
         "asset_id": 1000000019,
         "location": "Crawford - Jones Memorial Park",
@@ -7269,7 +7323,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 261,
+        "_id": 263,
         "parent_id": "427",
         "asset_id": 1000000011,
         "location": "Balmy Beach Park",
@@ -7296,7 +7350,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 262,
+        "_id": 264,
         "parent_id": "522",
         "asset_id": 1000000001,
         "location": "Adams Park",
@@ -7323,7 +7377,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 263,
+        "_id": 265,
         "parent_id": "1",
         "asset_id": 1000000010,
         "location": "Ashbridges Bay Park",
@@ -7350,7 +7404,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 264,
+        "_id": 266,
         "parent_id": "352",
         "asset_id": 36264,
         "location": "Kidstown",
@@ -7379,7 +7433,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 265,
+        "_id": 267,
         "parent_id": "263",
         "asset_id": 79231,
         "location": "Bellevue Square Park",
@@ -7409,7 +7463,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 266,
+        "_id": 268,
         "parent_id": "145",
         "asset_id": 5404,
         "location": "Monarch Park",
@@ -7437,7 +7491,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 267,
+        "_id": 269,
         "parent_id": "1860",
         "asset_id": 28901,
         "location": "Sherbourne Common",
@@ -7465,7 +7519,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 268,
+        "_id": 270,
         "parent_id": "419",
         "asset_id": 28897,
         "location": "Regent Park Athletic Grounds",
@@ -7493,7 +7547,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 269,
+        "_id": 271,
         "parent_id": "327",
         "asset_id": 28887,
         "location": "Dieppe Park",
@@ -7521,7 +7575,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 270,
+        "_id": 272,
         "parent_id": "343",
         "asset_id": 6171,
         "location": "Riverdale Park East",
@@ -7549,7 +7603,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 271,
+        "_id": 273,
         "parent_id": "70",
         "asset_id": 5675,
         "location": "Greenwood Park",
@@ -7577,7 +7631,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 272,
+        "_id": 274,
         "parent_id": "251",
         "asset_id": 14068,
         "location": "Otter Creek Centre",
@@ -7605,7 +7659,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 273,
+        "_id": 275,
         "parent_id": "1220",
         "asset_id": 28890,
         "location": "Hodgson Public School",
@@ -7633,7 +7687,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 274,
+        "_id": 276,
         "parent_id": "2155",
         "asset_id": 12,
         "location": "Albert Campbell Square",
@@ -7661,7 +7715,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 275,
+        "_id": 277,
         "parent_id": "1500",
         "asset_id": 60142,
         "location": "McCowan District Park",
@@ -7689,7 +7743,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 276,
+        "_id": 278,
         "parent_id": "1068",
         "asset_id": 13499,
         "location": "Giovanni Caboto Rink and Pool",
@@ -7717,7 +7771,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 277,
+        "_id": 279,
         "parent_id": "772",
         "asset_id": 13688,
         "location": "Viewmount Park",
@@ -7745,7 +7799,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 278,
+        "_id": 280,
         "parent_id": "466",
         "asset_id": 1000000017,
         "location": "Colonel Samuel Smith Park",
@@ -7772,7 +7826,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 279,
+        "_id": 281,
         "parent_id": "1089",
         "asset_id": 32622,
         "location": "Nathan Phillips Square",
@@ -7800,7 +7854,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 280,
+        "_id": 282,
         "parent_id": "431",
         "asset_id": 41663,
         "location": "Woodbine Park",
@@ -7828,7 +7882,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 281,
+        "_id": 283,
         "parent_id": "86",
         "asset_id": 29374,
         "location": "Dovercourt Park",
@@ -7856,7 +7910,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 282,
+        "_id": 284,
         "parent_id": "2039",
         "asset_id": 34605,
         "location": "Toronto Islands - Ward's Island",
@@ -7883,7 +7937,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 283,
+        "_id": 285,
         "parent_id": "151",
         "asset_id": 79226,
         "location": "Jean Sibelius Square",
@@ -7911,7 +7965,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 284,
+        "_id": 286,
         "parent_id": "3555",
         "asset_id": 59947,
         "location": "Lee Lifeson Art Park",
@@ -7939,7 +7993,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 285,
+        "_id": 287,
         "parent_id": "1088",
         "asset_id": 13602,
         "location": "Milliken Park",
@@ -7967,7 +8021,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 286,
+        "_id": 288,
         "parent_id": "22",
         "asset_id": 1000000047,
         "location": "Rowntree Mills Park",
@@ -7994,7 +8048,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 287,
+        "_id": 289,
         "parent_id": "2541",
         "asset_id": 14102,
         "location": "Toronto Islands - Hanlan's Point",
@@ -8021,7 +8075,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 288,
+        "_id": 290,
         "parent_id": "2597",
         "asset_id": 103143,
         "location": "Ethennonnhawahstihnen Park",
@@ -8049,7 +8103,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 289,
+        "_id": 291,
         "parent_id": "3",
         "asset_id": 29542,
         "location": "James Gardens",
@@ -8077,7 +8131,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 290,
+        "_id": 292,
         "parent_id": "74",
         "asset_id": 29443,
         "location": "Harbour Square Park",
@@ -8105,7 +8159,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 291,
+        "_id": 293,
         "parent_id": "653",
         "asset_id": 1000000005,
         "location": "Harryetta Gardens",
@@ -8132,7 +8186,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 292,
+        "_id": 294,
         "parent_id": "508",
         "asset_id": 1000000009,
         "location": "Weston Lions Park",
@@ -8158,7 +8212,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 293,
+        "_id": 295,
         "parent_id": "504",
         "asset_id": 1000000052,
         "location": "Smythe Park",
@@ -8185,7 +8239,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 294,
+        "_id": 296,
         "parent_id": "877",
         "asset_id": 1000000050,
         "location": "Silver Creek Park",
@@ -8212,7 +8266,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 295,
+        "_id": 297,
         "parent_id": "859",
         "asset_id": 1000000045,
         "location": "Pine Point Park",
@@ -8239,7 +8293,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 296,
+        "_id": 298,
         "parent_id": "77",
         "asset_id": 1000000032,
         "location": "High Park Zoo",
@@ -8266,7 +8320,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 297,
+        "_id": 299,
         "parent_id": "77",
         "asset_id": 1000000031,
         "location": "High Park",
@@ -8293,7 +8347,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 298,
+        "_id": 300,
         "parent_id": "2031",
         "asset_id": 1000000018,
         "location": "Coronation Park - York",
@@ -8320,7 +8374,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 299,
+        "_id": 301,
         "parent_id": "798",
         "asset_id": 1000000196,
         "location": "Centennial Park - Etobicoke",
@@ -8346,7 +8400,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 300,
+        "_id": 302,
         "parent_id": "41",
         "asset_id": 1000000002,
         "location": "Allan Gardens",
@@ -8372,7 +8426,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 301,
+        "_id": 303,
         "parent_id": "1057",
         "asset_id": 29356,
         "location": "Dentonia Park",
@@ -8400,7 +8454,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 302,
+        "_id": 304,
         "parent_id": "899",
         "asset_id": 6191,
         "location": "Pine Point Park Outdoor Pool",
@@ -8428,7 +8482,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 303,
+        "_id": 305,
         "parent_id": "678",
         "asset_id": 1847,
         "location": "Ledbury Park",
@@ -8456,7 +8510,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 304,
+        "_id": 306,
         "parent_id": "353",
         "asset_id": 6094,
         "location": "Kiwanis Outdoor Pool",
@@ -8484,7 +8538,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 305,
+        "_id": 307,
         "parent_id": "414",
         "asset_id": 13388,
         "location": "Alex Duff Memorial Pool",
@@ -8512,7 +8566,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 306,
+        "_id": 308,
         "parent_id": "897",
         "asset_id": 1610,
         "location": "Alderwood Centre",
@@ -8539,7 +8593,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 307,
+        "_id": 309,
         "parent_id": "823",
         "asset_id": 500,
         "location": "Horner Avenue Seniors Centre",
@@ -8566,35 +8620,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 308,
-        "parent_id": "320",
-        "asset_id": 347,
-        "location": "Esther Shiner Stadium",
-        "alternative_name": "Esther Shiner Stadium Washroom",
-        "type": "Washroom Building",
-        "accessible": "",
-        "hours": "9 a.m. to 10 p.m.",
-        "location_details": "Located at the main entrance to the stadium.",
-        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/320/index.html",
-        "address": "5720 Bathurst St  ",
-        "PostedDate": "2023-04-23T14:35:52.000000",
-        "AssetName": "Esther Shiner Stadium Washroom",
-        "Status": "1"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.44546332,
-            43.77604296
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "_id": 309,
+        "_id": 310,
         "parent_id": "210",
         "asset_id": 28899,
         "location": "Rosedale Park",
@@ -8622,7 +8648,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 310,
+        "_id": 311,
         "parent_id": "78",
         "asset_id": 29354,
         "location": "June Rowlands Park",
@@ -8650,7 +8676,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 311,
+        "_id": 312,
         "parent_id": "699",
         "asset_id": 13045,
         "location": "L'Amoreaux Tennis Centre",
@@ -8678,7 +8704,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 312,
+        "_id": 313,
         "parent_id": "749",
         "asset_id": 13055,
         "location": "North Kipling Community Centre",
@@ -8706,7 +8732,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 313,
+        "_id": 314,
         "parent_id": "345",
         "asset_id": 13639,
         "location": "Riverdale Farm",
@@ -8734,7 +8760,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 314,
+        "_id": 315,
         "parent_id": "107",
         "asset_id": 36323,
         "location": "Kew Beach Lawn Bowling Club",
@@ -8755,34 +8781,6 @@
           [
             -79.29730372,
             43.66657292
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "_id": 315,
-        "parent_id": "1449",
-        "asset_id": 79459,
-        "location": "Don Valley Brick Works",
-        "alternative_name": "Don Valley Brick Works Washroom ",
-        "type": "Washroom Building",
-        "accessible": "",
-        "hours": "9 a.m. to 10 p.m.",
-        "location_details": "Located in the western building along the pathway into the park.",
-        "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1449/index.html",
-        "address": "550 Bayview Ave  ",
-        "PostedDate": "2023-04-14T12:26:21.000000",
-        "AssetName": "Don Valley Brick Works Washroom ",
-        "Status": "1"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.36642253,
-            43.68437785
           ]
         ]
       }

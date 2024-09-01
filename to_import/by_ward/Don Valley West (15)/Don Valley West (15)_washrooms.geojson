@@ -9,20 +9,17 @@
         "fee": "no",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
-        "wheelchair": "yes",
-        "toilets:wheelchair": "yes",
-        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
-        "description": "Located on the park pathway across from Picnic Site #1.",
+        "description": "Located on the east side of the splash pad.",
         "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
-        "ref:open.toronto.ca:washroom-facilities:asset_id": "36503"
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "93642"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.35703861,
-          43.71862545
+          -79.38705153,
+          43.71718225
         ]
       }
     },
@@ -45,6 +42,31 @@
         "coordinates": [
           -79.35300257,
           43.72140939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the park pathway across from Picnic Site #1.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "36503"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.35703861,
+          43.71862545
         ]
       }
     },
@@ -89,28 +111,6 @@
         "coordinates": [
           -79.35936175,
           43.73410649
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "amenity": "toilets",
-        "access": "yes",
-        "fee": "no",
-        "toilets:disposal": "flush",
-        "toilets:handwashing": "yes",
-        "operator": "City of Toronto",
-        "opening_hours": "May-Oct 09:00-22:00",
-        "description": "Located on the east side of the splash pad.",
-        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
-        "ref:open.toronto.ca:washroom-facilities:asset_id": "93642"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.38705153,
-          43.71718225
         ]
       }
     },

@@ -463,10 +463,13 @@
         "amenity": "toilets",
         "_type": "node",
         "_id": 1111967974,
-        "_version": 3,
-        "_timestamp": "2011-02-12T01:13:08+00:00",
+        "_version": 4,
+        "_timestamp": "2024-08-28T14:14:04+00:00",
         "_url_nwr": "https://www.openstreetmap.org/node/1111967974",
-        "wheelchair": "yes"
+        "wheelchair": "yes",
+        "access": "yes",
+        "toilets:disposal": "flush",
+        "changing_table": "yes"
       },
       "geometry": {
         "type": "Point",
@@ -3870,9 +3873,9 @@
         "wheelchair": "no",
         "access": "yes",
         "toilets:disposal": "flush",
+        "changing_table": "no",
         "opening_hours": "Mo-Su 09:00-sunset",
         "unisex": "yes",
-        "changing_table": "no",
         "toilets:handwashing": "yes"
       },
       "geometry": {
@@ -5488,6 +5491,60 @@
         "coordinates": [
           -79.279352,
           43.7113791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "_type": "node",
+        "_id": 12132133902,
+        "_version": 1,
+        "_timestamp": "2024-08-23T15:04:52+00:00",
+        "_url_nwr": "https://www.openstreetmap.org/node/12132133902",
+        "wheelchair": "yes",
+        "access": "yes",
+        "toilets:disposal": "flush",
+        "fee": "no",
+        "operator": "City of Toronto",
+        "description": "Two single user accessible washrooms",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr off",
+        "unisex": "yes",
+        "toilets:handwashing": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4204415,
+          43.6527194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "_type": "node",
+        "_id": 12132133906,
+        "_version": 1,
+        "_timestamp": "2024-08-23T15:04:52+00:00",
+        "_url_nwr": "https://www.openstreetmap.org/node/12132133906",
+        "access": "yes",
+        "toilets:disposal": "flush",
+        "fee": "no",
+        "operator": "City of Toronto",
+        "female": "yes",
+        "male": "yes",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr 09:00-20:00",
+        "portable": "no",
+        "toilets:handwashing": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4311676,
+          43.6913914
         ]
       }
     },
@@ -7546,12 +7603,14 @@
         "amenity": "toilets",
         "_type": "way",
         "_id": 225522401,
-        "_version": 4,
-        "_timestamp": "2024-06-24T18:57:30+00:00",
+        "_version": 5,
+        "_timestamp": "2024-08-14T12:49:34+00:00",
         "_url_nwr": "https://www.openstreetmap.org/way/225522401",
+        "check_date": "2024-08-14",
         "toilets:disposal": "flush",
         "female": "yes",
         "male": "yes",
+        "opening_hours": "May-Oct 09:00-22:00, Nov-Apr 09:00-20:00",
         "building": "yes"
       },
       "geometry": {
@@ -7965,11 +8024,11 @@
         "_url_nwr": "https://www.openstreetmap.org/way/366892267",
         "access": "permissive",
         "toilets:disposal": "flush",
+        "changing_table": "yes",
         "name": "Simpson House",
         "female": "yes",
         "male": "yes",
         "unisex": "yes",
-        "changing_table": "yes",
         "toilets:position": "seated",
         "building": "house",
         "historic": "building"
@@ -8683,46 +8742,6 @@
             [
               -79.5548521,
               43.6310171
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "amenity": "toilets",
-        "_type": "way",
-        "_id": 680593608,
-        "_version": 2,
-        "_timestamp": "2019-03-30T23:13:09+00:00",
-        "_url_nwr": "https://www.openstreetmap.org/way/680593608",
-        "building": "yes",
-        "building:levels": "1"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -79.4204608,
-              43.6527492
-            ],
-            [
-              -79.4204647,
-              43.6526945
-            ],
-            [
-              -79.4203456,
-              43.6526901
-            ],
-            [
-              -79.4203418,
-              43.6527448
-            ],
-            [
-              -79.4204608,
-              43.6527492
             ]
           ]
         ]
@@ -9595,8 +9614,8 @@
         "wheelchair": "no",
         "access": "private",
         "toilets:disposal": "flush",
-        "female": "yes",
         "changing_table": "no",
+        "female": "yes",
         "building": "yes"
       },
       "geometry": {

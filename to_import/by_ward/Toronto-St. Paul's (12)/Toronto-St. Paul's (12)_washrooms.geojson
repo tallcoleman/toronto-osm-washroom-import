@@ -9,6 +9,53 @@
         "fee": "no",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Entrance is located on the outside of Phil White Arena.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1908"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.43144289,
+          43.69127915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, entrance access ramp, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the southwest area of the park next to the playground.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29729"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.41634327000001,
+          43.6823371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
         "wheelchair": "yes",
         "toilets:wheelchair": "yes",
         "wheelchair:description": "Accessible features: entrance at grade, entrance access ramp, automatic door opener, accessible stall",

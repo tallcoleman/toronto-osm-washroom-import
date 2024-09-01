@@ -11,6 +11,75 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located east of the second parking lot on the south side of the park road.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29376"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.49599924,
+          43.73542591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway 100 metres north of the parking lot, near Picnic Site #2.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29589"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.49686636,
+          43.74763687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located across from Picnic Site #3, east of the last parking lot.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29375"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.50093668,
+          43.73662343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
         "description": "Located at the entrance of the park from Hidden Trail.",
         "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "30891"
@@ -122,31 +191,6 @@
         "fee": "no",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
-        "wheelchair": "yes",
-        "toilets:wheelchair": "yes",
-        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
-        "operator": "City of Toronto",
-        "opening_hours": "May-Oct 09:00-22:00",
-        "description": "Located on the pathway 100 metres north of the parking lot, near Picnic Site #2.",
-        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
-        "ref:open.toronto.ca:washroom-facilities:asset_id": "29589"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.49686636,
-          43.74763687
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "amenity": "toilets",
-        "access": "yes",
-        "fee": "no",
-        "toilets:disposal": "flush",
-        "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "opening_hours": "May-Oct 09:00-22:00",
         "description": "Located north of the baseball diamond and west of the tennis courts.",
@@ -158,26 +202,6 @@
         "coordinates": [
           -79.43774264000001,
           43.74605651
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "amenity": "toilets",
-        "access": "yes",
-        "fee": "no",
-        "toilets:disposal": "flush",
-        "toilets:handwashing": "yes",
-        "operator": "City of Toronto",
-        "description": "Located at the main entrance to the stadium.",
-        "ref:open.toronto.ca:washroom-facilities:asset_id": "347"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.44546332,
-          43.77604296
         ]
       }
     },

@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.1 084b4234",
   "osm3s": {
-    "timestamp_osm_base": "2024-08-13T23:57:16Z",
-    "timestamp_areas_base": "2024-08-13T22:49:27Z",
+    "timestamp_osm_base": "2024-09-01T20:18:45Z",
+    "timestamp_areas_base": "2024-09-01T18:01:00Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -372,13 +372,16 @@
       "id": 1111967974,
       "lat": 43.7742698,
       "lon": -79.5011227,
-      "timestamp": "2011-02-12T01:13:08Z",
-      "version": 3,
-      "changeset": 7260844,
-      "user": "wheelmap_visitor",
-      "uid": 290680,
+      "timestamp": "2024-08-28T14:14:04Z",
+      "version": 4,
+      "changeset": 155883233,
+      "user": "wdenton",
+      "uid": 1437296,
       "tags": {
+        "access": "yes",
         "amenity": "toilets",
+        "changing_table": "yes",
+        "toilets:disposal": "flush",
         "wheelchair": "yes"
       }
     },
@@ -4406,6 +4409,52 @@
       }
     },
     {
+      "type": "node",
+      "id": 12132133902,
+      "lat": 43.6527194,
+      "lon": -79.4204415,
+      "timestamp": "2024-08-23T15:04:52Z",
+      "version": 1,
+      "changeset": 155658217,
+      "user": "tallcoleman",
+      "uid": 20580903,
+      "tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "description": "Two single user accessible washrooms",
+        "fee": "no",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr off",
+        "operator": "City of Toronto",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12132133906,
+      "lat": 43.6913914,
+      "lon": -79.4311676,
+      "timestamp": "2024-08-23T15:04:52Z",
+      "version": 1,
+      "changeset": 155658217,
+      "user": "tallcoleman",
+      "uid": 20580903,
+      "tags": {
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "no",
+        "female": "yes",
+        "male": "yes",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr 09:00-20:00",
+        "operator": "City of Toronto",
+        "portable": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes"
+      }
+    },
+    {
       "type": "way",
       "id": 4300640,
       "timestamp": "2021-08-21T18:26:05Z",
@@ -6911,9 +6960,9 @@
     {
       "type": "way",
       "id": 225522401,
-      "timestamp": "2024-06-24T18:57:30Z",
-      "version": 4,
-      "changeset": 153126472,
+      "timestamp": "2024-08-14T12:49:34Z",
+      "version": 5,
+      "changeset": 155239314,
       "user": "Jarek Pi\u00f3rkowski",
       "uid": 1768286,
       "bounds": {
@@ -6974,8 +7023,10 @@
       "tags": {
         "amenity": "toilets",
         "building": "yes",
+        "check_date": "2024-08-14",
         "female": "yes",
         "male": "yes",
+        "opening_hours": "May-Oct 09:00-22:00, Nov-Apr 09:00-20:00",
         "toilets:disposal": "flush"
       }
     },
@@ -8317,55 +8368,6 @@
       ],
       "tags": {
         "amenity": "toilets"
-      }
-    },
-    {
-      "type": "way",
-      "id": 680593608,
-      "timestamp": "2019-03-30T23:13:09Z",
-      "version": 2,
-      "changeset": 68711836,
-      "user": "Nate Wessel",
-      "uid": 1108251,
-      "bounds": {
-        "minlat": 43.6526901,
-        "minlon": -79.4204647,
-        "maxlat": 43.6527492,
-        "maxlon": -79.4203418
-      },
-      "nodes": [
-        6372778813,
-        6372778812,
-        6372778811,
-        6372778810,
-        6372778813
-      ],
-      "geometry": [
-        {
-          "lat": 43.6527492,
-          "lon": -79.4204608
-        },
-        {
-          "lat": 43.6526945,
-          "lon": -79.4204647
-        },
-        {
-          "lat": 43.6526901,
-          "lon": -79.4203456
-        },
-        {
-          "lat": 43.6527448,
-          "lon": -79.4203418
-        },
-        {
-          "lat": 43.6527492,
-          "lon": -79.4204608
-        }
-      ],
-      "tags": {
-        "amenity": "toilets",
-        "building": "yes",
-        "building:levels": "1"
       }
     },
     {
