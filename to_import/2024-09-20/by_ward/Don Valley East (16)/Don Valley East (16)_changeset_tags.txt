@@ -1,0 +1,7 @@
+comment	Toronto Public Washroom Import, subset Don Valley East (16)
+import	yes
+source	City of Toronto
+source:url	https://open.toronto.ca/dataset/washroom-facilities/
+source:date	2024-09-19
+import:page	https://wiki.openstreetmap.org/wiki/Import/Toronto_Public_Washroom_Import
+source:license	Open Government License - Toronto

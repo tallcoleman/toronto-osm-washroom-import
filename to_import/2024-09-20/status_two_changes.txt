@@ -1,0 +1,129 @@
+Changes to status two dataset
+2024-09-20 compared to 2024-09-01
+
+Generated with:
+poetry run python src/diff_data.py ./to_import/2024-09-01/pfr_status_2_to_review.geojson ./to_import/pfr_status_2_to_review.geojson > to_import/status_two_changes.txt
+
+===CHANGED VALUES===
+asset_id:  []
+
+
+===REMOVED VALUES===
+asset_id:  ['29598' '13677' '29638' '32902']
+
+NOTES:
+'29598': changed to status 1 (open) - updated to remove comments about status condition
+'13677': changed to status 1 (open) - updated to remove comments about status condition
+'29638': changed to status 1 (open) - updated to remove comments about status condition
+'32902': changed to status 0 (closed) - City closed due to nearby homeless encampment, have changed opening_hours and description
+
+29598
+DELETE_Status_PostedDate                                  2024-08-30 07:31:06
+DELETE_Status_Reason                                      Maintenance/Repairs
+DELETE_Status_Comments      Mens handicapped washroom  stall and one woman...
+amenity                                                               toilets
+access                                                                    yes
+fee                                                                        no
+toilets:disposal                                                        flush
+toilets:handwashing                                                       yes
+changing_table                                                           None
+wheelchair                                                                yes
+toilets:wheelchair                                                        yes
+wheelchair:description      Accessible features: entrance at grade, automa...
+operator                                                      City of Toronto
+opening_hours                                             May-Oct 09:00-22:00
+description                 Located on the pathway between parking lot and...
+note                        Please survey to determine: Is this washroom o...
+geometry                               POINT (-79.13477359999999 43.77672534)
+Name: 29598, dtype: object
+
+
+13677
+DELETE_Status_PostedDate                                  2024-08-08 20:33:21
+DELETE_Status_Reason                                      Maintenance/Repairs
+DELETE_Status_Comments      Menâs toilet closed.  Womenâs washroom and...
+amenity                                                               toilets
+access                                                                    yes
+fee                                                                        no
+toilets:disposal                                                        flush
+toilets:handwashing                                                       yes
+changing_table                                                           None
+wheelchair                                                               None
+toilets:wheelchair                                                       None
+wheelchair:description                                                   None
+operator                                                      City of Toronto
+opening_hours                                             May-Oct 09:00-22:00
+description                 Entrance is located on the outside of the Comm...
+note                        Please survey to determine: Is this washroom o...
+geometry                                     POINT (-79.30690823 43.71078337)
+Name: 13677, dtype: object
+
+
+29638
+DELETE_Status_PostedDate                                  2024-06-23 17:44:13
+DELETE_Status_Reason             Men's Washroom Closed, Women's Washroom Open
+DELETE_Status_Comments      Men washroom closed due to flooding. Sorry for...
+amenity                                                               toilets
+access                                                                    yes
+fee                                                                        no
+toilets:disposal                                                        flush
+toilets:handwashing                                                       yes
+changing_table                                                           None
+wheelchair                                                                yes
+toilets:wheelchair                                                        yes
+wheelchair:description      Accessible features: entrance at grade, access...
+operator                                                      City of Toronto
+opening_hours                                             May-Oct 09:00-22:00
+description                 Located on the pathway from the east end of th...
+note                        Please survey to determine: Is this washroom o...
+geometry                                     POINT (-79.46576904 43.63513752)
+Name: 29638, dtype: object
+
+
+32902
+DELETE_Status_PostedDate                                  2024-05-08 17:51:21
+DELETE_Status_Reason                                                     None
+DELETE_Status_Comments      Washrooms close at 5:30 pm Daily , Portable wa...
+amenity                                                               toilets
+access                                                                    yes
+fee                                                                        no
+toilets:disposal                                                        flush
+toilets:handwashing                                                       yes
+changing_table                                                           None
+wheelchair                                                                yes
+toilets:wheelchair                                                        yes
+wheelchair:description      Accessible features: entrance at grade, access...
+operator                                                      City of Toronto
+opening_hours                                                     09:00-19:30
+description                                 Located north of the wading pool.
+note                                                                     None
+geometry                                     POINT (-79.39838792 43.63404546)
+Name: 32902, dtype: object
+
+
+===ADDED VALUES===
+asset_id:  ['29689']
+
+NOTES:
+'29689': Have left unchanged, issue has not closed the washroom.
+
+
+29689
+DELETE_Status_PostedDate                                  2024-09-11 10:29:25
+DELETE_Status_Reason                                                     None
+DELETE_Status_Comments      Urinals in men's washroom turned off due to wa...
+amenity                                                               toilets
+access                                                                    yes
+fee                                                                        no
+toilets:disposal                                                        flush
+toilets:handwashing                                                       yes
+changing_table                                                            yes
+wheelchair                                                                yes
+toilets:wheelchair                                                        yes
+wheelchair:description      Accessible features: entrance at grade, access...
+operator                                                      City of Toronto
+opening_hours                                                            None
+description                 Located at the west side of the ferry dock plaza.
+note                                                                     None
+geometry                                     POINT (-79.37907425 43.62231261)
+Name: 29689, dtype: object

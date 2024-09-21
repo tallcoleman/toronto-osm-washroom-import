@@ -1,0 +1,171 @@
+Changes to main import dataset
+2024-09-20 compared to 2024-09-01
+
+Generated with:
+poetry run python src/diff_data.py ./to_import/2024-09-01/pfr_to_import.geojson ./to_import/pfr_to_import.geojson > to_import/main_import_changes.txt
+
+===CHANGED VALUES===
+asset_id:  []
+
+
+===REMOVED VALUES===
+asset_id:  ['36442' '29689']
+
+NOTES:
+'36442': closed due to power outage 2024-09-16. Have left unchanged assuming issue will be short-lived.
+'29689': see status two notes
+
+
+36442
+amenity                                                             toilets
+access                                                                  yes
+fee                                                                      no
+female                                                                 None
+male                                                                   None
+toilets:disposal                                                      flush
+toilets:handwashing                                                     yes
+changing_table                                                          yes
+wheelchair                                                              yes
+toilets:wheelchair                                                      yes
+wheelchair:description    Accessible features: entrance at grade, access...
+operator                                                    City of Toronto
+opening_hours                                           May-Oct 09:00-22:00
+description                    Located on the west side of the parking lot.
+note                      Please survey to determine: Is this washroom o...
+geometry                                   POINT (-79.48051239 43.61953924)
+Name: 36442, dtype: object
+
+
+29689
+amenity                                                             toilets
+access                                                                  yes
+fee                                                                      no
+female                                                                 None
+male                                                                   None
+toilets:disposal                                                      flush
+toilets:handwashing                                                     yes
+changing_table                                                          yes
+wheelchair                                                              yes
+toilets:wheelchair                                                      yes
+wheelchair:description    Accessible features: entrance at grade, access...
+operator                                                    City of Toronto
+opening_hours                                                          None
+description               Located at the west side of the ferry dock plaza.
+note                                                                   None
+geometry                                   POINT (-79.37907425 43.62231261)
+Name: 29689, dtype: object
+
+
+===ADDED VALUES===
+asset_id:  ['29598' '13677' '74844' '347' '29638']
+
+NOTES:
+'29598': see status two notes
+'13677': see status two notes
+'74844': changed from status 0 to status 1, have added
+'347': changed from status 0 to status 1, have added
+'29638': see status two notes
+
+29598
+amenity                                                             toilets
+access                                                                  yes
+fee                                                                      no
+female                                                                 None
+male                                                                   None
+toilets:disposal                                                      flush
+toilets:handwashing                                                     yes
+changing_table                                                         None
+changing_table:adult                                                   None
+wheelchair                                                              yes
+toilets:wheelchair                                                      yes
+wheelchair:description    Accessible features: entrance at grade, automa...
+operator                                                    City of Toronto
+opening_hours                                           May-Oct 09:00-22:00
+description               Located on the pathway between parking lot and...
+note                      Please survey to determine: Is this washroom o...
+geometry                             POINT (-79.13477359999999 43.77672534)
+Name: 29598, dtype: object
+
+
+13677
+amenity                                                             toilets
+access                                                                  yes
+fee                                                                      no
+female                                                                 None
+male                                                                   None
+toilets:disposal                                                      flush
+toilets:handwashing                                                     yes
+changing_table                                                         None
+changing_table:adult                                                   None
+wheelchair                                                             None
+toilets:wheelchair                                                     None
+wheelchair:description                                                 None
+operator                                                    City of Toronto
+opening_hours                                           May-Oct 09:00-22:00
+description               Entrance is located on the outside of the Comm...
+note                      Please survey to determine: Is this washroom o...
+geometry                                   POINT (-79.30690823 43.71078337)
+Name: 13677, dtype: object
+
+
+74844
+amenity                                                             toilets
+access                                                                  yes
+fee                                                                      no
+female                                                                 None
+male                                                                   None
+toilets:disposal                                                      flush
+toilets:handwashing                                                     yes
+changing_table                                                          yes
+changing_table:adult                                                    yes
+wheelchair                                                              yes
+toilets:wheelchair                                                      yes
+wheelchair:description    Accessible features: entrance at grade, automa...
+operator                                                    City of Toronto
+opening_hours                                           May-Oct 09:00-22:00
+description                  Located on the pathway next to the playground.
+note                      Please survey to determine: Is this washroom o...
+geometry                                   POINT (-79.61579573 43.73151662)
+Name: 74844, dtype: object
+
+
+347
+amenity                                                        toilets
+access                                                             yes
+fee                                                                 no
+female                                                            None
+male                                                              None
+toilets:disposal                                                 flush
+toilets:handwashing                                                yes
+changing_table                                                    None
+changing_table:adult                                              None
+wheelchair                                                        None
+toilets:wheelchair                                                None
+wheelchair:description                                            None
+operator                                               City of Toronto
+opening_hours                                                     None
+description               Located at the main entrance to the stadium.
+note                                                              None
+geometry                              POINT (-79.44546332 43.77604296)
+Name: 347, dtype: object
+
+
+29638
+amenity                                                             toilets
+access                                                                  yes
+fee                                                                      no
+female                                                                 None
+male                                                                   None
+toilets:disposal                                                      flush
+toilets:handwashing                                                     yes
+changing_table                                                         None
+changing_table:adult                                                   None
+wheelchair                                                              yes
+toilets:wheelchair                                                      yes
+wheelchair:description    Accessible features: entrance at grade, access...
+operator                                                    City of Toronto
+opening_hours                                           May-Oct 09:00-22:00
+description               Located on the pathway from the east end of th...
+note                      Please survey to determine: Is this washroom o...
+geometry                                   POINT (-79.46576904 43.63513752)
+Name: 29638, dtype: object

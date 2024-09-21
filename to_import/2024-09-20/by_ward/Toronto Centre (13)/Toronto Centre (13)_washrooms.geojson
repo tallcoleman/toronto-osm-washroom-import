@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the pavillion between the splash pad and the playground.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "36974"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.35232496,
+          43.65347379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "09:00-17:00",
+        "description": "Entrance is located on the outside of the Meeting House through the archway tunnel.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13637"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.36005484,
+          43.66735115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the rink building west of the outdoor ice rink.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "28897"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.35945084,
+          43.65866908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "09:00-17:00",
+        "description": "Located in the Simpson House, at the farm entrance.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13639"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.36162569,
+          43.66715773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1095"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.37455603,
+          43.66770086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2103"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.36494802,
+          43.64975912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "45463"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3616924,
+          43.65827453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the Aquatic Centre.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "14322"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.36110183,
+          43.66122887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1818"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.37034393,
+          43.65542313
+        ]
+      }
+    }
+  ]
+}
