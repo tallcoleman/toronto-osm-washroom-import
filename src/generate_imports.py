@@ -95,7 +95,7 @@ def generate_imports():
                 )
             )
 
-    # filter and organize status 0 and 1 washrooms into winter hours changesets
+    # filter and organize status 0 washrooms into winter hours changesets
     # logic only valid if run during winter season
     ccbs = get_community_council_boundaries_gdf()
     washrooms_winter_closed = pfr_washrooms_osm_status0[
@@ -111,18 +111,8 @@ def generate_imports():
             "",
         ),
     )
-    washrooms_winter_open = pfr_washrooms_osm[
-        pfr_washrooms_osm["opening_hours"] == "May-Oct 09:00-22:00"
-    ].assign(
-        opening_hours=pfr_washrooms_osm["opening_hours"].str.replace(
-            "May-Oct 09:00-22:00", "May-Oct 09:00-22:00; Nov-Apr 09:00-20:00"
-        ),
-        note=pfr_washrooms_osm_status0["note"].str.replace(
-            "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
-            "",
-        ),
-    )
-    washrooms_winter = pd.concat([washrooms_winter_closed, washrooms_winter_open])
+    # no current reliable way to determine washrooms_winter_open
+    washrooms_winter = pd.concat([washrooms_winter_closed])
     washrooms_winter_ccbs = washrooms_winter.sjoin(ccbs, how="left").drop(
         columns=["index_right"]
     )
@@ -182,7 +172,7 @@ def generate_imports():
         f"{len(pfr_washrooms_osm_status0)} data points with Status 0 (closed)"
     )
     summary.append(
-        f"{len(washrooms_winter)} data points in winter hours import dataset; {len(washrooms_winter_closed)} closed and {len(washrooms_winter_open)} open"
+        f"{len(washrooms_winter)} data points in winter hours import dataset; {len(washrooms_winter_closed)} closed"
     )
     summary.append(
         f"{len(pfr_washrooms_osm_status2)} data points with Status 2 (service alert)"
