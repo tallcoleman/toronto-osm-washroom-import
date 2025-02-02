@@ -182,7 +182,7 @@ def generate_imports():
         f"{len(pfr_washrooms_osm_status0)} data points with Status 0 (closed)"
     )
     summary.append(
-        f"{len(washrooms_winter_closed)} data points in winter hours import dataset"
+        f"{len(washrooms_winter)} data points in winter hours import dataset; {len(washrooms_winter_closed)} closed and {len(washrooms_winter_open)} open"
     )
     summary.append(
         f"{len(pfr_washrooms_osm_status2)} data points with Status 2 (service alert)"
