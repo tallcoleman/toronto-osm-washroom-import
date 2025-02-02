@@ -1,0 +1,2679 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2025-01-31T13:49:41.000000",
+        "DELETE_Status_Reason": "Emergency Response",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located west of the parking lot, east of the playground.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29578"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.19396006,
+          43.77906343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-12-18T07:49:39.000000",
+        "DELETE_Status_Reason": "Closed for the Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on a pathway near the splash pad and playground.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29570"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.54305009,
+          43.5876958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-12-17T07:37:07.000000",
+        "DELETE_Status_Reason": "Closed for the Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance access ramp, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located north of the bowling greens.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29277"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.46254137000001,
+          43.66223126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-12-17T07:36:30.000000",
+        "DELETE_Status_Reason": "Closed for the Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway from the last West Road parking lot.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29509"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.466897,
+          43.64510606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-12-17T07:36:06.000000",
+        "DELETE_Status_Reason": "Closed for the Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway north of Maple Leaf Garden.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29478"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.46699992,
+          43.64366457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-12-17T07:35:47.000000",
+        "DELETE_Status_Reason": "Closed for the Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located east of the Children's Garden.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29502"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.46137056,
+          43.64174996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-12-17T07:34:51.000000",
+        "DELETE_Status_Reason": "Closed for the Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Entrance is located on the outside of the outdoor pool and ice rink building, east of the baseball diamond.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "35368"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.46591328,
+          43.64957948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-12-11T14:40:31.000000",
+        "DELETE_Status_Reason": "Closed for the Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Entrance is located on the outside of the outdoor pool building on the southwest side.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "5984"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40441871,
+          43.65098867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-12-11T12:46:22.000000",
+        "DELETE_Status_Reason": "Men's Washroom Closed, Women's Washroom Open",
+        "DELETE_Status_Comments": "Repairs required due to fire damage ",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the fieldhouse.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29567"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.44180549,
+          43.65312321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-22T12:32:47.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway between the north parking lot and archery range.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29384"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.33740437,
+          43.70942662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-21T13:36:56.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the amphitheatre.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "5787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.43275401,
+          43.75411961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-21T13:36:39.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, entrance access ramp, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located south of the base of the ski hill at the end of a pathway.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29385"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.42796994,
+          43.75215251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-21T13:36:15.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway 350 metres south of the parking lot.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "36492"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.43601882,
+          43.76017753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-21T10:23:29.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, entrance access ramp, automatic door opener, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the north side of the tennis courts near the playground.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "37106"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39947899,
+          43.69716654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-21T10:22:16.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the north side of the park next to the dog off-leash area and the community garden.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29524"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.42408744,
+          43.67658129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-21T10:21:57.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, entrance access ramp, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the southwest area of the park next to the playground.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29729"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.41634327000001,
+          43.6823371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-20T10:33:47.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Entrance is located on the outside of the Community Centre.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2081"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.27101245,
+          43.74229861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-20T07:37:12.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "DELETE_Status_Comments": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway between the parking lot and the splash pad.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29361"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.33471405,
+          43.69189094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-20T07:36:11.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "DELETE_Status_Comments": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway east of the parking lot.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29656"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29838937,
+          43.69664426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-20T07:35:32.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "DELETE_Status_Comments": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at the south end of the park next to the splash pad.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29416"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30043489,
+          43.70069836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-20T07:17:40.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at the eastern end of the lot south of the boardwalk.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "37104"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30791821,
+          43.66274627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-20T07:09:56.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway next to Picnic Site #2.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29527"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.50130041,
+          43.65855864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-20T07:03:48.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway south of the parking lot, near the playground.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29732"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.55755201,
+          43.66083807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-20T06:54:27.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Entrance is located on the outside of the Softball Complex.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29392"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.16261168,
+          43.76026536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-19T10:26:57.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway 100 metres north of the parking lot, near Picnic Site #2.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29589"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.49686636,
+          43.74763687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-19T10:26:03.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at the entrance of the park from Hidden Trail.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "30891"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.45540924,
+          43.78046956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-19T08:36:54.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "description": "Located at the south west corner of Chippawa and Cibola Avenues.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29708"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.36529069,
+          43.62074108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-19T08:36:07.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "description": "Located on the pathway south of the tennis courts.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29442"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39111537,
+          43.61913351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-19T08:35:19.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance access ramp, automatic door opener, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "description": "Located on the pathway near the water's edge at Gibraltar Point.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29441"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38888351,
+          43.61212077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-19T08:34:32.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "description": "Located at the west side of the ferry dock plaza.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29689"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.37907425,
+          43.62231261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-19T08:33:39.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "description": "Located in the building on the west side of the entrance to the pier.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29698"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3725951,
+          43.61669106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-19T07:19:06.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on a pathway between the wading pool and the playground.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "36324"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29995589,
+          43.66927847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-19T07:18:30.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, entrance access ramp, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located between the parking lot and the beach.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "37108"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34429281,
+          43.6368796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-19T06:03:05.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the east side of the tennis courts.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29745"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40805249,
+          43.7662024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-18T09:40:36.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, automatic door opener, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway between parking lot and the playground.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29598"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.13477359999999,
+          43.77672534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-18T09:39:58.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "DELETE_Status_Comments": "Fieldhouse washroom open \nBaseball/soccer Pavillion washrooms cloded",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway west of the splash pad.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29265"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.1468689,
+          43.79217932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-18T07:48:15.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway next to the parking lot.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29617"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.25627063,
+          43.69683674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-18T07:46:58.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, automatic door opener, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway between the baseball diamond and the wading pool.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29521"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.25865299,
+          43.70223947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-18T07:45:14.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway between parking lot and the playground.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29600"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.28394728,
+          43.69721943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-18T07:39:15.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the pool building south of the outdoor pool.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "5932"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.28064328,
+          43.68359199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-18T06:31:10.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Entrance is located on the outside of the Larry Grossman Forest Hill Memorial Arena.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1840"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.42066596,
+          43.70454982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-18T06:30:43.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the centre of the park south of the sports fields.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "36489"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40549905,
+          43.70826165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-14T12:46:38.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway from the east end of the parking lot to the boardwalk, across from the playground.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29638"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.46576904,
+          43.63513752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-14T06:31:16.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located south of the playground.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29755"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40586813,
+          43.72734116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-14T06:30:29.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance access ramp, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on a pathway at the south end of the tennis courts and next to the bowling greens.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29566"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.41074681,
+          43.71529366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-13T15:11:38.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, automatic door opener, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at the west end of the Sunnyside Pavillion on the Martin Goodman Trail.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "46102"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.45704405999999,
+          43.63780962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-13T15:11:03.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, automatic door opener, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at the east end of the Sunnyside Pavilion on Martin Goodman Trail.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "46103"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.45572655,
+          43.63787029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-13T13:53:17.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway between the wading pool and the tennis courts.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "32922"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.31972975,
+          43.66464356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-13T09:22:34.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "female": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located on the west side of Centennial Park Stadium at the north end.",
+        "note": "Please survey to determine: opening_hours",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "34993"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.58536071,
+          43.65379367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-13T06:43:22.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the boardwalk near the southern most beach volleyball courts.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "31265"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30887446,
+          43.65872285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-13T06:40:58.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at the south end of the park next to Kewbeach Avenue.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "32744"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30189753,
+          43.6664395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-13T06:38:55.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the building next to the east sports field.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "46142"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34166941,
+          43.64128791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-13T06:33:01.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located between the baseball diamonds, next to Lake Shore Boulevard.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "32743"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34069398,
+          43.65338408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-13T06:30:15.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located at the east end of the boardwalk.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "32882"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.28472318,
+          43.67032614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-13T06:29:17.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "male": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located on the west side of Centennial Park Stadium at the south end.",
+        "note": "Please survey to determine: opening_hours",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "34992"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.58515831,
+          43.6534078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-13T05:58:15.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway at the north side of the tennis courts.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29553"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39902069,
+          43.72079089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-13T05:57:31.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Entrance is located on the outside of the outdoor pool building.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1846"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34983026,
+          43.70245262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-12T15:08:19.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, entrance access ramp, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway west of the baseball diamond.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29724"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39187778,
+          43.72882539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-12T15:02:25.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "description": "Located on the north side of the tennis courts next to the parking lot.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29280"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.36093863,
+          43.78447053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-12T12:08:01.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance access ramp, automatic door opener, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway in the northwest corner of the park near Oakmount Road.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29561"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.46403823,
+          43.65900803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-12T12:07:22.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located 250 metres northwest of the Catherine Street entrance next to the trail.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29407"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.49285713,
+          43.65282102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-12T09:07:29.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on a pathway between Rowntree Mill Road and the second parking lot.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29622"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5778917,
+          43.75219004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-12T08:34:34.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "DELETE_Status_Comments": "Closed For The Season\n",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the north side of the Clubhouse, entrance from the outside.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2104"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.31504027,
+          43.69836339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-12T08:33:06.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "DELETE_Status_Comments": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located next to the playground.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29581"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3398727,
+          43.65656653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-12T05:42:15.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located next to the parking lot, west of the baseball diamond.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29298"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2811334,
+          43.68227904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-09T08:04:15.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located near the King Street entrance, next to the playground.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29644"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40931248,
+          43.64276864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-07T13:56:13.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at the east end of the outdoor pool building.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "66883"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.48774024,
+          43.61301625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-07T10:16:41.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "operator": "City of Toronto",
+        "description": "Entrance is located on the outside of the outdoor pool building on the south side of the building.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "5459"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30471172,
+          43.66496518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-07T08:13:02.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the grassy area behind the baseball diamond beside Corvette Avenue.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29347"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.26019879,
+          43.72657291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-07T08:12:41.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway between the playground and the splash pad.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29383"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.26689423,
+          43.71281604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-07T08:12:20.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on a pathway between the east parking lot and the beach.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29300"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.22743337,
+          43.71303079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-06T16:07:48.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located next to the splash pad.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "41662"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.28808876,
+          43.77259489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-06T16:07:12.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located next to Ashtonbee Road, between the sports fields and cricket pitch.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29276"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29453191,
+          43.72964076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-06T14:37:05.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located between the parking lot and the playground",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29740"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29718319,
+          43.73367211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-06T13:54:56.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the east side of the splash pad.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "93642"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38705153,
+          43.71718225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-06T08:38:37.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway between the tennis courts, baseball diamond and playground.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29453"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4213229,
+          43.78126056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-06T07:47:35.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "DELETE_Status_Comments": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway in the southeast corner of the park near Norwood Road.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29590"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30277581,
+          43.68205163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-06T07:46:47.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "DELETE_Status_Comments": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway north of the playground.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29410"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.32999889,
+          43.68024586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-06T07:46:20.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "DELETE_Status_Comments": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located south of the sports field.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29753"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3456155,
+          43.67289284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-06T07:44:28.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located east of the second parking lot on the south side of the park road.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29376"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.49599924,
+          43.73542591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-06T07:44:12.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located across from Picnic Site #3, east of the last parking lot.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29375"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.50093668,
+          43.73662343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-06T07:43:52.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located next to the splash pad and playground.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "78226"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.47745152,
+          43.73416818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-06T06:19:34.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the park pathway across from Picnic Site #1.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "36503"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.35703861,
+          43.71862545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-05T13:32:01.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "description": "Located on the pathway east of the picnic areas, south of the Hanlan's Point ferry docks.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29440"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38947051999999,
+          43.62445169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-05T08:35:47.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "description": "Located on the south side of the pathway between the Centre Island ferry docks and Centreville. Near the east side of picnic area 13.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29685"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.37630671,
+          43.62027855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-05T08:34:32.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located along the pathway, in the pavillion on the north side of the island.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29705"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.37368264,
+          43.62329584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-01T11:19:58.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:wheelchair": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway next to the tennis courts.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29746"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.31696457000001,
+          43.76983933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-10-30T08:20:11.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located east of the parking lot off Elmcrest road, northeast of Picnic Site #1 and the playground.",
+        "note": "Please survey to determine: opening_hours",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "101974"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.58701686,
+          43.64894737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-10-30T08:19:49.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located next to Picnic Site #6.",
+        "note": "Please survey to determine: opening_hours",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "101973"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.59015171,
+          43.65204841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-10-16T06:42:15.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:wheelchair": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway south of the parking lot between the cricket pitches.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29411"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.49704898,
+          43.68731374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-10-16T06:41:32.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:wheelchair": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the sports pavillion south of the parking lot between the sports fields and the tennis courts.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13482"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.49478825,
+          43.68420772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-10-16T06:40:52.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the sports pavillion west of the sports fields.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29401"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.50384395,
+          43.68561877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-10-16T06:40:05.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the service building.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13481"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.50571924,
+          43.68595398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-10-09T10:56:40.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Entrance is located on the outside of the outdoor pool building on the east side of the building.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "5445"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30654676,
+          43.75309076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-10-09T07:25:32.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "DELETE_Status_Comments": "Closed due to ongoing construction project in Park. ",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway south of the parking lot.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29359"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.50546279999999,
+          43.75813643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-10-03T12:32:23.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the grassy area near the forested area west of Picnic Site #1.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29579"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.19720228,
+          43.77781526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-09-17T07:25:38.000000",
+        "DELETE_Status_Reason": "Under Construction",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway west of the playground.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29596"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.45295042,
+          43.66397273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-09-16T11:58:05.000000",
+        "DELETE_Status_Reason": "Technical Issues",
+        "DELETE_Status_Comments": "Power outage",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the west side of the parking lot.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "36442"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.48051239,
+          43.61953924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-09-05T06:35:21.000000",
+        "DELETE_Status_Reason": "Emergency Response",
+        "DELETE_Status_Comments": "Homeless encampments make it too dangerous for public and damage done daily if left open.  Portable washrooms on site.",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "09:00-19:30",
+        "description": "Located north of the wading pool.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "32902"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39838792,
+          43.63404546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-08-15T12:28:20.000000",
+        "DELETE_Status_Reason": "Maintenance/Repairs",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the western building along the pathway into the park.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "79459"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.36642253,
+          43.68437785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-07-16T17:09:22.000000",
+        "DELETE_Status_Reason": "Technical Issues",
+        "DELETE_Status_Comments": "No power",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Entrance is located on the outside of the outdoor ice rink building.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "28885"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.44851599,
+          43.66293404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-05-06T07:24:00.000000",
+        "DELETE_Status_Reason": "Planned Closure",
+        "DELETE_Status_Comments": "Mechanical Issues",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located next to Picnic Site #8.",
+        "note": "Please survey to determine: opening_hours",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "101975"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.59209294,
+          43.64877852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2023-12-12T08:17:19.000000",
+        "DELETE_Status_Reason": "Closed for the Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:wheelchair": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in Kidstown Waterpark.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "36264"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30943469,
+          43.80702322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2023-10-14T10:03:05.000000",
+        "DELETE_Status_Reason": "Closed for the Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the building at the top of the amphitheatre.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "59947"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40992834,
+          43.76872742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2023-04-13T14:39:44.000000",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the Civic Centre.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "6296"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.41434948,
+          43.76733477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2023-04-13T14:39:44.000000",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "toilets:wheelchair": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located next to the entrance to the parking lot.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "36488"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.36582784999999,
+          43.77203894
+        ]
+      }
+    }
+  ]
+}

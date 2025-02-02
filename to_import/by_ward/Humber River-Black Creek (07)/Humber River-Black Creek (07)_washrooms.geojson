@@ -1,0 +1,145 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1892"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.51333552,
+          43.74777903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "771"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.50008702,
+          43.74549503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13027"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.56645395,
+          43.74738189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2064"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.51874362,
+          43.76541995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13020"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.51582707,
+          43.74243835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2057"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5115751,
+          43.72396232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2054"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.53896172,
+          43.73383934
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at the south-end of the park on Grange Road, opposite University Settlement.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "79344"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39136899,
+          43.65266026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Entrance is located on the outside of the Community Center next to the playground.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1000000059"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.414749,
+          43.64660568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Entrance is located on the outside of the outdoor ice rink building.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "28901"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.36452571,
+          43.64455126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "09:00-19:30",
+        "description": "Located east of the south baseball diamond.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1701"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40490539,
+          43.63438282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the rink building at the west end of the outdoor ice rinks.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "28882"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40455592,
+          43.6513412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located on the west side of the Fire Station, entrance from the outside.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29711"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.35931032,
+          43.62512425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in fieldhouse southwest of the entrance to the Jack Layton Ferry Terminal.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29443"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3758139,
+          43.64008423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the outdoor pool building at the east side of the park.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "6091"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.408071,
+          43.64197334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located east of the maze.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29695"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.37587345,
+          43.61780812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, automatic door opener, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located at the south-end of the park on Grange Road, opposite University Settlement.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "79343"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39134764,
+          43.65255726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "customers",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "06:30-23:30",
+        "description": "Located in the main building on the west side of the Ferry Terminal entrance, accessed after ferry ticket purchase.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "58062"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.37538416,
+          43.64027034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the skating pavilion west of the outdoor ice rink.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "32622"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38394221,
+          43.65219533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "description": "Located on Hanlan's Point south of the ferry dock in the snack/concession stand, washroom building.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "14102"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3892846,
+          43.62743736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1768"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39083667,
+          43.65108826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "63202"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39473721,
+          43.63970497
+        ]
+      }
+    }
+  ]
+}

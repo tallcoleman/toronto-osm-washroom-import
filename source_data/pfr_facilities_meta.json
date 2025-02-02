@@ -1,0 +1,23 @@
+{
+  "cache_last_updated": null,
+  "cache_url": null,
+  "created": "2023-12-11T18:49:27.797701",
+  "datastore_active": false,
+  "datastore_resource_id": "e8cd0f4d-4910-42a0-81f9-cf8c2218753a",
+  "format": "GeoJSON",
+  "hash": "",
+  "id": "f6cdcd50-da7b-4ede-8e60-c3cdba70b559",
+  "is_datastore_cache_file": true,
+  "last_modified": "2025-02-01T20:25:31.340126",
+  "metadata_modified": "2025-02-01T20:25:31.520842",
+  "mimetype": "application/octet-stream",
+  "mimetype_inner": null,
+  "name": "Parks and Recreation Facilities - 4326.geojson",
+  "package_id": "cbea3a67-9168-4c6d-8186-16ac1a795b5b",
+  "position": 4,
+  "resource_type": null,
+  "size": 769132,
+  "state": "active",
+  "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/cbea3a67-9168-4c6d-8186-16ac1a795b5b/resource/f6cdcd50-da7b-4ede-8e60-c3cdba70b559/download/parks-and-recreation-facilities-4326.geojson",
+  "url_type": "upload"
+}

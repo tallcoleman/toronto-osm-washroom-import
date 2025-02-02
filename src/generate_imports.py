@@ -325,7 +325,7 @@ def get_pfr_washrooms() -> TODResponse:
             "location": pa.Column(str),
             "alternative_name": pa.Column(str),
             "url": pa.Column(str),
-            "address": pa.Column(str),
+            "address": pa.Column(str, nullable=True),
             "PostedDate": pa.Column("datetime64"),
         }
     )

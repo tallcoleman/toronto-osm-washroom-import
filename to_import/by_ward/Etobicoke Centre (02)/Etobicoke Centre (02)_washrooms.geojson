@@ -1,0 +1,348 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the Conservatory.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1674"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.58819416,
+          43.64946299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the outdoor rink building.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "28893"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.55902437,
+          43.66358211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located on the west side of Centennial Park Stadium at the south end.",
+        "note": "Please survey to determine: opening_hours",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.58513567,
+          43.65337048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the rink building next to the outdoor ice rink.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "28907"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5475486,
+          43.64453464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the outdoor rink building.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "28891"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.52491635,
+          43.66419045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the rink building next to the outdoor ice rink.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "28908"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.56626931,
+          43.64152999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the rink building next to the outdoor ice rink.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "28910"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.54213303,
+          43.6884532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the rink building next to the ice rink.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29720"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.53438656,
+          43.69466171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located on the pathway south of the tennis courts.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "5465"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.51884924,
+          43.68717127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located on the west side of the pool, north of the parking lot.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "6324"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.56694687000001,
+          43.64236689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located on the west side of the pool on the pathway from Sedgebrook Crescent.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "5555"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.56187381,
+          43.66067088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located at the south end of the outdoor pool.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "6126"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.54544036,
+          43.68184235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located at the north end of the outdoor pool near the playground.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "5745"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.58170627,
+          43.66272106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the west side of parking lot.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29542"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.51476269,
+          43.67159902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1737"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5844329,
+          43.65023006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1725"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.51666843,
+          43.6706706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the Community Centre.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "1723"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5107944,
+          43.67751487
+        ]
+      }
+    }
+  ]
+}

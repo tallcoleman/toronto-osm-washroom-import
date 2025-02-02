@@ -1,0 +1,8 @@
+[out:xml][timeout:30][bbox:43.6493340834881,-79.4293964137968,43.6950870228904,-79.3597108499133];
+area["official_name"="City of Toronto"]->.toArea;
+(
+  nwr["amenity"="toilets"](area.toArea);
+  nwr["building"="toilets"](area.toArea);
+);
+(._;>;); 
+out meta;

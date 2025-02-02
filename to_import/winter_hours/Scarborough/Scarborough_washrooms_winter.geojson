@@ -1,0 +1,774 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-20T10:33:47.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Entrance is located on the outside of the Community Centre.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "2081"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.27101245,
+          43.74229861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-20T06:54:27.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr off",
+        "description": "Entrance is located on the outside of the Softball Complex.",
+        "note": "",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29392"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.16261168,
+          43.76026536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-18T09:40:36.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, automatic door opener, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr off",
+        "description": "Located on the pathway between parking lot and the playground.",
+        "note": "",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29598"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.13477359999999,
+          43.77672534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-18T09:39:58.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "DELETE_Status_Comments": "Fieldhouse washroom open \nBaseball/soccer Pavillion washrooms cloded",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr off",
+        "description": "Located on the pathway west of the splash pad.",
+        "note": "",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29265"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.1468689,
+          43.79217932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-18T07:48:15.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr off",
+        "description": "Located on the pathway next to the parking lot.",
+        "note": "",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29617"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.25627063,
+          43.69683674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-18T07:46:58.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, automatic door opener, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr off",
+        "description": "Located on the pathway between the baseball diamond and the wading pool.",
+        "note": "",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29521"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.25865299,
+          43.70223947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-18T07:45:14.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr off",
+        "description": "Located on the pathway between parking lot and the playground.",
+        "note": "",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29600"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.28394728,
+          43.69721943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-18T07:39:15.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in the pool building south of the outdoor pool.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "5932"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.28064328,
+          43.68359199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-12T05:42:15.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr off",
+        "description": "Located next to the parking lot, west of the baseball diamond.",
+        "note": "",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29298"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2811334,
+          43.68227904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-07T08:13:02.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr off",
+        "description": "Located on the grassy area behind the baseball diamond beside Corvette Avenue.",
+        "note": "",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29347"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.26019879,
+          43.72657291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-07T08:12:41.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr off",
+        "description": "Located on the pathway between the playground and the splash pad.",
+        "note": "",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29383"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.26689423,
+          43.71281604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-07T08:12:20.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr off",
+        "description": "Located on a pathway between the east parking lot and the beach.",
+        "note": "",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29300"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.22743337,
+          43.71303079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-06T16:07:48.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr off",
+        "description": "Located next to the splash pad.",
+        "note": "",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "41662"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.28808876,
+          43.77259489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-06T16:07:12.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr off",
+        "description": "Located next to Ashtonbee Road, between the sports fields and cricket pitch.",
+        "note": "",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29276"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29453191,
+          43.72964076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-06T14:37:05.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr off",
+        "description": "Located between the parking lot and the playground",
+        "note": "",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29740"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29718319,
+          43.73367211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-11-01T11:19:58.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:wheelchair": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr off",
+        "description": "Located on the pathway next to the tennis courts.",
+        "note": "",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29746"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.31696457000001,
+          43.76983933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-10-09T10:56:40.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "description": "Entrance is located on the outside of the outdoor pool building on the east side of the building.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "5445"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30654676,
+          43.75309076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2024-10-03T12:32:23.000000",
+        "DELETE_Status_Reason": "Closed For The Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr off",
+        "description": "Located in the grassy area near the forested area west of Picnic Site #1.",
+        "note": "",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29579"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.19720228,
+          43.77781526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "DELETE_Status_PostedDate": "2023-12-12T08:17:19.000000",
+        "DELETE_Status_Reason": "Closed for the Season",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:wheelchair": "yes",
+        "operator": "City of Toronto",
+        "description": "Located in Kidstown Waterpark.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "36264"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30943469,
+          43.80702322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr 09:00-20:00",
+        "description": "Located in the north washroom building of the park.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29660"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.25506083,
+          43.75907419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr 09:00-20:00",
+        "description": "Located in the south washroom building of the park.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29661"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.25523249,
+          43.75759412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr 09:00-20:00",
+        "description": "Located on the pathway west of the parking lot.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "45442"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.16492968,
+          43.77715782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr 09:00-20:00",
+        "description": "Entrance is located on the outside of the outdoor ice rink building.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "60142"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.23745466,
+          43.73446713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:wheelchair": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr 09:00-20:00",
+        "description": "Located on the pathway between the playground and the baseball diamond.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29309"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.31571136,
+          43.78329448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:wheelchair": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr 09:00-20:00",
+        "description": "Located on the pathway from the parking lot to the cricket pitch at the north end of the park.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29547"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30441085,
+          43.81010927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr 09:00-20:00",
+        "description": "Located on the west side of the park, next to the boat launch.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29307"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.23490537,
+          43.70614828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr 09:00-20:00",
+        "description": "Located south of the tennis courts, next to the parking lot.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29634"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.21006559,
+          43.78794079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr 09:00-20:00",
+        "description": "Located at the east end of the parking lot next to the baseball diamond.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29628"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.21296882,
+          43.74729181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr 09:00-20:00",
+        "description": "Located at the entrance next to the southeast parking lot in the lower level of the Banquet hall.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "75804"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.19150754,
+          43.74779142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr 09:00-20:00",
+        "description": "Located on the pathway between the baseball diamonds, east of the playground.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29583"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.22435637,
+          43.81359515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:wheelchair": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr 09:00-20:00",
+        "description": "Located inside the Scott Westney House.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13599"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.23084525,
+          43.80375024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:wheelchair": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr 09:00-20:00",
+        "description": "Located on the pathway between the tennis courts and the baseball diamond.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29536"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2679759,
+          43.80330444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr 09:00-20:00",
+        "description": "Located to the west of the parking lot.",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "13602"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.27186228,
+          43.83006636
+        ]
+      }
+    }
+  ]
+}
