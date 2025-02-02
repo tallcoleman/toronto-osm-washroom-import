@@ -1,6 +1,7 @@
 import json
 import os
 import re
+from typing import Literal
 
 import geopandas as gpd
 import pandas as pd
@@ -51,8 +52,13 @@ def generate_imports():
     )
 
     # normalize city washroom data into osm tags
-    pfr_washrooms_osm = get_pfr_washrooms_osm_status1(pfr_washrooms_type)
-    pfr_washrooms_osm_status2 = get_pfr_washrooms_osm_status2(pfr_washrooms_type)
+    pfr_washrooms_osm = get_pfr_washrooms_osm_open(pfr_washrooms_type)
+    pfr_washrooms_osm_status0 = get_pfr_washrooms_osm_closed_or_alert(
+        pfr_washrooms_type, status="0"
+    )
+    pfr_washrooms_osm_status2 = get_pfr_washrooms_osm_closed_or_alert(
+        pfr_washrooms_type, status="2"
+    )
 
     # organize status 1 washrooms into ward-level changesets
     wards = get_wards_gdf()
@@ -89,6 +95,70 @@ def generate_imports():
                 )
             )
 
+    # filter and organize status 0 and 1 washrooms into winter hours changesets
+    # logic only valid if run during winter season
+    ccbs = get_community_council_boundaries_gdf()
+    washrooms_winter_closed = pfr_washrooms_osm_status0[
+        pfr_washrooms_osm_status0["DELETE_Status_Reason"].str.contains(
+            "closed for the season", case=False
+        )
+    ].assign(
+        opening_hours=pfr_washrooms_osm_status0["opening_hours"].str.replace(
+            "May-Oct 09:00-22:00", "May-Oct 09:00-22:00; Nov-Apr off"
+        ),
+        note=pfr_washrooms_osm_status0["note"].str.replace(
+            "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+            "",
+        ),
+    )
+    washrooms_winter_open = pfr_washrooms_osm[
+        pfr_washrooms_osm["opening_hours"] == "May-Oct 09:00-22:00"
+    ].assign(
+        opening_hours=pfr_washrooms_osm["opening_hours"].str.replace(
+            "May-Oct 09:00-22:00", "May-Oct 09:00-22:00; Nov-Apr 09:00-20:00"
+        ),
+        note=pfr_washrooms_osm_status0["note"].str.replace(
+            "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+            "",
+        ),
+    )
+    washrooms_winter = pd.concat([washrooms_winter_closed, washrooms_winter_open])
+    washrooms_winter_ccbs = washrooms_winter.sjoin(ccbs, how="left").drop(
+        columns=["index_right"]
+    )
+    washrooms_winter_by_ccb = {
+        k: v for k, v in washrooms_winter_ccbs.groupby("ccb_name")
+    }
+
+    # save files to use in JOSM import
+    for ccb_name, ccb_gdf in washrooms_winter_by_ccb.items():
+        os.makedirs(f"to_import/winter_hours/{ccb_name}/", exist_ok=True)
+        with open(
+            f"to_import/winter_hours/{ccb_name}/{ccb_name}_washrooms_winter.geojson",
+            "w",
+        ) as f:
+            f.write(
+                ccb_gdf.drop(columns=["ccb_name", "ccb_bbox"]).to_json(
+                    na="drop",
+                    drop_id=True,
+                    indent=2,
+                )
+            )
+        with open(
+            f"to_import/winter_hours/{ccb_name}/{ccb_name}_toilets_query.txt", "w"
+        ) as f:
+            f.write(get_washrooms_query(ccb_gdf["ccb_bbox"].iloc[0]))
+        with open(
+            f"to_import/winter_hours/{ccb_name}/{ccb_name}_changeset_tags.txt", "w"
+        ) as f:
+            f.write(
+                get_changeset_tags(
+                    subset_name=f"{ccb_name} (Winter Hours)",
+                    source_date=pfr_washrooms["metadata"]["last_modified"][0:10],
+                    wiki_link=PROPOSAL_WIKI_LINK,
+                )
+            )
+
     # generate summary statistics
     changesets = pd.DataFrame(
         {
@@ -96,19 +166,37 @@ def generate_imports():
             "size": [len(v) for v in pfr_by_ward.values()],
         }
     )
+    changesets_winter = pd.DataFrame(
+        {
+            "ccb_name": [k for k in washrooms_winter_by_ccb.keys()],
+            "size": [len(v) for v in washrooms_winter_by_ccb.values()],
+        }
+    )
     summary = []
     summary.append("\n===== SUMMARY =====\n")
     summary.append(
-        f"{len(pfr_washrooms["gdf"])} data points in original Park Washroom Facilities dataset"
+        f"{len(pfr_washrooms['gdf'])} data points in original Park Washroom Facilities dataset"
     )
     summary.append(f"{len(pfr_washrooms_osm)} data points in normalized import dataset")
     summary.append(
-        f"{len(pfr_washrooms_osm_status2)} data points with Status 2 (service alert)"
+        f"{len(pfr_washrooms_osm_status0)} data points with Status 0 (closed)"
     )
     summary.append(
-        f"{len(changesets)} changesets generated, largest has {changesets["size"].max()} points, and smallest has {changesets["size"].min()} points"
+        f"{len(washrooms_winter_closed)} data points in winter hours import dataset"
+    )
+    summary.append(
+        f"{len(pfr_washrooms_osm_status2)} data points with Status 2 (service alert)"
+    )
+    summary.append("")
+    summary.append(
+        f"{len(changesets)} changesets generated, largest has {changesets['size'].max()} points, and smallest has {changesets['size'].min()} points"
     )
     summary.append(changesets.to_string(index=False))
+    summary.append("")
+    summary.append(
+        f"{len(changesets_winter)} winter hours changesets generated, largest has {changesets_winter['size'].max()} points, and smallest has {changesets_winter['size'].min()} points"
+    )
+    summary.append(changesets_winter.to_string(index=False))
     print("\n".join(summary))
 
 
@@ -345,7 +433,7 @@ def get_wheelchair_description(accessible: str):
         "child change table" if "Child Change Table" in accessible else None,
         "adult change table" if "Adult Change Table" in accessible else None,
     ]
-    return f"Accessible features: {", ".join([x for x in features if x is not None])}"
+    return f"Accessible features: {', '.join([x for x in features if x is not None])}"
 
 
 def get_opening_hours(row):
@@ -388,7 +476,7 @@ def get_note(row):
         return pd.NA
 
 
-def get_pfr_washrooms_osm_status1(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
+def get_pfr_washrooms_osm_open(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
     """Transforms output from get_pfr_washrooms into OpenStreetMap tags for washrooms with status 1 (open). Requires that a "parent_type" column be joined onto the get_pfr_washrooms output to indicate whether the washroom is in a park or a community centre. Saves output to to_import/pfr_to_import.geojson"""
 
     original_cols = gdf.columns.drop("geometry")
@@ -506,13 +594,15 @@ def get_pfr_washrooms_osm_status1(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
     return gdf_normalized
 
 
-def get_pfr_washrooms_osm_status2(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
-    """Transforms output from get_pfr_washrooms into OpenStreetMap tags for washrooms with status 2 (service alert). Requires that a "parent_type" column be joined onto the get_pfr_washrooms output to indicate whether the washroom is in a park or a community centre. Saves output to to_import/pfr_status_2_to_review.geojson"""
+def get_pfr_washrooms_osm_closed_or_alert(
+    gdf: gpd.GeoDataFrame, status: Literal["0", "2"]
+) -> gpd.GeoDataFrame:
+    """Transforms output from get_pfr_washrooms into OpenStreetMap tags for washrooms with status 0 (closed) or status 2 (service alert). Requires that a "parent_type" column be joined onto the get_pfr_washrooms output to indicate whether the washroom is in a park or a community centre. Saves output to to_import/pfr_status_<#>_to_review.geojson"""
 
     original_cols = gdf.columns.drop("geometry")
 
     # filter city data and confirm that the input data contains an appropriate "parent_type" column
-    gdf_filtered = gdf[(gdf["type"] == "Washroom Building") & (gdf["Status"] == "2")]
+    gdf_filtered = gdf[(gdf["type"] == "Washroom Building") & (gdf["Status"] == status)]
     schema = pa.DataFrameSchema(
         {
             "parent_type": pa.Column(
@@ -608,7 +698,7 @@ def get_pfr_washrooms_osm_status2(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
     )
     output_schema.validate(gdf_normalized)
 
-    with open("to_import/pfr_status_2_to_review.geojson", "w") as f:
+    with open(f"to_import/pfr_status_{status}_to_review.geojson", "w") as f:
         f.write(
             gdf_normalized.to_json(
                 na="drop",
@@ -648,6 +738,29 @@ def get_wards_gdf() -> gpd.GeoDataFrame:
         )
     )
     return wards_formatted
+
+
+def get_community_council_boundaries_gdf() -> gpd.GeoDataFrame:
+    """Retrieves, simplifies, and saves data from the Community Council Boundaries dataset from open.toronto.ca"""
+
+    ccbs = request_tod_gdf(
+        dataset_name="community-council-boundaries",
+        resource_id="cc935c56-dbcd-4035-b156-a7f8f8eae68b",
+    )
+    ccbs_formatted = (
+        ccbs["gdf"][["AREA_NAME", "geometry"]]
+        .assign(
+            ccb_name=ccbs["gdf"]["AREA_NAME"]
+            .str.removesuffix("Community Council")
+            .str.strip(),
+            ccb_bbox=[
+                f"{x.miny},{x.minx},{x.maxy},{x.maxx}"
+                for x in ccbs["gdf"].bounds.itertuples()
+            ],
+        )
+        .drop(columns=["AREA_NAME"])
+    )
+    return ccbs_formatted
 
 
 def get_washrooms_query(bbox: str) -> str:
