@@ -5,6 +5,180 @@
       "type": "Feature",
       "properties": {
         "_id": 1,
+        "parent_id": "168",
+        "asset_id": 30923,
+        "location": "Moorevale Park",
+        "alternative_name": "Moorevale Park Tennis Club Washroom",
+        "type": "Washroom Building",
+        "accessible": "Accessible Stall, Entrance Access Ramp, Child Change Table",
+        "hours": "9 a.m. to 10 p.m.",
+        "location_details": "Located in the Moore Park Tennis Club building.",
+        "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=168",
+        "address": "175 Moore Ave  ",
+        "PostedDate": "2025-02-13T16:12:45.000000",
+        "AssetName": "Moorevale Park Tennis Club Washroom",
+        "Status": "1"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.3822504,
+            43.69358544
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_id": 2,
+        "parent_id": "210",
+        "asset_id": 29616,
+        "location": "Rosedale Park",
+        "alternative_name": "Rosedale Park Tennis Clubhouse Washroom",
+        "type": "Washroom Building",
+        "accessible": "Entrance at Grade, Entrance Access Ramp",
+        "hours": "9 a.m. to 10 p.m.",
+        "location_details": "Located on the pathway between the tennis courts and the splash pad.",
+        "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=210",
+        "address": "20 Scholfield Ave  ",
+        "PostedDate": "2025-02-13T16:12:18.000000",
+        "AssetName": "Rosedale Park Tennis Clubhouse Washroom",
+        "Status": "1"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.37905467,
+            43.68336807
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_id": 3,
+        "parent_id": "343",
+        "asset_id": 29612,
+        "location": "Riverdale Park East",
+        "alternative_name": "Riverdale Park East Fieldhouse Washroom ",
+        "type": "Washroom Building",
+        "accessible": "Entrance at Grade",
+        "hours": "9 a.m. to 10 p.m.",
+        "location_details": "Located in the fieldhouse at the south end of the park.",
+        "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=343",
+        "address": "550 Broadview Ave  ",
+        "PostedDate": "2025-02-13T16:10:44.000000",
+        "AssetName": "Riverdale Park East Fieldhouse Washroom ",
+        "Status": "1"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.35550582,
+            43.66772754
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_id": 4,
+        "parent_id": "78",
+        "asset_id": 29354,
+        "location": "June Rowlands Park",
+        "alternative_name": "June Rowlands Park Washroom",
+        "type": "Washroom Building",
+        "accessible": "Entrance at Grade",
+        "hours": "9 a.m. to 10 p.m.",
+        "location_details": "Located along Davisville Avenue southwest of the sports field.",
+        "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=78",
+        "address": "220 Davisville Ave  ",
+        "PostedDate": "2025-02-13T09:20:44.000000",
+        "AssetName": "June Rowlands Park Washroom",
+        "Reason": "Planned Closure",
+        "Comments": "Washrooms will open by 10 am, delay due to snow storm\n",
+        "Status": "2"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.38818857,
+            43.70028667
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_id": 5,
+        "parent_id": "805",
+        "asset_id": 28900,
+        "location": "Royal Crest Rink",
+        "alternative_name": "Royal Crest Park Outdoor Rink Washroom",
+        "type": "Washroom Building",
+        "accessible": "",
+        "hours": "View outdoor rink hours",
+        "location_details": "Located in the outdoor ice rink building.",
+        "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=805",
+        "address": "50 Cabernet Cir  ",
+        "PostedDate": "2025-02-11T13:28:50.000000",
+        "AssetName": "Royal Crest Park Outdoor Rink Washroom",
+        "Reason": "Men's Washroom Closed, Women's Washroom Open",
+        "Comments": "Men's washroom closed for repairs",
+        "Status": "2"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.60473602,
+            43.75271214
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_id": 6,
+        "parent_id": "306",
+        "asset_id": 29751,
+        "location": "Withrow Park",
+        "alternative_name": "Withrow Park North Washroom",
+        "type": "Washroom Building",
+        "accessible": "",
+        "hours": "9 a.m. to 10 p.m.",
+        "location_details": "Located in the fieldhouse north of the firepit.",
+        "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=306",
+        "address": "725 Logan Ave  ",
+        "PostedDate": "2025-02-03T10:25:55.000000",
+        "AssetName": "Withrow Park North Washroom",
+        "Reason": "Men's Washroom Closed, Women's Washroom Open",
+        "Comments": "Maintenance ",
+        "Status": "0"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.34754475,
+            43.67558828
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_id": 7,
         "parent_id": "814",
         "asset_id": 28902,
         "location": "Sir Adam Beck Rink",
@@ -32,7 +206,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 2,
+        "_id": 8,
         "parent_id": "1470",
         "asset_id": 29578,
         "location": "Morningside Park",
@@ -61,7 +235,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 3,
+        "_id": 9,
         "parent_id": "1431",
         "asset_id": 79344,
         "location": "Grange Park",
@@ -88,7 +262,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 4,
+        "_id": 10,
         "parent_id": "241",
         "asset_id": 1000000059,
         "location": "Trinity Bellwoods Park",
@@ -116,7 +290,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 5,
+        "_id": 11,
         "parent_id": "263",
         "asset_id": 79231,
         "location": "Bellevue Square Park",
@@ -146,7 +320,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 6,
+        "_id": 12,
         "parent_id": "6",
         "asset_id": 13591,
         "location": "Marie Curtis Park",
@@ -176,7 +350,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 7,
+        "_id": 13,
         "parent_id": "2039",
         "asset_id": 34605,
         "location": "Toronto Islands - Ward's Island",
@@ -205,7 +379,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 8,
+        "_id": 14,
         "parent_id": "386",
         "asset_id": 1000000232,
         "location": "Roundhouse Park",
@@ -232,7 +406,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 9,
+        "_id": 15,
         "parent_id": "276",
         "asset_id": 13677,
         "location": "Topham Park",
@@ -262,157 +436,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 10,
-        "parent_id": "210",
-        "asset_id": 29616,
-        "location": "Rosedale Park",
-        "alternative_name": "Rosedale Park Tennis Clubhouse Washroom",
-        "type": "Washroom Building",
-        "accessible": "Entrance at Grade, Entrance Access Ramp",
-        "hours": "9 a.m. to 10 p.m.",
-        "location_details": "Located on the pathway between the tennis courts and the splash pad.",
-        "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=210",
-        "address": "20 Scholfield Ave  ",
-        "PostedDate": "2024-12-31T09:18:34.000000",
-        "AssetName": "Rosedale Park Tennis Clubhouse Washroom",
-        "Reason": "Planned Closure",
-        "Comments": "Washrooms will close by 4:30 pm on New Year's Day",
-        "Status": "2"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.37905467,
-            43.68336807
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "_id": 11,
-        "parent_id": "168",
-        "asset_id": 30923,
-        "location": "Moorevale Park",
-        "alternative_name": "Moorevale Park Tennis Club Washroom",
-        "type": "Washroom Building",
-        "accessible": "Accessible Stall, Entrance Access Ramp, Child Change Table",
-        "hours": "9 a.m. to 10 p.m.",
-        "location_details": "Located in the Moore Park Tennis Club building.",
-        "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=168",
-        "address": "175 Moore Ave  ",
-        "PostedDate": "2024-12-31T09:18:14.000000",
-        "AssetName": "Moorevale Park Tennis Club Washroom",
-        "Reason": "Planned Closure",
-        "Comments": "Washrooms will close by 4:30 pm on New Year's Day",
-        "Status": "2"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.3822504,
-            43.69358544
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "_id": 12,
-        "parent_id": "78",
-        "asset_id": 29354,
-        "location": "June Rowlands Park",
-        "alternative_name": "June Rowlands Park Washroom",
-        "type": "Washroom Building",
-        "accessible": "Entrance at Grade",
-        "hours": "9 a.m. to 10 p.m.",
-        "location_details": "Located along Davisville Avenue southwest of the sports field.",
-        "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=78",
-        "address": "220 Davisville Ave  ",
-        "PostedDate": "2024-12-31T09:17:55.000000",
-        "AssetName": "June Rowlands Park Washroom",
-        "Reason": "Planned Closure",
-        "Comments": "One urinal temporarily out of service in Men's washroom.\nWashrooms will close by 4:30 pm on New Year's Day",
-        "Status": "2"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.38818857,
-            43.70028667
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "_id": 13,
-        "parent_id": "343",
-        "asset_id": 29612,
-        "location": "Riverdale Park East",
-        "alternative_name": "Riverdale Park East Fieldhouse Washroom ",
-        "type": "Washroom Building",
-        "accessible": "Entrance at Grade",
-        "hours": "9 a.m. to 10 p.m.",
-        "location_details": "Located in the fieldhouse at the south end of the park.",
-        "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=343",
-        "address": "550 Broadview Ave  ",
-        "PostedDate": "2024-12-31T09:17:25.000000",
-        "AssetName": "Riverdale Park East Fieldhouse Washroom ",
-        "Reason": "Planned Closure",
-        "Comments": "Washrooms will close by 4:30 pm on New Year's Day",
-        "Status": "2"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.35550582,
-            43.66772754
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "_id": 14,
-        "parent_id": "306",
-        "asset_id": 29751,
-        "location": "Withrow Park",
-        "alternative_name": "Withrow Park North Washroom",
-        "type": "Washroom Building",
-        "accessible": "",
-        "hours": "9 a.m. to 10 p.m.",
-        "location_details": "Located in the fieldhouse north of the firepit.",
-        "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=306",
-        "address": "725 Logan Ave  ",
-        "PostedDate": "2024-12-31T09:16:59.000000",
-        "AssetName": "Withrow Park North Washroom",
-        "Reason": "Planned Closure",
-        "Comments": "Washrooms will close by 4:30 pm on New Year's Day",
-        "Status": "2"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.34754475,
-            43.67558828
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "_id": 15,
+        "_id": 16,
         "parent_id": "123",
         "asset_id": 29556,
         "location": "Leslie Grove Park",
@@ -442,7 +466,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 16,
+        "_id": 17,
         "parent_id": "1057",
         "asset_id": 29356,
         "location": "Dentonia Park",
@@ -472,7 +496,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 17,
+        "_id": 18,
         "parent_id": "70",
         "asset_id": 29421,
         "location": "Greenwood Park",
@@ -502,7 +526,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 18,
+        "_id": 19,
         "parent_id": "1860",
         "asset_id": 28901,
         "location": "Sherbourne Common",
@@ -530,7 +554,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 19,
+        "_id": 20,
         "parent_id": "2441",
         "asset_id": 101976,
         "location": "Tommy Thompson Park",
@@ -558,7 +582,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 20,
+        "_id": 21,
         "parent_id": "467",
         "asset_id": 1701,
         "location": "Coronation Park - Toronto",
@@ -586,7 +610,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 21,
+        "_id": 22,
         "parent_id": "6",
         "asset_id": 29570,
         "location": "Marie Curtis Park",
@@ -615,7 +639,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 22,
+        "_id": 23,
         "parent_id": "137",
         "asset_id": 29277,
         "location": "Baird Park",
@@ -644,7 +668,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 23,
+        "_id": 24,
         "parent_id": "77",
         "asset_id": 29509,
         "location": "High Park",
@@ -673,7 +697,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 24,
+        "_id": 25,
         "parent_id": "77",
         "asset_id": 29478,
         "location": "High Park",
@@ -702,7 +726,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 25,
+        "_id": 26,
         "parent_id": "77",
         "asset_id": 29502,
         "location": "High Park",
@@ -731,7 +755,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 26,
+        "_id": 27,
         "parent_id": "77",
         "asset_id": 35368,
         "location": "High Park",
@@ -759,7 +783,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 27,
+        "_id": 28,
         "parent_id": "31",
         "asset_id": 5984,
         "location": "Alexandra Park",
@@ -788,7 +812,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 28,
+        "_id": 29,
         "parent_id": "31",
         "asset_id": 28882,
         "location": "Alexandra Park",
@@ -816,7 +840,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 29,
+        "_id": 30,
         "parent_id": "378",
         "asset_id": 29567,
         "location": "MacGregor Playground",
@@ -846,7 +870,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 30,
+        "_id": 31,
         "parent_id": "543",
         "asset_id": 29660,
         "location": "Thomson Memorial Park",
@@ -874,7 +898,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 31,
+        "_id": 32,
         "parent_id": "798",
         "asset_id": 1674,
         "location": "Centennial Park - Etobicoke",
@@ -902,7 +926,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 32,
+        "_id": 33,
         "parent_id": "873",
         "asset_id": 28893,
         "location": "West Deane Park",
@@ -930,7 +954,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 33,
+        "_id": 34,
         "parent_id": "798",
         "asset_id": 13016,
         "location": "Centennial Park - Etobicoke",
@@ -958,7 +982,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 34,
+        "_id": 35,
         "parent_id": "773",
         "asset_id": 28907,
         "location": "Wedgewood Park",
@@ -986,7 +1010,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 35,
+        "_id": 36,
         "parent_id": "816",
         "asset_id": 28891,
         "location": "Humber Valley Rink",
@@ -1014,7 +1038,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 36,
+        "_id": 37,
         "parent_id": "819",
         "asset_id": 28894,
         "location": "Prince of Wales Rink",
@@ -1042,7 +1066,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 37,
+        "_id": 38,
         "parent_id": "629",
         "asset_id": 1908,
         "location": "Cedarvale Park",
@@ -1070,7 +1094,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 38,
+        "_id": 39,
         "parent_id": "143",
         "asset_id": 1000000020,
         "location": "David A. Balfour Park",
@@ -1097,7 +1121,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 39,
+        "_id": 40,
         "parent_id": "543",
         "asset_id": 29661,
         "location": "Thomson Memorial Park",
@@ -1125,7 +1149,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 40,
+        "_id": 41,
         "parent_id": "1429",
         "asset_id": 13061,
         "location": "Power House Recreation Centre",
@@ -1153,7 +1177,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 41,
+        "_id": 42,
         "parent_id": "808",
         "asset_id": 28908,
         "location": "West Mall Rink",
@@ -1181,7 +1205,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 42,
+        "_id": 43,
         "parent_id": "804",
         "asset_id": 28910,
         "location": "Westway Park",
@@ -1202,34 +1226,6 @@
           [
             -79.54213303,
             43.6884532
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "_id": 43,
-        "parent_id": "805",
-        "asset_id": 28900,
-        "location": "Royal Crest Rink",
-        "alternative_name": "Royal Crest Park Outdoor Rink Washroom",
-        "type": "Washroom Building",
-        "accessible": "",
-        "hours": "View outdoor rink hours",
-        "location_details": "Located in the outdoor ice rink building.",
-        "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=805",
-        "address": "50 Cabernet Cir  ",
-        "PostedDate": "2024-11-23T13:17:33.000000",
-        "AssetName": "Royal Crest Park Outdoor Rink Washroom",
-        "Status": "1"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.60473602,
-            43.75271214
           ]
         ]
       }
@@ -6500,58 +6496,6 @@
       "type": "Feature",
       "properties": {
         "_id": 229,
-        "parent_id": "759",
-        "asset_id": 1000000233,
-        "location": "Skymark Park",
-        "alternative_name": "Skymark Park Portable Toilet",
-        "type": "Portable Toilet",
-        "location_details": "Located north west of the parking lot, south of the soccer field",
-        "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=759",
-        "address": "3500 Don Mills Rd",
-        "PostedDate": "2024-01-13T10:55:43.000000",
-        "AssetName": "Skymark Park Portable Toilet",
-        "Status": "1"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.35590976,
-            43.79473127
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "_id": 230,
-        "parent_id": "306",
-        "asset_id": 1000000234,
-        "location": "Withrow Park",
-        "alternative_name": "Withrow Park Portable Toilet",
-        "type": "Portable Toilet",
-        "location_details": "Located on the path between the clubhouse and the ice rink",
-        "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=306",
-        "address": "725 Logan Ave",
-        "PostedDate": "2024-01-13T10:55:43.000000",
-        "AssetName": "Withrow Park Portable Toilet",
-        "Status": "1"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.34670396,
-            43.67545479
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "_id": 231,
         "parent_id": "1707",
         "asset_id": 1000000228,
         "location": "Toronto Music Garden",
@@ -6577,7 +6521,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 232,
+        "_id": 230,
         "parent_id": "792",
         "asset_id": 1000000229,
         "location": "Neilson Park Scarborough",
@@ -6603,7 +6547,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 233,
+        "_id": 231,
         "parent_id": "2674",
         "asset_id": 1000000230,
         "location": "Queen's Park",
@@ -6622,6 +6566,58 @@
           [
             -79.39084977,
             43.66373728
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_id": 232,
+        "parent_id": "759",
+        "asset_id": 1000000233,
+        "location": "Skymark Park",
+        "alternative_name": "Skymark Park Portable Toilet",
+        "type": "Portable Toilet",
+        "location_details": "Located north west of the parking lot, south of the soccer field",
+        "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=759",
+        "address": "3500 Don Mills Rd",
+        "PostedDate": "2024-01-13T10:55:43.000000",
+        "AssetName": "Skymark Park Portable Toilet",
+        "Status": "1"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.35590976,
+            43.79473127
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_id": 233,
+        "parent_id": "306",
+        "asset_id": 1000000234,
+        "location": "Withrow Park",
+        "alternative_name": "Withrow Park Portable Toilet",
+        "type": "Portable Toilet",
+        "location_details": "Located on the path between the clubhouse and the ice rink",
+        "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=306",
+        "address": "725 Logan Ave",
+        "PostedDate": "2024-01-13T10:55:43.000000",
+        "AssetName": "Withrow Park Portable Toilet",
+        "Status": "1"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.34670396,
+            43.67545479
           ]
         ]
       }
@@ -7387,33 +7383,6 @@
       "type": "Feature",
       "properties": {
         "_id": 262,
-        "parent_id": "71",
-        "asset_id": 1000000051,
-        "location": "Sir Casimir Gzowski Park",
-        "alternative_name": "Sir Casimir Gzowski Park Portable Toilet ",
-        "type": "Portable Toilet",
-        "accessible": "",
-        "location_details": "Located on the south side of the Martin Goodman Trail next to the snack/concession stand.",
-        "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=71",
-        "address": "2001 Lake Shore Blvd  W ",
-        "PostedDate": "2023-12-14T11:23:27.000000",
-        "AssetName": "Sir Casimir Gzowski Park Portable Toilet",
-        "Status": "1"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.46622096,
-            43.63531278
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "_id": 263,
         "parent_id": "870",
         "asset_id": 1000000054,
         "location": "Summerlea Park",
@@ -7433,6 +7402,33 @@
           [
             -79.55230885,
             43.72794607
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_id": 263,
+        "parent_id": "71",
+        "asset_id": 1000000051,
+        "location": "Sir Casimir Gzowski Park",
+        "alternative_name": "Sir Casimir Gzowski Park Portable Toilet ",
+        "type": "Portable Toilet",
+        "accessible": "",
+        "location_details": "Located on the south side of the Martin Goodman Trail next to the snack/concession stand.",
+        "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=71",
+        "address": "2001 Lake Shore Blvd  W ",
+        "PostedDate": "2023-12-14T11:23:27.000000",
+        "AssetName": "Sir Casimir Gzowski Park Portable Toilet",
+        "Status": "1"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.46622096,
+            43.63531278
           ]
         ]
       }
@@ -7468,33 +7464,6 @@
       "type": "Feature",
       "properties": {
         "_id": 265,
-        "parent_id": "1088",
-        "asset_id": 1000000042,
-        "location": "Milliken Park",
-        "alternative_name": "Milliken Park Portable Toilet",
-        "type": "Portable Toilet",
-        "accessible": "",
-        "location_details": "Located at the northeast corner of the concession building driveway.",
-        "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1088",
-        "address": "5555 Steeles Ave  E ",
-        "PostedDate": "2023-12-14T11:23:27.000000",
-        "AssetName": "Milliken Park Portable Toilet",
-        "Status": "1"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -79.2713769,
-            43.83022255
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "_id": 266,
         "parent_id": "1094",
         "asset_id": 1000000046,
         "location": "Port Union Village Common Park",
@@ -7521,7 +7490,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 267,
+        "_id": 266,
         "parent_id": "1663",
         "asset_id": 1000000033,
         "location": "HTO Park",
@@ -7548,7 +7517,7 @@
     {
       "type": "Feature",
       "properties": {
-        "_id": 268,
+        "_id": 267,
         "parent_id": "1508",
         "asset_id": 1000000006,
         "location": "Humberline Park",
@@ -7568,6 +7537,33 @@
           [
             -79.61576089,
             43.73157086
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_id": 268,
+        "parent_id": "1088",
+        "asset_id": 1000000042,
+        "location": "Milliken Park",
+        "alternative_name": "Milliken Park Portable Toilet",
+        "type": "Portable Toilet",
+        "accessible": "",
+        "location_details": "Located at the northeast corner of the concession building driveway.",
+        "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1088",
+        "address": "5555 Steeles Ave  E ",
+        "PostedDate": "2023-12-14T11:23:27.000000",
+        "AssetName": "Milliken Park Portable Toilet",
+        "Status": "1"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -79.2713769,
+            43.83022255
           ]
         ]
       }

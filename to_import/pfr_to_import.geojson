@@ -9,6 +9,76 @@
         "fee": "no",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair:description": "Accessible features: entrance access ramp, accessible stall, child change table",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the Moore Park Tennis Club building.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "30923"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3822504,
+          43.69358544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located on the pathway between the tennis courts and the splash pad.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29616"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.37905467,
+          43.68336807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the fieldhouse at the south end of the park.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29612"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.35550582,
+          43.66772754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "description": "Located in the rink building next to the outdoor ice rink.",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "28902"
@@ -394,26 +464,6 @@
         "coordinates": [
           -79.54213303,
           43.6884532
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "amenity": "toilets",
-        "access": "yes",
-        "fee": "no",
-        "toilets:disposal": "flush",
-        "toilets:handwashing": "yes",
-        "operator": "City of Toronto",
-        "description": "Located in the outdoor ice rink building.",
-        "ref:open.toronto.ca:washroom-facilities:asset_id": "28900"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.60473602,
-          43.75271214
         ]
       }
     },

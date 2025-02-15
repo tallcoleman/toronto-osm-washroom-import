@@ -2,6 +2,6 @@ comment	Toronto Public Washroom Import, subset Humber River-Black Creek (07)
 import	yes
 source	City of Toronto
 source:url	https://open.toronto.ca/dataset/washroom-facilities/
-source:date	2025-02-01
+source:date	2025-02-14
 import:page	https://wiki.openstreetmap.org/wiki/Import/Toronto_Public_Washroom_Import
 source:license	Open Government License - Toronto

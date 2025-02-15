@@ -4,6 +4,31 @@
     {
       "type": "Feature",
       "properties": {
+        "DELETE_Status_PostedDate": "2025-02-03T10:25:55.000000",
+        "DELETE_Status_Reason": "Men's Washroom Closed, Women's Washroom Open",
+        "DELETE_Status_Comments": "Maintenance ",
+        "amenity": "toilets",
+        "access": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "operator": "City of Toronto",
+        "opening_hours": "May-Oct 09:00-22:00",
+        "description": "Located in the fieldhouse north of the firepit.",
+        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
+        "ref:open.toronto.ca:washroom-facilities:asset_id": "29751"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34754475,
+          43.67558828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "DELETE_Status_PostedDate": "2025-01-31T13:49:41.000000",
         "DELETE_Status_Reason": "Emergency Response",
         "amenity": "toilets",

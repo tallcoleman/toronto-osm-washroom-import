@@ -11464,13 +11464,13 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "_type": "way",
         "_id": 124297496,
-        "_version": 2,
-        "_timestamp": "2024-09-14T05:34:47+00:00",
+        "_version": 3,
+        "_timestamp": "2025-02-13T10:04:44+00:00",
         "_url_nwr": "https://www.openstreetmap.org/way/124297496",
         "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
         "opening_hours": "May-Oct 09:00-22:00",
         "source": "Bing",
-        "building": "toilets"
+        "building": "yes"
       },
       "geometry": {
         "type": "Polygon",
@@ -14971,12 +14971,13 @@
         "wheelchair:description": "Accessible features: entrance at grade, accessible stall",
         "_type": "way",
         "_id": 660307518,
-        "_version": 3,
-        "_timestamp": "2024-09-02T01:49:25+00:00",
+        "_version": 4,
+        "_timestamp": "2025-02-11T23:36:00+00:00",
         "_url_nwr": "https://www.openstreetmap.org/way/660307518",
-        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
-        "opening_hours": "May-Oct 09:00-22:00",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr off",
         "addr:city": "Toronto",
+        "female": "yes",
+        "male": "yes",
         "building": "toilets"
       },
       "geometry": {

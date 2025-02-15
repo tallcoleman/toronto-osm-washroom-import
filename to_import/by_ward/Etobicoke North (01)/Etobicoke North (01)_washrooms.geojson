@@ -11,26 +11,6 @@
         "toilets:handwashing": "yes",
         "operator": "City of Toronto",
         "description": "Located in the outdoor ice rink building.",
-        "ref:open.toronto.ca:washroom-facilities:asset_id": "28900"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.60473602,
-          43.75271214
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "amenity": "toilets",
-        "access": "yes",
-        "fee": "no",
-        "toilets:disposal": "flush",
-        "toilets:handwashing": "yes",
-        "operator": "City of Toronto",
-        "description": "Located in the outdoor ice rink building.",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "28904"
       },
       "geometry": {

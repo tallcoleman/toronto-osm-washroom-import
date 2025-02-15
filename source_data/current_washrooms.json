@@ -1,8 +1,8 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.62.4 2390de5a",
+  "generator": "Overpass API 0.7.62.5 1bd436f1",
   "osm3s": {
-    "timestamp_osm_base": "2025-02-02T00:58:58Z",
+    "timestamp_osm_base": "2025-02-15T20:09:14Z",
     "timestamp_areas_base": "2024-12-31T00:49:33Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
@@ -9814,11 +9814,11 @@
     {
       "type": "way",
       "id": 124297496,
-      "timestamp": "2024-09-14T05:34:47Z",
-      "version": 2,
-      "changeset": 156596833,
-      "user": "tallcoleman",
-      "uid": 20580903,
+      "timestamp": "2025-02-13T10:04:44Z",
+      "version": 3,
+      "changeset": 162459981,
+      "user": "torapa",
+      "uid": 5446055,
       "bounds": {
         "minlat": 43.7207239,
         "minlon": -79.3991449,
@@ -9857,7 +9857,7 @@
       "tags": {
         "access": "yes",
         "amenity": "toilets",
-        "building": "toilets",
+        "building": "yes",
         "description": "Located on the pathway at the north side of the tennis courts.",
         "fee": "no",
         "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
@@ -14016,9 +14016,9 @@
     {
       "type": "way",
       "id": 660307518,
-      "timestamp": "2024-09-02T01:49:25Z",
-      "version": 3,
-      "changeset": 156076534,
+      "timestamp": "2025-02-11T23:36:00Z",
+      "version": 4,
+      "changeset": 162410521,
       "user": "tallcoleman",
       "uid": 20580903,
       "bounds": {
@@ -14063,8 +14063,9 @@
         "building": "toilets",
         "description": "Located south of the tennis courts, next to the parking lot.",
         "fee": "no",
-        "note": "Please survey to determine: Is this washroom open in the winter? opening_hours if yes are likely May-Oct 09:00-22:00; Nov-Apr 09:00-20:00, if no likely May-Oct 09:00-22:00; Nov-Apr off",
-        "opening_hours": "May-Oct 09:00-22:00",
+        "female": "yes",
+        "male": "yes",
+        "opening_hours": "May-Oct 09:00-22:00; Nov-Apr off",
         "operator": "City of Toronto",
         "ref:open.toronto.ca:washroom-facilities:asset_id": "29634",
         "toilets:disposal": "flush",
